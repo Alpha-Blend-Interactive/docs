@@ -17,12 +17,22 @@
       width: 100%;
       max-width: 59rem;
       margin: 1.5rem auto;
+      border-bottom-color: rgba(210, 215, 249, 0.12);
     }
 
     .md-footer-meta__inner.md-grid {
 
       .md-footer-copyright {
         color: #687281;
+      }
+
+      .legal-info {
+
+        color: #687281;
+        font-size: .64rem;
+        a {
+          color: #687281;
+        }
       }
 
       &.upper {
