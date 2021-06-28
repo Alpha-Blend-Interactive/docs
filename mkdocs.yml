@@ -16,21 +16,16 @@ theme:
     - search.suggest
     - navigation.indexes
   palette:
-    # Light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-
     # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      accent: blue
+    - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+    # Light mode
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
   custom_dir: overrides/
 extra_css:
   - assets/stylesheets/extra.css
