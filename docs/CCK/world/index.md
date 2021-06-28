@@ -2,8 +2,8 @@
 Thanks for your interest in avatar creation. Here you will find documentation about all features and components we offer by default.
 
 ## CCK World components
-Here we will describe what the different Components can do and a userguide for each setting, you will then be able to 
-distinguish what settings you want to use and hopefully proceed with less problems when uploading.
+We offer a wide range of default features along with CCK components that can be used on worlds.
+More in depth feature have been planed.
 
 - [CVR Asset Info](../components/asset-info.md)
 - [CVR World](components/world.md)

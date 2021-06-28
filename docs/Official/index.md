@@ -1,4 +1,5 @@
 # Official
+This category contains official documents about ABI and our platform.
 
 ## Legal
 + [Rules, guidelines & ToS](legal/tos.md)
