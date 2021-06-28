@@ -1,0 +1,83 @@
+site_name: ABI Developers
+copyright: Copyright &copy; 2021 Alpha Blend Interactive
+
+theme:
+  name: material
+  logo: assets/images/abi-small-white.png
+  favicon: assets/images/favicon.png
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.section
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+    - navigation.indexes
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  custom_dir: overrides/
+extra_css:
+  - assets/stylesheets/extra.css
+extra:
+  generator: false
+  alternate:
+    # Switch to English
+    - name: English
+      link: /
+      lang: en
+
+    # Switch to German
+    - name: Deutsch
+      link: /de/
+      lang: de
+
+    # Switch to Japanese
+    - name: 日本語
+      link: /ja/
+      lang: ja
+
+plugins:
+  - awesome-pages
+  - extra-sass
+  - i18n:
+      default_language: en
+      default_language_only: true
+      languages:
+        de: Deutsch
+        ja: 日本語
+  - search:
+      lang:
+        - en
+        - de
+        - ja
+
+markdown_extensions:
+  - meta
+  - toc:
+      permalink: true
+  - codehilite
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.details
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
