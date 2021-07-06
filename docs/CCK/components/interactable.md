@@ -1,12 +1,12 @@
 # CVR Interactable
 
-##### Tooltip
+##### Tooltip  
 A tooltip text which will be displayed when hovering over the trigger.
 
 ## Triggers
 The list of triggers defined for this **Interactable**.
 
-### Trigger Type
+### Trigger
 Every trigger has a type selected, which defines how it will be or can get triggered.
 
 #### General Properties
@@ -27,7 +27,7 @@ Defines how the triggered action should be networked to other players in the ins
 !!! info "Buffered Network Types"
     The suffix Buffered means, the execution will be synced to late joiners (execution count saved on server side). 
 
-##### Delay (Seconds)
+##### Delay (Seconds)  
 Sets a delay in seconds before the action will be executed.
 
 
@@ -42,42 +42,42 @@ Triggered when a player drops the object
 #### On Interact Down
 A player interacts with the object by e.g., pointing at the object and pressing Left Click
 
-##### Distance
+**Distance**  
 The maximum distance a player can be apart from the object, but still interact with the interactable.
 
 
 #### On Interact Up
 Triggered when e.g., releasing the Left Click button
 
-##### Distance
+**Distance**  
 The maximum distance a player can be apart from the object, but still interact with the interactable.
 
 
 #### On Enter Trigger
 Collider with **is trigger** set, enters the collider of the interactable
 
-##### Layer
+**Layer**  
 The triggering object must be on one of the selected layers.
 
 
 #### On Exit Trigger
 Collider with **is trigger** set, exits / leaves the collider of the interactable
 
-##### Layer
+**Layer**  
 The triggering object must be on one of the selected layers.
 
 
 #### On Enter Collider
 Collider with **is trigger** **_not_** set, enters the collider of the interactable
 
-##### Layer
+**Layer**  
 The triggering object must be on one of the selected layers.
 
 
 #### On Exit Collider
 Collider with **is trigger** **_not_** set, exits / leaves the collider of the interactable
 
-##### Layer
+**Layer**  
 The triggering object must be on one of the selected layers.
 
 
@@ -92,10 +92,11 @@ Triggered when disabling the game object.
 #### On Timer
 Simple scheduler for actions.
 
-##### Seconds
+**Seconds**  
 Set the time in seconds for the timer.
 
-##### Mode
+**Mode**  
+
 + **Once On Enable**
   The action will be executed after **x seconds** once.
 + **Repeat**
@@ -112,7 +113,7 @@ Triggers whenever the variable saved in the selected [CVR Variable Buffer](../wo
 
 #### On Variable Buffer Comparison
 
-##### Type
+**Type**  
 You can select how you want to compare your variable.
 
 + **Buffer -> Static**  
@@ -120,10 +121,10 @@ You can select how you want to compare your variable.
 + **Buffer -> Buffer**  
   Compare the buffer value with another buffers (**Value 2**) value
   
-##### Value 1
+**Value 1**  
 The first variable to be used in comparison. Select a [CVR Variable Buffer](../world/components/variable-buffer.md) here.
 
-##### Comparitor
+**Comparitor**  
 Choose the operator you want to use in comparison. You can choose from the following:
 
 + **==** Equal to
@@ -133,7 +134,7 @@ Choose the operator you want to use in comparison. You can choose from the follo
 + **<=** Less than or equal to
 + **!=** Not equal to
 
-##### Value 2
+**Value 2**  
 The second value you want to compare your variable to.
 If **Buffer -> Static** is selected, you need to enter a float number here. (e.g., 13.37)
 If **Buffer -> Buffer** is selected, you need to select a second [CVR Variable Buffer](../world/components/variable-buffer.md)
@@ -142,7 +143,7 @@ If **Buffer -> Buffer** is selected, you need to select a second [CVR Variable B
 #### On Cron
 Can be used to define cron jobs. You can learn more about [Cron here](https://en.wikipedia.org/wiki/Cron).
 
-##### Cron String
+**Cron String**  
 Paste a valid cron string here.
 
 
@@ -155,3 +156,26 @@ Triggered whenever a players pointer enters the trigger.
 
 
 #### On Custom Trigger
+
+
+### Actions
+Just like the trigger, an action also has a type. 
+
+#### General Properties
+**Target**  
+Target game object, that should be modified.
+
+#### Set Game Object Active
+Sets the active state of a game object.
+
+**State**  
+
++ **Enable** Enable the game object when triggered.
++ **Disable** Disable the game object when triggered.
++ **Toggle** Toggles the game object when triggered.
+  
+#### Set Animator Float Value
+Set animator float parameter to a value.
+
+**Parameter**  
+The name of the parameter that should be modified.
