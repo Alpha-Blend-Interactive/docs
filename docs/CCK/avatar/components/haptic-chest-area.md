@@ -8,7 +8,7 @@ We recommend around 20% for the intensity setting.
 
 ### Properties
 
-**Chest Area Size:**  
+##### Chest Area Size
 X/Y/Z Size of your Chest Area
 
 !!! note "Component location"  

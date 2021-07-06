@@ -36,13 +36,13 @@ ARTICLES
     margin: 19.2px 0 0 0;
 }
 
-.md-typeset h5 a::before {
+/*.md-typeset h5 a::before {
     content: ":";
     position: absolute;
     margin-left: -12px;
     opacity: 1;
     color: var(--md-typeset-color);
-}
+}*/
 
 .md-typeset h5 + p {
     margin-top: 0;

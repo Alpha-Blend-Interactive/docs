@@ -2,11 +2,15 @@
 
 ## Allowed Assets
 
-### [Final IK](https://assetstore.unity.com/packages/tools/animation/final-ik-14290)
+#### [Final IK](https://assetstore.unity.com/packages/tools/animation/final-ik-14290)
 Inverse Kinematics solution for Unity.
 
-### [Dynamic Bones](https://assetstore.unity.com/packages/tools/animation/dynamic-bone-16743)
+#### [Dynamic Bones](https://assetstore.unity.com/packages/tools/animation/dynamic-bone-16743)
 Dynamic Bone applies physics to character's bones or joints. With simple setup, your character's hair, cloth, breasts or any part will move realistically.
+
+#### [Magica Cloth](https://assetstore.unity.com/packages/tools/physics/magica-cloth-160144)
+Magica Cloth is a high-speed cloth simulation operated by Unity Job System + Burst compiler.
+
 
 ## Allowed Components
 List of whitelisted components and link to their corresponding Unity documentation.
@@ -58,11 +62,20 @@ List of whitelisted components and link to their corresponding Unity documentati
 **Dynamic Bone Plane Collider:** Adds an collider plane that collides with dynamic bones.  
 
 ## Magica Cloth Components
++ [Magica Bone Cloth](https://magicasoft.jp/en/magica-cloth-bone-cloth-2/)
++ [Magica Bone Spring](https://magicasoft.jp/en/magica-cloth-bone-spring-2/)
++ [Magica Mesh Cloth](https://magicasoft.jp/en/magica-cloth-mesh-cloth-2/)
++ [Magica Mesh Spring](https://magicasoft.jp/en/magica-cloth-mesh-spring-2/)
++ [Magica Render Deformer](https://magicasoft.jp/en/magica-cloth-render-deformer-2/)
++ [Magica Virtual Deformer](https://magicasoft.jp/en/magica-cloth-virtual-deformer-2/)
++ [Magica Plane Collider](https://magicasoft.jp/en/magica-cloth-plane-collider-2/)
++ [Magica Sphere Collider](https://magicasoft.jp/en/magica-cloth-sphere-collider-2/)
++ [Magica Capsule Collider](https://magicasoft.jp/en/magica-cloth-capsule-collider-2/)
 
 ## CVR Components
-+ [CVR Haptic Chest Area](/CCK/Avatar-Creation/CVR-Haptic-Chest-Area)
-+ [CVR Toggle State Pointer](/CCK/Avatar-Creation/CVR-Toggle-State-Pointer)
-+ [CVR Toggle State Trigger](/CCK/Avatar-Creation/CVR-Toggle-State-Trigger)
-+ [CVR Advanced Avatar Pointer](/CCK/Avatar-Creation/CVR-Advanced-Avatar-Pointer)
-+ [CVR Advanced Avatar Trigger](/CCK/Avatar-Creation/CVR-Advanced-Avatar-Trigger)
-+ [CVR Pointer](/CCK/Avatar-Creation/CVR-Pointer)
++ [CVR Haptic Chest Area](../components/haptic-chest-area.md)
++ [CVR Toggle State Trigger](../components/state-trigger.md)
++ [CVR Advanced Avatar Trigger](../components/aas-trigger.md)
++ [CVR Pointer](../components/pointer.md)
++ [CVR Avatar](../components/avatar.md)
++ [CVR Asset Info](../../components/asset-info.md)

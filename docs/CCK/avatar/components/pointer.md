@@ -1,6 +1,10 @@
 # CVR Pointer
 CVR Pointer can interact with various different type of triggers & systems.  
-It can be used to activate area triggers on enter or on exit through through many different CVR components.
+It can be used to activate area triggers on enter or on exit through many CVR components.
+
+##### Type
+You can define a type here, which you can use to create a whitelist of pointers that should be allowed to interact with
+an [CVR Advanced Avatar Trigger](aas-trigger.md#allowed-types)
 
 ### Avatars
 - [CVR Advanced Avatar Trigger](aas-trigger.md)
@@ -10,8 +14,7 @@ It can be used to activate area triggers on enter or on exit through through man
 - CVR Interactable
 
 ### Props
-- CVR Interactable **
-- ***Coming Soon***
+- CVR Interactable
 
 !!! info
     CVR Interactable will be replaced soon with its own component.

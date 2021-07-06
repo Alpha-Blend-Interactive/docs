@@ -63,6 +63,7 @@ plugins:
         - ja
 
 markdown_extensions:
+  - attr_list
   - meta
   - toc:
       permalink: true

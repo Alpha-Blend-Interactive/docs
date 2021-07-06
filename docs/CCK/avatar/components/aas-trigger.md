@@ -5,36 +5,94 @@ The trigger area will move together with its parented armature bone or game obje
 
 ### Properties
 
-**Area Size:**  
+##### Area Size
 X/Y/Z Size of your area.
 
-**Area Offset:**  
+##### Area Offset
 X/Y/Z Offset from the GameObject center location.
 
-**Setting Name:**  
+##### Setting Name
 Parameter name of the setting to be modified.
 
-**Setting Value:**  
+##### Setting Value
 The value the setting will be set to when triggered.
 
 ### Advanced Mode
 
-**Network Interactable:**  
+##### Allowed Pointers
+Adding pointers to this list, will ignore all other pointers and only work with those contained within the list.
+
+##### Network Interactable
 Allows network players to interact with your trigger.
 
-#### On Enter Trigger & On Exit Trigger
-Actions when CVR Pointer Enters or Exits set trigger area.
+##### Allowed Types
+Allow only pointers having this type set.
 
-**Setting Name:**  
+##### Enabled Particle Interaction
+Enabling this option will allow particle systems to activate this trigger. You need a [CVR Pointer](pointer.md) on the same game object 
+as the trigger for it to work. Particle can only trigger **On Enter Trigger**.
+
+#### On Enter Trigger
+Actions when [CVR Pointer](pointer.md) enters the trigger area.
+
+##### Setting Name
 Parameter name of the setting to be modified.
 
-**Setting Value:**  
+##### Setting Value
 Set value that will override, added to or subtracted from the current parameter value.
 
-**Delay:**  
-Delay before the trigger action is executed
+##### Delay
+Delay before the execution of the trigger
 
-**Update Method:**  
+##### Hold Time
+The time the pointer needs to stay in the trigger area, until the trigger gets executed.
+
+##### Update Method
 + **Override** (Overrides the parameters value with the setting value)  
 + **Add** (Adds the setting value to the parameters value)  
 + **Subtract** (Subtracts the settings value from the parameters value)  
+
+#### On Exit Trigger
+Actions when [CVR Pointer](pointer.md) exits the trigger area.
+
+##### Setting Name
+Parameter name of the setting to be modified.
+
+##### Setting Value
+Set value that will override, added to or subtracted from the current parameter value.
+
+##### Delay
+Delay before the execution of the trigger
+
+##### Update Method
++ **Override** (Overrides the parameters value with the setting value)
++ **Add** (Adds the setting value to the parameters value)
++ **Subtract** (Subtracts the settings value from the parameters value) 
+
+#### On Stay Trigger
+Actions when [CVR Pointer](pointer.md) stays in the trigger area.
+
+##### Setting Name
+Parameter name of the setting to be modified.
+
+##### Update Method
++ **Set From Position** ()
++ **Add** ()
++ **Subtract** ()
+
+##### Min Value
+Minimum value which the update method will start from.
+
+##### Min Value
+Maximum value which the update method will or can go to.
+
+##### Change per sec
+Either add or subtract this value per second.
+
+##### Sample Direction
++ **X Positive**
++ **Y Positive**
++ **Z Positive**
++ **X Negative**
++ **Y Negative**
++ **Z Negative**
