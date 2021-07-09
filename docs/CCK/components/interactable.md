@@ -136,8 +136,9 @@ Choose the operator you want to use in comparison. You can choose from the follo
 
 **Value 2**  
 The second value you want to compare your variable to.
-If **Buffer -> Static** is selected, you need to enter a float number here. (e.g., 13.37)
-If **Buffer -> Buffer** is selected, you need to select a second [CVR Variable Buffer](../world/components/variable-buffer.md)
+
++ **Buffer -> Static:** Enter a float number here. (e.g., 13.37, 1, 1.0)
++ **Buffer -> Buffer:** Select a second [CVR Variable Buffer](../world/components/variable-buffer.md)
 
 
 #### On Cron
@@ -161,9 +162,15 @@ Triggered whenever a players pointer enters the trigger.
 ### Actions
 Just like the trigger, an action also has a type. 
 
-#### General Properties
+#### Common Properties
 **Target**  
 Target game object, that should be modified.
+E.g., for actions targeting an animator, this game object needs to contain an animator component.
+
+**Parameter Name**  
+Used for actions targeting an animator. It's used to define the parameter that should be modified. Fill in the name
+of the parameter that you want to target.
+
 
 #### Set Game Object Active
 Sets the active state of a game object.
@@ -174,8 +181,142 @@ Sets the active state of a game object.
 + **Disable** Disable the game object when triggered.
 + **Toggle** Toggles the game object when triggered.
   
-#### Set Animator Float Value
+#### Set Animator Float/Bool/Int Value
 Set animator float parameter to a value.
 
-**Parameter**  
+**Value**  
+The value the named parameter should be set to on execution.  
+The value type depends on the selected **Action Type**. It can be:
+
++ **Float** Decimal number (e.g., **13.37**)
++ **Bool** State (**true** or **false**)
++ **Int** Integer, whole number (e.g., **5**)
+
+
+#### Trigger Animator Trigger
+Trigger an animator trigger with this action.
+
+**Trigger name**  
+Name of the parameter within the animator.
+
+
+#### Spawn Object
+With this action, you can instantiate objects like [**Prefabs**](https://docs.unity3d.com/Manual/Prefabs.html).
+
+**Object**  
+Select your object you want to instantiate or spawn here. E.g., a prefab.
+
+**Target Location**  
+The parent game object, which also defines the position origin.  
+The spawned object will be a child of this object.
+
+
+#### Teleport Player
+Teleport a player to a defined position.
+
+**Target Location**  
+Select your target transform by selecting a game object. You can use an empty game object for this, set the transform
+to a position and rotation where you want to teleport the player to. Scale has no effect and is ignored.
+
+
+#### Teleport Object
+Teleport a game object to a defined position.
+
+**Object**  
+Select an object you want to teleport.
+
+**Target Location**  
+Select your target position by selecting a game object. You can use an empty game object for this, set the transform
+position where you want to teleport the object to. Rotation and scale has no effect and is ignored.
+
+
+#### Toggle Animator Bool Value
+Allows you to toggle an animator parameter bool.
+
+
+#### Set Animator Float/Int/Bool Random
+Allows you to randomly set animator parameters.
+
+**Parameter Name**  
 The name of the parameter that should be modified.
+
+**Min**  
+The minimum number it can be set to.
+
+**Max**  
+The maximum number it can be set to.
+
+**Chance (0-1)**  
+The chance the bool parameter will be set to true. Must be within a range of **0 - 1**.
+
+
+#### Set Animator Float/Int By Var
+Set a float or int parameter of an animator to a value saved in a [CVR Variable Buffer](../world/components/variable-buffer.md)
+
+**Value**  
+Select a [CVR Variable Buffer](../world/components/variable-buffer.md) here.
+
+
+#### Variable Buffer Arithmetic
+Used to modify a [CVR Variable Buffer's](../world/components/variable-buffer.md) value.
+
+**Type**  
+Defines the **Value 2** type of the operation.
+
++ **Buffer -> Static**  
+  Compare the buffer value with a static value (**Value 2**)
++ **Buffer -> Buffer**  
+  Compare the buffer value with another buffers (**Value 2**) value
++ **Buffer -> Random**  
+  Compare the buffer value with another buffers (**Value 2**) value
+
+**Value 1**  
+The value of the [CVR Variable Buffer](../world/components/variable-buffer.md) that will be used for the operation.
+
+**Operator**  
+
++ **+** Addition
++ **-** Subtraction
++ **\*** Multiplication
++ **÷** Division
++ **mod** Modulo
++ **pow** Power (Exponentiation)
++ **log** Logarithm
+
+**Value 2**
+The second value you want to perform you operation with. Depending on the selected type, you need to enter or select
+different values.
+
++ **Buffer -> Static:** Enter a float number here. (e.g., 13.37, 1, 1.0)
++ **Buffer -> Buffer:** Select a second [CVR Variable Buffer](../world/components/variable-buffer.md).
++ **Buffer -> Random:** Select a **Minimum**, and a **Maximum** value, from which a random value from in between is generated.
+
+**Result**  
+Select a [CVR Variable Buffer](../world/components/variable-buffer.md), which should receive the result value.
+
+
+#### Display World/Avatar/Instance Detail Page
+Allows you to show the details page of a world.
+
+**World/Avatar GUID**  
+Fill in the world's or avatar's guid. You can find more information about this here [CVR Asset Info](asset-info.md)
+
+**Instance GUID**  
+Fill in a valid instance guid.
+
+
+#### Sit At Position
+Allows you to make chairs or other object to sit on.
+
+**Sitting Location**  
+Defines the origin sitting animation position. (**0, 0, 0** position of the animation)
+
+**Exit Location**  
+The player will be teleported to this location when exiting the sitting state.
+
+**Overwrite Animation**  
+Select an animation you want to use instead of the default sitting animation.
+
+
+#### Method Call
+Allows calling public functions of a component.
