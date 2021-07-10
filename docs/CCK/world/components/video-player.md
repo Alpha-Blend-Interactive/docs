@@ -63,3 +63,16 @@ empty pixels with black and fit the video inside while centering it as well.
 
 
 ## Events
+You can hook into different events, that will be triggered by the video player.
+
+##### Started Playback
+Triggered whenever a video playback started.
+
+##### Finished Playback
+Triggered whenever a video finished playing.
+
+##### Paused Playback
+Triggered whenever a video gets paused.
+
+##### Set Url
+Triggered whenever a new video url gets set.
