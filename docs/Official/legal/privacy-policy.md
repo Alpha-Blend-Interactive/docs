@@ -26,33 +26,38 @@ users of our site, such as their Internet protocol address, the type of browser 
 domain name of your Internet service provider, and the web pages, content and advertisements you may have visited,
 viewed or clicked on. We collect this information in several ways, including the following:
 
-<b>Cookies:</b> Cookies are text files placed in your computer’s browser to store your preferences. Cookies do not
+##### Cookies
+Cookies are text files placed in your computer’s browser to store your preferences. Cookies do not
 contain personal information, but if you choose to furnish us with personal information, this information may be linked
 to the data stored in the cookie. We may use “cookies” to maintain a record of your visits and to improve the content
 and services on our site.
 
-<b>Web server logs:</b> Information gathered through cookies and web server logs may include the date and time of
+##### Web server logs
+Information gathered through cookies and web server logs may include the date and time of
 visits, the pages viewed, time spent at this site, and the websites visited just before and just after our site. Google
 Analytics may also use these details for Analytics purposes. Please visit Google Analytics Privacy Policy to understand
 more about how they store data.
 
-<b>IP addresses:</b> Our system may also collect your IP address, which is a numerical address that is used to identify
+##### IP addresses
+Our system may also collect your IP address, which is a numerical address that is used to identify
 a computer connected to the Internet. We may use your IP address to help diagnose problems with our server, to
 administer our site, to deliver web pages to you upon request, to tailor our site to the interests of our users, and to
 measure traffic within our site.
 
-<b>Social logins:</b> Alpha Blend Interactive UG (haftungsbeschränkt) also offers Social Logins for ease of use of its
+##### Social logins
+Alpha Blend Interactive UG (haftungsbeschränkt) also offers Social Logins for ease of use of its
 services. The data collected from this interaction will always be secured and will never become publicly available at
 any time. The Social Logins are provided by Gaming platform called Steam (steamcommunity.com) and chat platform called
 Discord (discordapp.com).
 
-<b>Public posting:</b> If you post in the comments of a blog post on the Website (or anywhere on social media), you
+##### Public posting
+If you post in the comments of a blog post on the Website (or anywhere on social media), you
 should be aware that any information you share is visible to other users. Personally identifiable information you submit
 to one of these forums can be read, collected, or used by other individuals to send you unsolicited messages. Alpha
 Blend Interactive UG (haftungsbeschränkt) is not responsible for the personally identifiable information you choose to
 submit in these forums. For example, if you choose to make information, which was previously non-public, available by
 enabling certain user features, (such as blog comments) Alpha Blend Interactive UG (haftungsbeschränkt) will collect
-that information from your interaction and the information will become publicly available.
+that information from your interaction, and the information will become publicly available.
 
 ## (2) Information from minors
 

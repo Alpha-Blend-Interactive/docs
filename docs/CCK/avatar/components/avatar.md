@@ -81,7 +81,7 @@ A game object that should be used as a fallback, if the game object defined abov
 
 
 ## Advanced Avatar Setting
-##### Base Animator:
+##### Base Animator
 The Base Animator is used as a base by the AAS generator. That for, its very easy to expand the base animator while 
 still using the AAS system.  
 As a novice user it is recommended to use the one packed with the CCK it is called ***AvatarAnimator*** located in 

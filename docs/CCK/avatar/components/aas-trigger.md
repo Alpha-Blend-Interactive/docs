@@ -28,15 +28,17 @@ Allows network players to interact with your trigger.
 ##### Allowed Types
 Allow only pointers having this type set.
 
+#### General Properties
+
+##### Setting Name
+Parameter name of the setting to be modified.
+
 ##### Enabled Particle Interaction
 Enabling this option will allow particle systems to activate this trigger. You need a [CVR Pointer](pointer.md) on the same game object 
 as the trigger for it to work. Particle can only trigger **On Enter Trigger**.
 
 #### On Enter Trigger
 Actions when [CVR Pointer](pointer.md) enters the trigger area.
-
-##### Setting Name
-Parameter name of the setting to be modified.
 
 ##### Setting Value
 Set value that will override, added to or subtracted from the current parameter value.
@@ -55,9 +57,6 @@ The time the pointer needs to stay in the trigger area, until the trigger gets e
 #### On Exit Trigger
 Actions when [CVR Pointer](pointer.md) exits the trigger area.
 
-##### Setting Name
-Parameter name of the setting to be modified.
-
 ##### Setting Value
 Set value that will override, added to or subtracted from the current parameter value.
 
@@ -72,13 +71,10 @@ Delay before the execution of the trigger
 #### On Stay Trigger
 Actions when [CVR Pointer](pointer.md) stays in the trigger area.
 
-##### Setting Name
-Parameter name of the setting to be modified.
-
 ##### Update Method
 + **Set From Position** ()
-+ **Add** ()
-+ **Subtract** ()
++ **Add** (Will add the value from **Change per sec**)
++ **Subtract** (Will subtract the value from **Change per sec**)
 
 ##### Min Value
 Minimum value which the update method will start from.

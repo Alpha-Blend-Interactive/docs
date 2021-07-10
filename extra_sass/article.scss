@@ -1,0 +1,9 @@
+.md-main {
+  .md-content {
+    .md-typeset {
+      h3 + p {
+        margin-top: -10px;
+      }
+    }
+  }
+}

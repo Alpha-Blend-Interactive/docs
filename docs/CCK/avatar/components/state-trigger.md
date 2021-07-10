@@ -5,17 +5,18 @@ The trigger area will move together with its parented armature bone or game obje
 
 ### Properties
 
-**Area Size:**  
+##### Area Size
 X/Y/Z Size of your area.
 
-**Area Offset:**  
+##### Area Offset  
 X/Y/Z Offset from the game object location.
 
-**Toggle state ID:**  
+##### Toggle state ID  
 The selected toggle state.  
 On trigger execution, this toggle state will be selected.
 
 !!! info inline "Toggle state ids scheme"  
     Default State: **ID 0**  
     Toggle State 1: **ID 1**  
-    Toggle State 2: **ID 2**...  
+    Toggle State 2: **ID 2**  
+    ...
