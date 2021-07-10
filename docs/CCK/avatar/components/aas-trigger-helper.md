@@ -1,0 +1,1 @@
+# CVR Advanced Avatar Trigger Helper
