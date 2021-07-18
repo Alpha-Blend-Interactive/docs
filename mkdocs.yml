@@ -52,7 +52,7 @@ plugins:
   - extra-sass
   - i18n:
       default_language: en
-      default_language_only: true
+      default_language_only: false
       languages:
         de: Deutsch
         ja: 日本語
