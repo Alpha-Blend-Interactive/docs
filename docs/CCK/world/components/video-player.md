@@ -76,3 +76,7 @@ Triggered whenever a video gets paused.
 
 ##### Set Url
 Triggered whenever a new video url gets set.
+
+
+## Supported Media
+All supported media formats and codecs can be found here: [Renderheads AVPro Supported Media](https://www.renderheads.com/content/docs/AVProVideo/articles/supportedmedia.html) 
