@@ -38,21 +38,21 @@ extra:
       lang: en
 
     # Switch to German
-    - name: Deutsch
-      link: /de/
-      lang: de
+    #- name: Deutsch
+    #  link: /de/
+    #  lang: de
 
     # Switch to Japanese
-    - name: 日本語
-      link: /ja/
-      lang: ja
+    #- name: 日本語
+    #  link: /ja/
+    #  lang: ja
 
 plugins:
   - awesome-pages
   - extra-sass
   - i18n:
       default_language: en
-      default_language_only: false
+      default_language_only: true
       languages:
         de: Deutsch
         ja: 日本語
