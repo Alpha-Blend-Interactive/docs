@@ -5,11 +5,6 @@ Thanks for your interest in avatar creation. Here you will find documentation ab
 We offer a wide range of default features along with CCK components that can be used on worlds.
 More in depth feature have been planed.
 
-- [CVR Asset Info](../components/asset-info.md)
-- [CVR World](components/world.md)
-- [CVR Mirror](components/mirror.md)
-- [CVR Pickup Object](components/pickup-object.md)
-- [CVR Object Sync](components/object-sync.md)
-- [CVR Haptic Zone](components/haptic-zone.md)
-- [CVR Portal Marker](components/portal-marker.md)
-- [CVR Video Player](components/video-player.md)
+For a full list of whitelisted components on avatars, [Click Here](whitelisted-components.md).
+
+For any questions, refer to the [FAQ](../faq.md) for help.

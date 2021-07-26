@@ -1,8 +1,9 @@
 title: CCK
 nav:
+    - CCK: index.md
     - setup.md
     - Avatar: avatar
     - World: world
     - Spawnable: spawnable
     - Components: components
-    - FAQ: faq
+    - FAQ: faq.md

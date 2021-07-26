@@ -108,7 +108,7 @@ Set the time in seconds for the timer.
 Triggered whenever a particle hits the trigger collider.
 
 #### On Variable Buffer Update
-Triggers whenever the variable saved in the selected [CVR Variable Buffer](../world/components/variable-buffer.md) changes.
+Triggers whenever the variable saved in the selected [CVR Variable Buffer](variable-buffer.md) changes.
 
 
 #### On Variable Buffer Comparison
@@ -122,7 +122,7 @@ You can select how you want to compare your variable.
   Compare the buffer value with another buffers (**Value 2**) value
   
 **Value 1**  
-The first variable to be used in comparison. Select a [CVR Variable Buffer](../world/components/variable-buffer.md) here.
+The first variable to be used in comparison. Select a [CVR Variable Buffer](variable-buffer.md) here.
 
 **Comparitor**  
 Choose the operator you want to use in comparison. You can choose from the following:
@@ -138,7 +138,7 @@ Choose the operator you want to use in comparison. You can choose from the follo
 The second value you want to compare your variable to.
 
 + **Buffer -> Static:** Enter a float number here. (e.g., 13.37, 1, 1.0)
-+ **Buffer -> Buffer:** Select a second [CVR Variable Buffer](../world/components/variable-buffer.md)
++ **Buffer -> Buffer:** Select a second [CVR Variable Buffer](variable-buffer.md)
 
 
 #### On Cron
@@ -251,14 +251,14 @@ The chance the bool parameter will be set to true. Must be within a range of **0
 
 
 #### Set Animator Float/Int By Var
-Set a float or int parameter of an animator to a value saved in a [CVR Variable Buffer](../world/components/variable-buffer.md)
+Set a float or int parameter of an animator to a value saved in a [CVR Variable Buffer](variable-buffer.md)
 
 **Value**  
-Select a [CVR Variable Buffer](../world/components/variable-buffer.md) here.
+Select a [CVR Variable Buffer](variable-buffer.md) here.
 
 
 #### Variable Buffer Arithmetic
-Used to modify a [CVR Variable Buffer's](../world/components/variable-buffer.md) value.
+Used to modify a [CVR Variable Buffer's](variable-buffer.md) value.
 
 **Type**  
 Defines the **Value 2** type of the operation.
@@ -271,7 +271,7 @@ Defines the **Value 2** type of the operation.
   Compare the buffer value with another buffers (**Value 2**) value
 
 **Value 1**  
-The value of the [CVR Variable Buffer](../world/components/variable-buffer.md) that will be used for the operation.
+The value of the [CVR Variable Buffer](variable-buffer.md) that will be used for the operation.
 
 **Operator**  
 
@@ -288,11 +288,11 @@ The second value you want to perform you operation with. Depending on the select
 different values.
 
 + **Buffer -> Static:** Enter a float number here. (e.g., 13.37, 1, 1.0)
-+ **Buffer -> Buffer:** Select a second [CVR Variable Buffer](../world/components/variable-buffer.md).
++ **Buffer -> Buffer:** Select a second [CVR Variable Buffer](variable-buffer.md).
 + **Buffer -> Random:** Select a **Minimum**, and a **Maximum** value, from which a random value from in between is generated.
 
 **Result**  
-Select a [CVR Variable Buffer](../world/components/variable-buffer.md), which should receive the result value.
+Select a [CVR Variable Buffer](variable-buffer.md), which should receive the result value.
 
 
 #### Display World/Avatar/Instance Detail Page

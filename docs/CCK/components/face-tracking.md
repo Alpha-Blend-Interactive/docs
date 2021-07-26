@@ -1,4 +1,4 @@
-#CVR Face Tracking
+# CVR Face Tracking
 The face tracking component allows the use of facial tracking hardware like e.g., 
 [VIVE Facial Tracker](https://www.vive.com/eu/accessory/facial-tracker/).
 
@@ -21,4 +21,4 @@ for questions about each blendshape.
 Automatically searches blendshapes for face tracking and applies them.
 
 #### Open Blendshape Generator (Button)
-This opens the [Face Tracking Utilities](../utilities/face-tracking.md) GUI.
+This opens the [Face Tracking Utilities](../avatar/face-tracking.md) GUI.

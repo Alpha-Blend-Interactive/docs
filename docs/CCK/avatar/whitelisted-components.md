@@ -1,16 +1,4 @@
-# Allowed Assets & Components
-
-## Allowed Assets
-
-#### [Final IK](https://assetstore.unity.com/packages/tools/animation/final-ik-14290)
-Inverse Kinematics solution for Unity.
-
-#### [Dynamic Bones](https://assetstore.unity.com/packages/tools/animation/dynamic-bone-16743)
-Dynamic Bone applies physics to character's bones or joints. With simple setup, your character's hair, cloth, breasts or any part will move realistically.
-
-#### [Magica Cloth](https://assetstore.unity.com/packages/tools/physics/magica-cloth-160144)
-Magica Cloth is a high-speed cloth simulation operated by Unity Job System + Burst compiler.
-
+# Whitelisted Components for Avatars
 
 ## Allowed Components
 List of whitelisted components and link to their corresponding Unity documentation.
@@ -42,7 +30,9 @@ List of whitelisted components and link to their corresponding Unity documentati
 + [Particle System Force Field](https://docs.unity3d.com/Manual/class-ParticleSystemForceField.html)
 
 
-## Final IK Components
+## [Final IK](https://assetstore.unity.com/packages/tools/animation/final-ik-14290)
+**FinalIK** is a third party asset. Whitelisted components listed below.
+
 + [CCD IK](http://www.root-motion.com/finalikdox/html/page5.html)
 + [Limb IK](http://www.root-motion.com/finalikdox/html/page12.html)
 + [Biped IK](http://www.root-motion.com/finalikdox/html/page4.html)
@@ -55,13 +45,17 @@ List of whitelisted components and link to their corresponding Unity documentati
 + [Rotation Limit Spline](http://www.root-motion.com/finalikdox/html/page14.html)
 + [Rotation Limit Utilities](http://www.root-motion.com/finalikdox/html/page14.html)
 
-## Dynamic Bone Components
+## [Dynamic Bone](https://assetstore.unity.com/packages/tools/animation/dynamic-bone-16743)
+**Dynamic Bone** is a third party asset. Whitelisted components listed below.
+
 **Dynamic Bone:** Adds a dynamic bone to the component.  
 **Dynamic Bone Collider:** Adds an collider that collides/interacts with dynamic bones.  
 **Dynamic Bone Collider Base:** Base class for dynamic bone colliders  
 **Dynamic Bone Plane Collider:** Adds an collider plane that collides with dynamic bones.  
 
-## Magica Cloth Components
+## Magica Cloth [Magica Cloth](https://assetstore.unity.com/packages/tools/physics/magica-cloth-160144)
+**Magica Cloth** is a third party asset. Whitelisted components listed below.
+
 + [Magica Bone Cloth](https://magicasoft.jp/en/magica-cloth-bone-cloth-2/)
 + [Magica Bone Spring](https://magicasoft.jp/en/magica-cloth-bone-spring-2/)
 + [Magica Mesh Cloth](https://magicasoft.jp/en/magica-cloth-mesh-cloth-2/)
@@ -73,9 +67,11 @@ List of whitelisted components and link to their corresponding Unity documentati
 + [Magica Capsule Collider](https://magicasoft.jp/en/magica-cloth-capsule-collider-2/)
 
 ## CVR Components
+A list of all whitelisted components for avatars.
+
 + [CVR Haptic Chest Area](../components/haptic-chest-area.md)
 + [CVR Toggle State Trigger](../components/state-trigger.md)
 + [CVR Advanced Avatar Trigger](../components/aas-trigger.md)
 + [CVR Pointer](../components/pointer.md)
 + [CVR Avatar](../components/avatar.md)
-+ [CVR Asset Info](../../components/asset-info.md)
++ [CVR Asset Info](../components/asset-info.md)

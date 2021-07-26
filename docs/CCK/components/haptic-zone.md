@@ -1,6 +1,6 @@
 # CVR Haptic Zone
 Allows you to define a haptic zone. You can define different actions that will trigger the
-**[CVR Haptic Chest Area](../../avatar/components/haptic-chest-area.md)** when interacting with it.
+**[CVR Haptic Chest Area](haptic-chest-area.md)** when interacting with it.
 
 ##### Trigger Form
 Define the trigger shape, you can choose from:

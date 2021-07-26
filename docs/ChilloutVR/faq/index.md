@@ -1,5 +1,5 @@
 # Frequently Asked Questions
-FAQ for our **Content Creation Kit**. For questions regarding **ChilloutVR** itself, [Click Here](../../ChilloutVR/faq)
+FAQ of **ChilloutVR**. For questions regarding the **Content Creation Kit** , [Click Here](../../CCK/faq)
 
 + [What is ChilloutVR?](what-is-chilloutvr.md)
 + [System Requirements](system-requirements.md)

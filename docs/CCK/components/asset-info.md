@@ -1,6 +1,6 @@
 # CVR Asset Info
-This component is a requirement and will be automatically added for **[CVR Avatar](../avatar/components/avatar.md)** / 
-**[CVR World](../world/components/world.md)** / **[CVR Spawnable](../spawnable/components/spawnable.md)**.  
+This component is a requirement and will be automatically added for **[CVR Avatar](avatar.md)** / 
+**[CVR World](world.md)** / **[CVR Spawnable](spawnable.md)**.  
 It is needed to identify your content in our backend infrastructure.
 
 ### Properties
