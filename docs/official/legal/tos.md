@@ -43,6 +43,10 @@ For missing or unclear points please contact us at team@abinteractive.net - we w
 
 §2.10 You may never knowingly mark yourself as adult while not having reached the age of majority of your country of residence. Doing so will result in a permanent suspension with no option to appeal. This also applies to the Steam Mature Content Access DLC.
 
+§2.11 Uploaded content may never contain NSFW materials or references to underaged characters independent of if they are fictional or real. Canonical age (e.g. 9000 year old girl) does not count to invalidate this rule.
+
+§2.12 Adult-Only events must be moderated by the event host or event moderators. Event moderators have to ensure that no person under the corresponding age of majority is able to attend.
+
 ### 3 - Impersonation
 §3.1 You may never falsely claim to be a part of the Alpha Blend Interactive team, an ABI partner or be of any affiliation with ABI.
 
