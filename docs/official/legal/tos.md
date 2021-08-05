@@ -18,7 +18,7 @@ For missing or unclear points please contact us at team@abinteractive.net - we w
 
 §1.2 You are not allowed to create a new account or presence to bypass bans or sanctions that have been applied to another account you own or have owned before.
 
-§1.3 With using our services and / or playing our games you accept the written and non-written community guidelines and acknowledge that the platform moderation team is allowed to take all necessary steps to keep the platform clean and friendly.
+§1.3 By using our products and services you acknowledge and accept our terms of service, data protection policies, community guidelines and services acts. You furthermore acknowledge and accept that the moderation has every and all rights to suspend or punish your account based on actions that violate written or non-written rules set to protect the users and platform.
 
 §1.4 You may never use any spam-mail or temporary mail provider for your accounts. We reserve the right to delete those accounts without any further notice.
 
@@ -35,6 +35,14 @@ For missing or unclear points please contact us at team@abinteractive.net - we w
 
 §2.6 All kinds of sexual acts in public instances are forbidden and will lead to suspension. Friends of Friends is considered public. Refer to private lobby types instead.
 
+§2.7 To use the 18+/NSFW marked parts of our game, you have to be at least 18 years old. If the age of majority in your country of residence is above 18, then you will have to match or exceed the age of majority in your country of residence to be allowed to use  the 18+/NSFW/AdultOnly marked parts of / content in our games.
+
+§2.8 NSFW content (avatars, worlds, scripts, game-modes and more) as well as events and groups must always do their best to prevent children from seeing / using them. For the case of events and groups, relying on the NSFW access DLC is not enough and further manual checks are required.
+
+§2.9 You may never abuse issues / bugs in our systems to bypass NSFW limitations. This includes but is not limited to displaying content in public that is not meant to be displayed in public. (Private NSFW world portals in public worlds, Creating public instances for NSFW events)
+
+§2.10 You may never knowingly mark yourself as adult while not having reached the age of majority of your country of residence. Doing so will result in a permanent suspension with no option to appeal. This also applies to the Steam Mature Content Access DLC.
+
 ### 3 - Impersonation
 §3.1 You may never falsely claim to be a part of the Alpha Blend Interactive team, an ABI partner or be of any affiliation with ABI.
 
@@ -50,9 +58,9 @@ For missing or unclear points please contact us at team@abinteractive.net - we w
 
 §4.2 You are not allowed to create  and / or use any form of cheat, crack bot or exploit any security breach or bug within our api, game client or content creation kit.
 
-§4.6 You may never upload files or stream data containing malicious harmful code or viruses to our services.
+§4.3 You may never upload files or stream data containing malicious harmful code or viruses to our services.
 
-§4.7 Extracting and releasing any of our code without our allowance is strictly forbidden and will be considered theft.
+§4.4 Extracting and releasing any of our code without our allowance is strictly forbidden and will be considered theft.
 
 ### 5 - Uploading and publishing content
 §5.1 All social interactions guidelines apply to content uploading and publishing as well. Nothing of the above mentioned is allowed to be a part of an avatar, world or game mode. This includes but is not limited to textures, sounds, signs and more.
@@ -69,13 +77,15 @@ European copyright law applies to all uploads.
 
 §5.3 You are not allowed to steal other peoples creations this includes but is not limited to "ripping content" from any game or website including ChilloutVR.
 
+§5.3.1 You may never extract other peoples belongings from our games and networks. This includes but is not limited to audio files, assets, avatar and world bundles, textures and more.
+
 §5.4 By uploading content you certify that you have the full rights to use the content on our platform.
 
 §5.5 You will be responsible for any legal action taken.
 
-§5.6 With uploading content to our platform, you grant us a revocable license to use your content for all business purposes. Your content will still be yours, with deleting it from our platform the license will be revoked and we will not continue to use it and make it unaccessible for all platform members.
+§5.6 By uploading content to our platform, you allow us to use, store, and process your files and content. You also give us permission to use your content for marketing purposes (e.g. showing off in trailers, videos, streams).
 
-§5.7 We comply with all DMCA claims or any other form of copyright claims. In case of a copyright claim, your content will be removed and your account will receive a warning.
+§5.7 We will comply with all legal organizations and legal rights management organizations. Content that is known and proven to be stolen or used without permission will be removed without further notice.
 
 §5.8 Your content must not contain any kind of malicious components including but not limited to "crashers".
 
@@ -83,6 +93,7 @@ European copyright law applies to all uploads.
 
 §5.10 Avatars and worlds with the intent to disturb or annoy other players are forbidden.
 
+§5.11 You may never label other peoples work as yours. This includes but is not limited to music, images, videos and more.
 
 ### 6 - Platform content creation
 > Generally, all content creation is permitted as long as the limits enforced by the ABI team are respected. These limits are mostly on the games side. You can find exceptions below. If there are any questions, you are free to contact us at team@abinteractive.net.
@@ -100,6 +111,10 @@ European copyright law applies to all uploads.
 §6.6 In the case of a legit component configuration causing game breaking issues or crashes to any users clients, you must stop using such content immediately and open a bug report.
 
 §6.7 Knowingly creating content beyond reasonable limits that is negatively impacting another users' client performance is forbidden.
+
+§6.8 Bypassing the world publication system by placing portals to non-published worlds in published worlds is forbidden.
+
+§6.9 When updating content and adding features requiring a different tag, you are required to change the content tags accordingly. Content tags must match the underlying content at any time.
 
 ### 7 - Modding our games
 §7.1 You may only create modifications for the purpose of improving the game. Malicious mods are not permitted and will be punished in any case we deem it necessary to take action on.
