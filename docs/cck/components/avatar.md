@@ -46,7 +46,7 @@ one blendshape to blink both eyes or use two blendshapes for each eye and they w
 
 !!! warning
     If you have an animation using the selected blendshapes, your blinking will not work, keep them seperate from 
-blendshapes used in animations.
+    blendshapes used in animations.
 
 ##### Use Visemes Blendshapes
 Enables use of blendshape visemes during transmition of your voice through voice chat, the blendshape slots can be 

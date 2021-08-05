@@ -1,0 +1,15 @@
+{
+  "version": "v2.3 RELEASE",
+  "downloadUrl": "https://abi-static-web.abidata.io/ChilloutVR%20CCK%20v2.3%20RELEASE.unitypackage",
+  "unity": {
+    "install": {
+      "hub": "unityhub://2019.4.28f1/1381962e9d08",
+      "executable": "https://download.unity3d.com/download_unity/1381962e9d08/UnityDownloadAssistant-2019.4.28f1.exe"
+    },
+    "version":{
+      "previous": [
+        "2019.3.1f1"
+      ]
+    }
+  }
+}

@@ -1,5 +1,5 @@
 nav:
     - Home: index.md
-    - Official
-    - ChilloutVR
-    - CCK
+    - Official: official
+    - ChilloutVR: chilloutvr
+    - CCK: cck

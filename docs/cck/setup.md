@@ -7,14 +7,14 @@ on how to upgrade from an older version below.
 
 ##### Download CCK
 First, download our cck.  
-[ :fontawesome-solid-download: Download Content Creation Kit v2.3 RELEASE](https://abi-static-web.abidata.io/ChilloutVR%20CCK%20v2.3%20RELEASE.unitypackage){ .md-button .md-button--primary }
+[ :fontawesome-solid-download: Download Content Creation Kit {{ cck.version }}]({{ cck.downloadUrl }}){ .md-button .md-button--primary }
 
 
 ##### Download Unity
-You also need one of our supported unity versions, we recommend to use **Unity 2019.4.28f1**
+You also need one of our supported unity versions, we recommend to use **Unity {{ chilloutvr.unity.nativeVersion }}**
 
-[ :fontawesome-solid-download: Unity 2019.4.28f1 (Unity Hub)](unityhub://2019.4.28f1/1381962e9d08){ .md-button .md-button--primary }
-[ :fontawesome-solid-download: Unity 2019.4.28f1 (Win-Executable)](https://download.unity3d.com/download_unity/1381962e9d08/UnityDownloadAssistant-2019.4.28f1.exe){ .md-button }
+[ :fontawesome-solid-download: Unity {{ chilloutvr.unity.nativeVersion }} (Unity Hub)]({{ cck.unity.install.hub }}){ .md-button .md-button--primary }
+[ :fontawesome-solid-download: Unity {{ chilloutvr.unity.nativeVersion }} (Win-Executable)]({{ cck.unity.install.executable }}){ .md-button }
 
 !!! warning
     CCK 1.X is not compatible with the revamped creation process of CCK 2.X - It is required to upgrade from 1.X to

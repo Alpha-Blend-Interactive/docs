@@ -1,4 +1,4 @@
-site_name: ABI Developers
+site_name: ABI Documentation
 copyright: Copyright &copy; 2021 Alpha Blend Interactive
 
 theme:
@@ -29,6 +29,8 @@ theme:
   custom_dir: overrides/
 extra_css:
   - assets/stylesheets/extra.css
+extra_javascript:
+  - assets/javascripts/extra.js
 extra:
   generator: false
   alternate:
@@ -57,6 +59,8 @@ plugins:
         de: Deutsch
         ja: 日本語
   - search
+  - markdownextradata:
+      data: ./_variables
 
 markdown_extensions:
   - attr_list

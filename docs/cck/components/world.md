@@ -5,7 +5,7 @@ This is the main component for a world and needed for uploading your world.
 
 ##### Spawns
 The transform position and rotation of the assigned game objects will be used as spawn points for players.
-If there are configured no configured spawn points, the transform of the cvr world game object will be used instead.
+If there are no configured spawn points, the transform of the cvr world game object will be used instead.
 
 !!! info  
     Place the spawn locations above the ground so players do not fall through or get stuck inside the ground collider.

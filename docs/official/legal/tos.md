@@ -1,0 +1,141 @@
+# Rules, guidelines & ToS
+With registering an account in our community hub and / or playing our games you acknowledge and accept the followingly stated rules and guidelines to their fullest.
+
+## Alpha Blend Interactive Community Guidelines
+
+### Introduction
+The community guidelines apply to any and all services around the platform including our Discord server, the homepage, the community hub, the games and all other applications using our API and / or services.
+
+To use our services you have to be at least 13 years old. Accounts created or used by users under the age of 13 will be suspended without any warning.
+
+We also use a simple rule if something is obviously nothing you should do, do not do it. "Common sense".
+
+For missing or unclear points please contact us at team@abinteractive.net - we will answer.
+
+
+### 1 - Platform requirements
+§1.1 To play our games and use our services you have to be at least 13 years of age or older.
+
+§1.2 You are not allowed to create a new account or presence to bypass bans or sanctions that have been applied to another account you own or have owned before.
+
+§1.3 With using our services and / or playing our games you accept the written and non-written community guidelines and acknowledge that the platform moderation team is allowed to take all necessary steps to keep the platform clean and friendly.
+
+§1.4 You may never use any spam-mail or temporary mail provider for your accounts. We reserve the right to delete those accounts without any further notice.
+
+### 2 - Social Interactions
+§2.1 Your social interactions of any kind must never contain any form of hate speech including but not limited to language, symbols and actions.
+
+§2.2 Your social interactions must never contain any form of discrimination against other people this includes but is not limited to spiritual beliefs, genders, sexual orientation or any other personally identifying factor.
+
+§2.3 Your social interactions must never contain any form of harassment including but not limited to knowingly false-reporting community members and approaching community members with the intent to harass, disturb, upset or insult.
+
+§2.4 You are not allowed to organize, found and / or be a part of hate groups or anything similar.
+
+§2.5 You are not allowed to evade restrictions or suspensions in any way.
+
+§2.6 All kinds of sexual acts in public instances are forbidden and will lead to suspension. Friends of Friends is considered public. Refer to private lobby types instead.
+
+### 3 - Impersonation
+§3.1 You may never falsely claim to be a part of the Alpha Blend Interactive team, an ABI partner or be of any affiliation with ABI.
+
+§3.2 You may never pretend to be a member (of any rank or role) of a group you are not a part of.
+
+§3.3 You may never pretend to be friends with someone you are not friends with.
+
+§3.4 You may never pretend to be someone you are not. This includes but is not limited to other users, competitors, musicians, streamers, youtubers or any other of the kind.
+
+
+### 4 - Usage of our products and services
+§4.1 You may never use bugs, exploits or any other kind of security breach to harm other player in the game. All known issues regarding security have to be reported immediately. Not doing so will result in a permanent ban.
+
+§4.2 You are not allowed to create  and / or use any form of cheat, crack bot or exploit any security breach or bug within our api, game client or content creation kit.
+
+§4.6 You may never upload files or stream data containing malicious harmful code or viruses to our services.
+
+§4.7 Extracting and releasing any of our code without our allowance is strictly forbidden and will be considered theft.
+
+### 5 - Uploading and publishing content
+§5.1 All social interactions guidelines apply to content uploading and publishing as well. Nothing of the above mentioned is allowed to be a part of an avatar, world or game mode. This includes but is not limited to textures, sounds, signs and more.
+
+§5.2 All content you upload to our platform and / or games must be
+
+- Entirely created by you  
+  OR
+- Licensed to you with the permission of sub-licensing the content  
+  OR
+- Contain significant changes to the base version of the content (parody, mimic, pastiche).
+
+European copyright law applies to all uploads.
+
+§5.3 You are not allowed to steal other peoples creations this includes but is not limited to "ripping content" from any game or website including ChilloutVR.
+
+§5.4 By uploading content you certify that you have the full rights to use the content on our platform.
+
+§5.5 You will be responsible for any legal action taken.
+
+§5.6 With uploading content to our platform, you grant us a revocable license to use your content for all business purposes. Your content will still be yours, with deleting it from our platform the license will be revoked and we will not continue to use it and make it unaccessible for all platform members.
+
+§5.7 We comply with all DMCA claims or any other form of copyright claims. In case of a copyright claim, your content will be removed and your account will receive a warning.
+
+§5.8 Your content must not contain any kind of malicious components including but not limited to "crashers".
+
+§5.9 Your content has to always be tagged properly. This is done to ensure that people can create what they want while still allowing people to disable what they dont want to see. Wrongly tagging your content will result in warnings and / or getting your upload permissions revoked.
+
+§5.10 Avatars and worlds with the intent to disturb or annoy other players are forbidden.
+
+
+### 6 - Platform content creation
+> Generally, all content creation is permitted as long as the limits enforced by the ABI team are respected. These limits are mostly on the games side. You can find exceptions below. If there are any questions, you are free to contact us at team@abinteractive.net.
+
+§6.1 You may never forcefully enable or otherwise gain access to any feature not finished or rolled out using modifications or proxy scrips.
+
+§6.2 You may never modify or replace your nameplate. This is done to preserve the value in separate nameplates given out to users that contributed a lot. We tolerate hiding the nameplates or doing minor modifications in explicit roleplay situations or fitting scenarios like horror worlds.
+
+§6.3 If you hide your avatars nameplate entirely, which is allowed, you must tag your avatar with the horror tag.
+
+§6.4 You may use all components given in the form of the content creation kit for content creation purposes only. Malicious intent will be punished.
+
+§6.5 You may utilize all whitelisted components to their full extent as features not intended for use will be removed by the development team.
+
+§6.6 In the case of a legit component configuration causing game breaking issues or crashes to any users clients, you must stop using such content immediately and open a bug report.
+
+§6.7 Knowingly creating content beyond reasonable limits that is negatively impacting another users' client performance is forbidden.
+
+### 7 - Modding our games
+§7.1 You may only create modifications for the purpose of improving the game. Malicious mods are not permitted and will be punished in any case we deem it necessary to take action on.
+
+§7.2 If you plan on publishing your mods (or release them to the CVR Workshop once available) you must release the mods sourcecode to the public (for example by using github).
+
+§7.3 Publishing obfuscated mods is not allowed.
+
+§7.4 If you have to overwrite, alter or include base game scripts with your mod, you have to request appropriate permission before releasing it to the public. In this case we also require you to include a disclaimer that the base code of the game is owned by us. This may be a simple one-liner.
+
+§7.5 When releasing mods to the public, it is required to state, that the mod authors are in no affiliation with ABI.
+
+§7.6 You may never create cheats / hacks to bypass limitations or gain an unfair advantage in any game mode or game world.
+
+### 8 - Third party applications or sites
+Third party applications or sites that use our services are allowed but always have to implement the following text somewhere:
+
+#### For websites
+"This website is not run by or affiliated with Alpha Blend Interactive (abinteractive.net) in any way."
+
+#### For applications
+"This application is not created by or affiliated with Alpha Blend Interactive (abinteractive.net) in any way."
+
+#### For communities
+"This community is not created by or affiliated with Alpha Blend Interactive (abinteractive.net) in any way."
+
+
+### 9 - Account management
+§9.1 Account bans can only be appealed by using the support system in the community hub linked above. Messages on the Discord or e-mails for unban requests will be ignored.
+
+§9.2 In accordance with the EU GDPR regulations we offer you collected data packages and account deletions. This can be requested in your account settings on the community hub.
+
+§9.3 In the case of an account deletion, the suspension remains active and as such will lead to newly created accounts being suspended for ban evasion. Account deletion is not your ticket to bypass suspensions.
+
+§9.4 We do not allow indefinite appeals. Appeal a ban only if you are very certain that the suspension is unjustified as we reserve the right to deny appeals at any time without any need to include a reasoning.
+
+§9.5 The team of Alpha Blend Interactive has the permission to terminate accounts without rule violations to protect other players if a danger for other players is possible.
+
+§9.6 All moderative suspensions are displayed on a users public profile and are visible to all users logged in.
