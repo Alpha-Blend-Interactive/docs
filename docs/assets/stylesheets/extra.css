@@ -6,7 +6,6 @@
     --abi-h2-color: rgb(58, 58, 58);
     --abi-text-black: #111;
     --abi-text-white: #fff;
-    --abi-brightness: 0;
     --abi-footer-bg: rgb(34, 34, 34);
     --md-accent-fg-color: #E43600;
 }
@@ -19,7 +18,6 @@
     --abi-h2-color: rgb(233, 235, 252);
     --abi-text-black: #fff;
     --abi-text-white: #111;
-    --abi-brightness: 1;
     --abi-footer-bg: rgb(34, 34, 34);
     --md-accent-fg-color: #E43600;
 }

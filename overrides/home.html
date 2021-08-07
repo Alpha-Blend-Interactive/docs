@@ -14,6 +14,10 @@
         margin: 0;
     }
 
+    .md-content__inner {
+        display: none;
+    }
+
     .tx-container {
         padding-top: .0rem;
         background: linear-gradient(to bottom, var(--md-primary-fg-color), var(--md-default-bg-color) 99%)
@@ -69,6 +73,8 @@
         float: left;
         margin-right: 10px;
         transform: translateY(10%);
+        fill: currentColor;
+        margin-top: -5px;
     }
 
     .top-hr {
@@ -105,6 +111,16 @@
         margin: 0 0 10px;
         display: block;
         color: var(--abi-text-black);
+    }
+
+    .feature-item.first img {
+        width: 40px;
+        height: 20px;
+    }
+
+    .feature-item.second img {
+        width: 42px;
+        height: 20px;
     }
 
     @media screen and (max-width:30em) {
@@ -148,16 +164,6 @@
             padding: 0 .2rem;
         }
 
-        .bottom-hr {
-            margin-top: 10px;
-            width: 100%;
-            display: flex;
-            max-width: 61rem;
-            margin-right: auto;
-            margin-left: auto;
-            padding: 0 .2rem;
-        }
-
         .feature-item {
             flex: 1;
             min-width: 0;
@@ -168,74 +174,18 @@
             border-radius: 3px;
         }
 
-        .feature-item:hover p {
-            color: #fff;
-        }
-
-        .feature-item:hover h2 {
-            color: #fff;
-        }
-
         .feature-item:hover h2 img {
             filter: brightness(1) !important;
         }
+
+
     }
 
-    .hr {
-        border-bottom: 1px solid #eee;
-        width: 100%;
-        margin: 20px 0;
-    }
-
-    .text-center {
-        text-align: center;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 15px;
-        font-family: 'Lato', sans-serif;
-        font-size: 23px;
-        font-weight: 300;
-        padding-bottom: 10px;
-    }
-
-    .logos {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-flow: row wrap;
-        margin: 0 auto;
-    }
-
-    .logos img {
-        flex: 1 1 auto;
-        padding: 25px;
-        max-height: 130px;
-        vertical-align: middle;
-    }
-
-    .hr-logos {
-        margin-top: 0;
-        margin-bottom: 30px;
-    }
-
-    .md-footer-meta__inner {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-top: 1.0rem;
-    }
-
-    .md-footer-social {
-        padding-top: 20px;
-    }
     :root > * {
         --md-typeset-color: rgb(233, 235, 252) !important;
         --abi-h2-color: rgb(233, 235, 252) !important;
         --abi-text-black: #fff !important;
         --abi-text-white: #111 !important;
-        --abi-brightness: 1 !important;
         --abi-footer-bg: rgb(34, 34, 34) !important;
         --md-hue: 232 !important;
         --md-default-bg-color: rgb(46, 48, 62) !important;
@@ -256,10 +206,10 @@
                 <h1>Alpha Blend Interactive</h1>
                 <p>Documentation for <b>ChilloutVR</b>, <b>Content Creation Kit</b> and <b>Community Hub</b>. <br>
                     With features, services and products being added to our portfolio, the documentation will be expanded over time.</p>
-                <a href="ChilloutVR/quick-start/" title="ChilloutVR game" class="md-button md-button--primary">
+                <a href="chilloutvr/quick-start/" title="ChilloutVR game" class="md-button md-button--primary">
                     ChilloutVR
                 </a>
-                <a href="CCK/setup/" title="Content Creation Kit" class="md-button">
+                <a href="cck/setup/" title="Content Creation Kit" class="md-button">
                     CCK
                 </a>
             </div>
@@ -269,14 +219,14 @@
 
 <!-- Main site box descriptions -->
 <div class="top-hr">
-    <a class="feature-item first" href="ChilloutVR/quick-start/">
+    <a class="feature-item first" href="chilloutvr/quick-start/">
         <h2>
             <img src="/assets/images/CVR-white-small-cut.png">
             ChilloutVR
         </h2>
         <p>ChilloutVR is a social sandbox game enabling players and content creators to create, share and explore content in a massive multiplayer metaverse alone, with friends or anyone around the world.</p>
     </a>
-    <a class="feature-item second" href="CCK/setup/">
+    <a class="feature-item second" href="cck/setup/">
         <h2>
             <img src="/assets/images/CCK.png">
             Content Creation Kit

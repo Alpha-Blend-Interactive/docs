@@ -63,31 +63,4 @@
     }
   }
 
-  .top-hr {
-    .feature-item {
-
-      img {
-        filter: brightness(var(--abi-brightness));
-      }
-
-      svg {
-        fill: currentColor;
-      }
-
-      &.first {
-        img {
-          width: 40px;
-          height: 20px;
-        }
-      }
-
-      &.second {
-        img {
-          width: 42px;
-          height: 20px;
-        }
-      }
-    }
-  }
-
 }

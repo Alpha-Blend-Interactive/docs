@@ -11,14 +11,14 @@ First, download our cck.
 
 
 ##### Download Unity
-You also need one of our supported unity versions, we recommend to use **Unity {{ chilloutvr.unity.nativeVersion }}**
+You also need one of our supported unity versions, we recommend to use **Unity {{ cck.unity.install.version }}**
 
-[ :fontawesome-solid-download: Unity {{ chilloutvr.unity.nativeVersion }} (Unity Hub)]({{ cck.unity.install.hub }}){ .md-button .md-button--primary }
-[ :fontawesome-solid-download: Unity {{ chilloutvr.unity.nativeVersion }} (Win-Executable)]({{ cck.unity.install.executable }}){ .md-button }
+[ :fontawesome-solid-download: Unity {{ cck.unity.install.version }} (Unity Hub)]({{ cck.unity.install.hub }}){ .md-button .md-button--primary }
+[ :fontawesome-solid-download: Unity {{ cck.unity.install.version }} (Win-Executable)]({{ cck.unity.install.executable }}){ .md-button }
 
 !!! warning
     CCK 1.X is not compatible with the revamped creation process of CCK 2.X - It is required to upgrade from 1.X to
-2.X in order to upload content.
+    2.X in order to upload content.
 
 ## Installation
 
