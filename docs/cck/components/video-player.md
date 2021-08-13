@@ -44,8 +44,6 @@ A list of audio speakers used by the *audio playback mode*.
 Will play the **Play On Awake Object** on start if no other video is playing. If no **Play On Awake Object** is set, the
 first video of the first playlist will be used instead.
 
-!!! warning "Not working yet"
-
 ##### Play On Awake Object
 Can be set by clicking **Set as Play On Awake Object** on a specific video.  
 Used to play this video on start or awake if no other video is playing and **Play on Startup** is enabled.

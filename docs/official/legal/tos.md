@@ -1,7 +1,8 @@
 # Rules, guidelines & ToS
 With registering an account in our community hub and / or playing our games you acknowledge and accept the followingly stated rules and guidelines to their fullest.
+We reserve full right to update the terms of service at any time without any need for notification.
 
-## Alpha Blend Interactive Community Guidelines
+## Alpha Blend Interactive Terms of Service
 
 ### Introduction
 The community guidelines apply to any and all services around the platform including our Discord server, the homepage, the community hub, the games and all other applications using our API and / or services.
@@ -116,45 +117,58 @@ European copyright law applies to all uploads.
 
 §6.7 Knowingly creating content beyond reasonable limits that is negatively impacting another users' client performance is forbidden.
 
-§6.8 Bypassing the world publication system by placing portals to non-published worlds in published worlds is forbidden.
+§6.8 Bypassing the world publication system by placing static portals (portals that are part of the world) to non-published worlds in published worlds is forbidden. This excludes rewards for completing challenges and portals to development versions of that specific world. This rule is meant to affect different worlds, by different authors and prevent actual misuse to bypass the publication system.
 
 §6.9 When updating content and adding features requiring a different tag, you are required to change the content tags accordingly. Content tags must match the underlying content at any time.
 
 ### 7 - Modding our games
 §7.1 You may only create modifications for the purpose of improving the game. Malicious mods are not permitted and will be punished in any case we deem it necessary to take action on.
 
-§7.2 If you plan on publishing your mods (or release them to the CVR Workshop once available) you must release the mods sourcecode to the public (for example by using github).
+§7.2 If you plan on publishing your mods to the workshop you must release the mods sourcecode to the public (for example by using github). This does not affect mods hosted on third party platforms directly, that are not released to the workshop.
 
-§7.3 Publishing obfuscated mods is not allowed.
+§7.3 Publishing obfuscated mods to the workshop is not allowed.
 
 §7.4 If you have to overwrite, alter or include base game scripts with your mod, you have to request appropriate permission before releasing it to the public. In this case we also require you to include a disclaimer that the base code of the game is owned by us. This may be a simple one-liner.
 
-§7.5 When releasing mods to the public, it is required to state, that the mod authors are in no affiliation with ABI.
+§7.5 When releasing mods to the public, it is required to state, that the mod authors and modification are in no affiliation with ABI and not suppoorted by ABI.
 
 §7.6 You may never create cheats / hacks to bypass limitations or gain an unfair advantage in any game mode or game world.
 
-### 8 - Third party applications or sites
-Third party applications or sites that use our services are allowed but always have to implement the following text somewhere:
+§7.7 When installing mods, the liability for damage and harm caused by such is on the user. ABI will not be liable for any harm, damage or any other negative impact caused by modifications loaded from sources other than the official workshop.
+
+### 8 - Account management
+§8.1 Account bans can only be appealed by using the support system in the community hub linked above. Messages on the Discord or e-mails for unban requests will be ignored.
+
+§8.2 In accordance with the EU GDPR regulations we offer you collected data packages and account deletions. This can be requested in your account settings on the community hub.
+
+§8.3 In the case of an account deletion, the suspension remains active and as such will lead to newly created accounts being suspended for ban evasion. Account deletion is not your ticket to bypass suspensions.
+
+§8.4 We do not allow indefinite appeals. Appeal a ban only if you are very certain that the suspension is unjustified as we reserve the right to deny appeals at any time without any need to include a reasoning.
+
+§8.5 The team of Alpha Blend Interactive has the permission to terminate accounts without rule violations to protect other players if a danger for other players is possible.
+
+§8.6 All moderative suspensions are displayed on a users public profile and are visible to all users logged in.
+
+### 9 - Third party applications or sites
+Third party applications or sites that use or reference our services are permitted but required to implement the following text somewhere:
 
 #### For websites
-"This website is not run by or affiliated with Alpha Blend Interactive (abinteractive.net) in any way."
+"This website is not run by or affiliated with Alpha Blend Interactive in any way."
 
 #### For applications
-"This application is not created by or affiliated with Alpha Blend Interactive (abinteractive.net) in any way."
+"This application is not created by or affiliated with Alpha Blend Interactive in any way."
 
 #### For communities
-"This community is not created by or affiliated with Alpha Blend Interactive (abinteractive.net) in any way."
+"This community is not created by or affiliated with Alpha Blend Interactive in any way."
 
+#### For mods
+"This modification is inofficial and not supported by Alpha Blend Interactive. Using this modification might cause issues with performance, security or stability of the games."
 
-### 9 - Account management
-§9.1 Account bans can only be appealed by using the support system in the community hub linked above. Messages on the Discord or e-mails for unban requests will be ignored.
+### 10 - Commercial usage
+§10.1 All kinds of commercial usage of our platform or services require explicit permission granted by ABI.
 
-§9.2 In accordance with the EU GDPR regulations we offer you collected data packages and account deletions. This can be requested in your account settings on the community hub.
+§10.2 Hosting commercial events requires cooperative contracts with ABI along with appropriate revenue share.
 
-§9.3 In the case of an account deletion, the suspension remains active and as such will lead to newly created accounts being suspended for ban evasion. Account deletion is not your ticket to bypass suspensions.
+§10.3 Commercial usage of our products and services does not exclude any other platform limitation or rule.
 
-§9.4 We do not allow indefinite appeals. Appeal a ban only if you are very certain that the suspension is unjustified as we reserve the right to deny appeals at any time without any need to include a reasoning.
-
-§9.5 The team of Alpha Blend Interactive has the permission to terminate accounts without rule violations to protect other players if a danger for other players is possible.
-
-§9.6 All moderative suspensions are displayed on a users public profile and are visible to all users logged in.
+In order to request permission to use our products and services commercially, mail us at team@abinteractive.net and we will get back to you as soon as we can.
