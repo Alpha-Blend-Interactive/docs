@@ -107,7 +107,7 @@ European copyright law applies to all uploads.
 
 §6.2 You may never modify or replace your nameplate. This is done to preserve the value in separate nameplates given out to users that contributed a lot. We tolerate hiding the nameplates or doing minor modifications in explicit roleplay situations or fitting scenarios like horror worlds.
 
-§6.3 If you hide your avatars nameplate entirely, which is allowed, you must tag your avatar with the horror tag.
+§6.3 If you hide your avatar's nameplate entirely, which is allowed, you must tag your avatar with the horror tag.
 
 §6.4 You may use all components given in the form of the content creation kit for content creation purposes only. Malicious intent will be punished.
 
@@ -130,7 +130,7 @@ European copyright law applies to all uploads.
 
 §7.4 If you have to overwrite, alter or include base game scripts with your mod, you have to request appropriate permission before releasing it to the public. In this case we also require you to include a disclaimer that the base code of the game is owned by us. This may be a simple one-liner.
 
-§7.5 When releasing mods to the public, it is required to state, that the mod authors and modification are in no affiliation with ABI and not suppoorted by ABI.
+§7.5 When releasing mods to the public, it is required to state, that the mod authors and modification are in no affiliation with ABI and not supported by ABI.
 
 §7.6 You may never create cheats / hacks to bypass limitations or gain an unfair advantage in any game mode or game world.
 
@@ -162,7 +162,7 @@ Third party applications or sites that use or reference our services are permitt
 "This community is not created by or affiliated with Alpha Blend Interactive in any way."
 
 #### For mods
-"This modification is inofficial and not supported by Alpha Blend Interactive. Using this modification might cause issues with performance, security or stability of the games."
+"This modification is unofficial and not supported by Alpha Blend Interactive. Using this modification might cause issues with performance, security or stability of the games."
 
 ### 10 - Commercial usage
 §10.1 All kinds of commercial usage of our platform or services require explicit permission granted by ABI.
@@ -171,4 +171,4 @@ Third party applications or sites that use or reference our services are permitt
 
 §10.3 Commercial usage of our products and services does not exclude any other platform limitation or rule.
 
-In order to request permission to use our products and services commercially, mail us at team@abinteractive.net and we will get back to you as soon as we can.
+In order to request permission to use our products and services commercially, mail us at team@abinteractive.net, and we will get back to you as soon as we can.
