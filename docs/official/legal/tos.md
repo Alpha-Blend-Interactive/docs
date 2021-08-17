@@ -1,6 +1,7 @@
 # Rules, guidelines & ToS
 With registering an account in our community hub and / or playing our games you acknowledge and accept the followingly stated rules and guidelines to their fullest.
-We reserve full right to update the terms of service at any time without any need for notification.
+We reserve full rights to include minor changes to the terms of service without requiring any sort of announcement.
+Bigger changes to the terms of service will be announced and users will be required to accept the changes in order to continue to use our services.
 
 ## Alpha Blend Interactive Terms of Service
 
@@ -38,13 +39,13 @@ For missing or unclear points please contact us at team@abinteractive.net - we w
 
 §2.7 To use the 18+/NSFW marked parts of our game, you have to be at least 18 years old. If the age of majority in your country of residence is above 18, then you will have to match or exceed the age of majority in your country of residence to be allowed to use  the 18+/NSFW/AdultOnly marked parts of / content in our games.
 
-§2.8 NSFW content (avatars, worlds, scripts, game-modes and more) as well as events and groups must always do their best to prevent children from seeing / using them. For the case of events and groups, relying on the NSFW access DLC is not enough and further manual checks are required.
+§2.8 NSFW content (their creators), groups, organizations, events or any of the kind are required to use their resources in order to prevent children from seeing / using / attending them. For the case of events and groups, relying on the NSFW access DLC is not enough, and further manual checks are required.
 
 §2.9 You may never abuse issues / bugs in our systems to bypass NSFW limitations. This includes but is not limited to displaying content in public that is not meant to be displayed in public. (Private NSFW world portals in public worlds, Creating public instances for NSFW events)
 
 §2.10 You may never knowingly mark yourself as adult while not having reached the age of majority of your country of residence. Doing so will result in a permanent suspension with no option to appeal. This also applies to the Steam Mature Content Access DLC.
 
-§2.11 Uploaded content may never contain NSFW materials or references to underaged characters independent of if they are fictional or real. Canonical age (e.g. 9000 year old girl) does not count to invalidate this rule.
+§2.11 Uploaded content may never contain NSFW materials or references to underaged characters (characters under the age of majority) independent of if they are fictional or real. Canonical age (e.g. 9000 year old girl) does not count to invalidate this rule.
 
 §2.12 Adult-Only events must be moderated by the event host or event moderators. Event moderators have to ensure that no person under the corresponding age of majority is able to attend.
 
@@ -82,7 +83,7 @@ European copyright law applies to all uploads.
 
 §5.3 You are not allowed to steal other peoples creations this includes but is not limited to "ripping content" from any game or website including ChilloutVR.
 
-§5.3.1 You may never extract other peoples belongings from our games and networks. This includes but is not limited to audio files, assets, avatar and world bundles, textures and more.
+§5.3.1 You may never extract other people's belongings from our games and networks. This includes but is not limited to audio files, assets, platform content bundles, textures and more.
 
 §5.4 By uploading content you certify that you have the full rights to use the content on our platform.
 
@@ -96,9 +97,11 @@ European copyright law applies to all uploads.
 
 §5.9 Your content has to always be tagged properly. This is done to ensure that people can create what they want while still allowing people to disable what they dont want to see. Wrongly tagging your content will result in warnings and / or getting your upload permissions revoked.
 
-§5.10 Avatars and worlds with the intent to disturb or annoy other players are forbidden.
+§5.10 Creating and / or sharing content of any kind with the intent to disturb, annoy or any of the kind is forbidden.
 
-§5.11 You may never label other peoples work as yours. This includes but is not limited to music, images, videos and more.
+§5.11 Sharing content to users without their consent is forbidden, before sharing content as users if they actually want it or make sure they asked you to share it with them.
+
+§5.12 You may never label other peoples work as yours. This includes but is not limited to music, images, videos and more.
 
 ### 6 - Platform content creation
 > Generally, all content creation is permitted as long as the limits enforced by the ABI team are respected. These limits are mostly on the games side. You can find exceptions below. If there are any questions, you are free to contact us at team@abinteractive.net.
@@ -107,7 +110,7 @@ European copyright law applies to all uploads.
 
 §6.2 You may never modify or replace your nameplate. This is done to preserve the value in separate nameplates given out to users that contributed a lot. We tolerate hiding the nameplates or doing minor modifications in explicit roleplay situations or fitting scenarios like horror worlds.
 
-§6.3 If you hide your avatar's nameplate entirely, which is allowed, you must tag your avatar with the horror tag.
+§6.3 If you hide your player's nameplate entirely, which is allowed, you must tag the corresponding avatar with the horror tag.
 
 §6.4 You may use all components given in the form of the content creation kit for content creation purposes only. Malicious intent will be punished.
 
