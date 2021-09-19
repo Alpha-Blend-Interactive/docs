@@ -53,7 +53,7 @@ List of whitelisted components and link to their corresponding Unity documentati
 **Dynamic Bone Collider Base:** Base class for dynamic bone colliders  
 **Dynamic Bone Plane Collider:** Adds an collider plane that collides with dynamic bones.  
 
-## Magica Cloth [Magica Cloth](https://assetstore.unity.com/packages/tools/physics/magica-cloth-160144)
+## [Magica Cloth](https://assetstore.unity.com/packages/tools/physics/magica-cloth-160144)
 **Magica Cloth** is a third party asset. Whitelisted components listed below.
 
 + [Magica Bone Cloth](https://magicasoft.jp/en/magica-cloth-bone-cloth-2/)

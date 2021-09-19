@@ -1,17 +1,47 @@
 # Whitelisted Components for Worlds
 
-## Allowed assets
+## [Gaia 2 - Terrain & Scene Generator](https://assetstore.unity.com/packages/tools/terrain/gaia-2-terrain-scene-generator-42618)
+Gaia 2, the all in one landscape, terrain and scene generation system for Unity that allows you to create stunning 
+mobile, vr, desktop and console scenes in minutes.
 
-### [Gaia 2 - Terrain & Scene Generator](https://assetstore.unity.com/packages/tools/terrain/gaia-2-terrain-scene-generator-42618)
-Gaia 2, the all in one landscape, terrain and scene generation system for Unity that allows you to create stunning mobile, vr, desktop and console scenes in minutes.
+## [Vegetation Studio Pro](https://assetstore.unity.com/packages/tools/terrain/vegetation-studio-pro-131835)
+Vegetation Studio Pro is a vegetation placement and rendering system designed to replace the standard tree and detail 
+system in the Unity terrain component. It can also spawn and render vegetation on standard unity meshes.
 
-### [Vegetation Studio Pro](https://assetstore.unity.com/packages/tools/terrain/vegetation-studio-pro-131835)
-Vegetation Studio Pro is a vegetation placement and rendering system designed to replace the standard tree and detail system in the Unity terrain component. It can also spawn and render vegetation on standard unity meshes.
+## [R.A.M - River Auto Material](https://assetstore.unity.com/packages/tools/terrain/r-a-m-river-auto-material-101205)
+RAM pack gives you ability to create very advanced river and lakes with flowmap, river bed shapes and textures on it 
+automatically.
 
-### [R.A.M - River Auto Material](https://assetstore.unity.com/packages/tools/terrain/r-a-m-river-auto-material-101205)
-RAM pack gives you ability to create very advanced river and lakes with flowmap, river bed shapes and textures on it automatically.
+## [Post Processing 2](https://docs.unity3d.com/Packages/com.unity.postprocessing@3.0/manual/index.html)
+Post-processing is a generic term for a full-screen image processing effect that occurs after the camera draws the scene
+but before the scene is rendered on the screen. Post-processing can drastically improve the visuals of your product with
+little setup time.
 
-### [Post Processing 2](https://docs.unity3d.com/Packages/com.unity.postprocessing@3.0/manual/index.html)
+## [The Vegetation Engine](https://assetstore.unity.com/packages/tools/utilities/the-vegetation-engine-159647)
+The Vegetation Engine is a set of highly optimized vegetation shaders and tools designed to unify any vegetation asset 
+from the Unity Asset Store, Megascans, Speedtree, Tree Creator, and more, or custom vegetation
+
+### [Amplify Impostors Module](https://assetstore.unity.com/packages/vfx/shaders/the-vegetation-engine-amplify-impostors-module-189099)
+Combine the power of [Vegetation Engine](https://assetstore.unity.com/packages/tools/utilities/the-vegetation-engine-159647)
+with the power of the optimized impostors provided by 
+[Amplify Impostors](https://assetstore.unity.com/packages/tools/utilities/amplify-impostors-119877)! The Amplify Impostors 
+Module includes presets and runtime shaders for perfect baking with Standard, Universal, and HD pipelines, while the 
+seasons, overlay, wetness, wind, and interaction remain dynamic!
+
+### [Terrain Details Module](https://assetstore.unity.com/packages/vfx/shaders/the-vegetation-engine-terrain-details-module-178485)
+Terrain Details Module brings the features from the Vegetation Engine to the terrain details shaders. Enable high-quality
+wind, interaction, tinting, snow, leaves amount, and distance fade for your grass and flower details!
+
+### [Terrain Elements Module](https://assetstore.unity.com/packages/vfx/shaders/the-vegetation-engine-terrain-elements-module-181731)
+Terrain Elements Module is a set of element shaders designed to control the vegetation color, size, overlay, leaves, 
+wetness, and wind power for each individual painted terrain layer, based on splat maps.
+
+## [Dynamic Cloud System](https://assetstore.unity.com/packages/tools/particles-effects/dynamic-cloud-system-91941)
+Realistic, dynamic clouds.
+
+## [Azure[Sky] Dynamic Skybox](https://assetstore.unity.com/packages/tools/particles-effects/azure-sky-dynamic-skybox-36050)
+Azure[Sky] Dynamic Skybox is a complete and robust sky system that will raise your project to another level.
+
 
 ## Unity Components
 + [Animator](https://docs.unity3d.com/Manual/class-Animator.html)
@@ -55,16 +85,16 @@ RAM pack gives you ability to create very advanced river and lakes with flowmap,
 + [Rotation Limit Spline](http://www.root-motion.com/finalikdox/html/page14.html)
 + [Rotation Limit Utilities](http://www.root-motion.com/finalikdox/html/page14.html)
 
-## Dynamic Bone Components
-**Dynamic Bones** is a third party asset, you can get it here: [Unity Asset Store: Dynamic Bones](https://assetstore.unity.com/packages/tools/animation/dynamic-bone-16743)
+## [Dynamic Bone](https://assetstore.unity.com/packages/tools/animation/dynamic-bone-16743)
+**Dynamic Bone** is a third party asset. Whitelisted components listed below.
 
 **Dynamic Bone:** Adds a dynamic bone to the component.  
 **Dynamic Bone Collider:** Adds an collider that collides/interacts with dynamic bones.  
 **Dynamic Bone Collider Base:** Base class for dynamic bone colliders  
 **Dynamic Bone Plane Collider:** Adds an collider plane that collides with dynamic bones.
 
-## Magica Cloth Components
-**Magica Cloth** is a third party asset, you can get it here: [Unity Asset Store: Magica Cloth](https://assetstore.unity.com/packages/tools/physics/magica-cloth-160144)
+## [Magica Cloth](https://assetstore.unity.com/packages/tools/physics/magica-cloth-160144)
+**Magica Cloth** is a third party asset. Whitelisted components listed below.
 
 + [Magica Bone Cloth](https://magicasoft.jp/en/magica-cloth-bone-cloth-2/)
 + [Magica Bone Spring](https://magicasoft.jp/en/magica-cloth-bone-spring-2/)
