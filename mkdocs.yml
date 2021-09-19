@@ -7,7 +7,6 @@ theme:
   favicon: assets/images/favicon.png
   features:
     - navigation.instant
-    - navigation.tracking
     - navigation.section
     - navigation.tabs
     - navigation.top

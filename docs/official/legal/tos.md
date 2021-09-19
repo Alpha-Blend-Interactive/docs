@@ -99,9 +99,7 @@ European copyright law applies to all uploads.
 
 §5.10 Creating and / or sharing content of any kind with the intent to disturb, annoy or any of the kind is forbidden.
 
-§5.11 Sharing content to users without their consent is forbidden, before sharing content as users if they actually want it or make sure they asked you to share it with them.
-
-§5.12 You may never label other peoples work as yours. This includes but is not limited to music, images, videos and more.
+§5.11 You may never label other peoples work as yours. This includes but is not limited to music, images, videos and more.
 
 ### 6 - Platform content creation
 > Generally, all content creation is permitted as long as the limits enforced by the ABI team are respected. These limits are mostly on the games side. You can find exceptions below. If there are any questions, you are free to contact us at team@abinteractive.net.
