@@ -19,14 +19,14 @@ little setup time.
 
 ## [The Vegetation Engine](https://assetstore.unity.com/packages/tools/utilities/the-vegetation-engine-159647)
 The Vegetation Engine is a set of highly optimized vegetation shaders and tools designed to unify any vegetation asset 
-from the Unity Asset Store, Megascans, Speedtree, Tree Creator, and more, or custom vegetation
+from the Unity Asset Store, Megascans, Speedtree, Tree Creator, and more, or custom vegetation.
 
 ### [Amplify Impostors Module](https://assetstore.unity.com/packages/vfx/shaders/the-vegetation-engine-amplify-impostors-module-189099)
 Combine the power of [Vegetation Engine](https://assetstore.unity.com/packages/tools/utilities/the-vegetation-engine-159647)
-with the power of the optimized impostors provided by 
-[Amplify Impostors](https://assetstore.unity.com/packages/tools/utilities/amplify-impostors-119877)! The Amplify Impostors 
-Module includes presets and runtime shaders for perfect baking with Standard, Universal, and HD pipelines, while the 
-seasons, overlay, wetness, wind, and interaction remain dynamic!
+with the power of the optimized impostors provided by
+[Amplify Impostors](https://assetstore.unity.com/packages/tools/utilities/amplify-impostors-119877)! The Amplify 
+Impostors Module includes presets and runtime shaders for perfect baking with Standard, Universal, and HD pipelines, 
+while the seasons, overlay, wetness, wind, and interaction remain dynamic!
 
 ### [Terrain Details Module](https://assetstore.unity.com/packages/vfx/shaders/the-vegetation-engine-terrain-details-module-178485)
 Terrain Details Module brings the features from the Vegetation Engine to the terrain details shaders. Enable high-quality
