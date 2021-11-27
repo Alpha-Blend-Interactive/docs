@@ -7,7 +7,7 @@ on how to upgrade from an older version below.
 
 ##### Download CCK
 First, download our cck.  
-[ :fontawesome-solid-download: Download Content Creation Kit {{ cck.version }}]({{ cck.downloadUrl }}){ .md-button .md-button--primary }
+[ :fontawesome-solid-download: Download Content Creation Kit {{ cck.cck.version }}]({{ cck.cck.downloadUrl }}){ .md-button .md-button--primary }
 
 
 ##### Download Unity

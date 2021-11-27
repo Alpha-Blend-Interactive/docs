@@ -42,6 +42,13 @@ Realistic, dynamic clouds.
 ## [Azure[Sky] Dynamic Skybox](https://assetstore.unity.com/packages/tools/particles-effects/azure-sky-dynamic-skybox-36050)
 Azure[Sky] Dynamic Skybox is a complete and robust sky system that will raise your project to another level.
 
+## [Beautify](https://assetstore.unity.com/packages/vfx/shaders/fullscreen-camera-effects/beautify-2-163949)
+Beautify 2 is a full-screen image post processing effect that improves the image quality in real time producing incredibly
+crisp and vivid scenes.
+
+## [Modern Procedural UI Kit](https://assetstore.unity.com/packages/tools/gui/modern-procedural-ui-kit-163041)
+Modern Procedural UI Kit offers unlimited possibilities for building UI without any sprite assets but customizable shapes
+and gradients.
 
 ## Unity Components
 + [Animator](https://docs.unity3d.com/Manual/class-Animator.html)
