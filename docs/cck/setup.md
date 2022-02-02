@@ -17,8 +17,7 @@ You also need one of our supported unity versions, we recommend to use **Unity {
 [ :fontawesome-solid-download: Unity {{ cck.unity.install.version }} (Win-Executable)]({{ cck.unity.install.executable }}){ .md-button }
 
 !!! warning
-    CCK 1.X is not compatible with the revamped creation process of CCK 2.X - It is required to upgrade from 1.X to
-    2.X in order to upload content.
+    CCK 1.X / 2.X is not compatible with the revamped creation process of CCK 3.X - It is required to upgrade to upload content.
 
 ## Installation
 

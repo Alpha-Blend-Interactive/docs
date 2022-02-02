@@ -3,9 +3,13 @@
     "version": "v2.3 RELEASE",
     "downloadUrl": "https://abi-static-web.abidata.io/ChilloutVR%20CCK%20v2.3%20RELEASE.unitypackage"
   },
-  "cck": {
+  "cck30": {
     "version": "v3.0 RELEASE",
     "downloadUrl": "https://files.abidata.io/static_web/ChilloutVR%20CCK%20v3.0%20RELEASE.unitypackage"
+  },
+  "cck": {
+    "version": "v3.1 RELEASE",
+    "downloadUrl": ""
   },
   "unity": {
     "install29": {
@@ -18,10 +22,15 @@
       "hub": "unityhub://2019.4.13f1/518737b1de84",
       "executable": "https://download.unity3d.com/download_unity/518737b1de84/UnityDownloadAssistant-2019.4.13f1.exe"
     },
-    "install": {
+    "install28": {
       "version": "2019.4.28f1",
       "hub": "unityhub://2019.4.28f1/1381962e9d08",
       "executable": "https://download.unity3d.com/download_unity/1381962e9d08/UnityDownloadAssistant-2019.4.28f1.exe"
+    },
+    "install": {
+      "version": "2019.4.31f1",
+      "hub": "unityhub://2019.4.31f1/bd5abf232a62",
+      "executable": "https://download.unity3d.com/download_unity/bd5abf232a62/UnityDownloadAssistant-2019.4.31f1.exe"
     }
   }
 }
