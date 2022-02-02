@@ -26,12 +26,21 @@
 ARTICLES
 ======*/
 
-.md-typeset h5 {
-    font-size: 19.2px;
+.md-typeset h6 {
+    font-size: 18px;
     color: var(--md-typeset-color);
     text-transform: none;
     letter-spacing: normal;
-    margin: 19.2px 0 0 0;
+    margin: 16px 0 0 0;
+}
+
+
+.md-typeset h5 {
+    font-size: 19px;
+    color: var(--md-typeset-color);
+    text-transform: none;
+    letter-spacing: normal;
+    margin: 19px 0 0 0;
 }
 
 /*.md-typeset h5 a::before {
@@ -42,7 +51,9 @@ ARTICLES
     color: var(--md-typeset-color);
 }*/
 
-.md-typeset h5 + p {
+
+
+.md-typeset h5 + p, .md-typeset h6 + p {
     margin-top: 0;
 }
 
