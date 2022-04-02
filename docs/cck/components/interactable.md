@@ -106,6 +106,12 @@ Set the time in seconds for the timer.
   
 #### On Particle Hit
 Triggered whenever a particle hits the trigger collider.
+Particle system need to have collision enabled and set to world in order for them to be able to trigger actions.
+
+**Specific Particle Systems**
+A List of particle systems that can trigger the actions.
+If this is left empty, every particle system is eligible to trigger it.
+
 
 #### On Variable Buffer Update
 Triggers whenever the variable saved in the selected [CVR Variable Buffer](variable-buffer.md) changes.
@@ -140,6 +146,8 @@ The second value you want to compare your variable to.
 + **Buffer -> Static:** Enter a float number here. (e.g., 13.37, 1, 1.0)
 + **Buffer -> Buffer:** Select a second [CVR Variable Buffer](variable-buffer.md)
 
+???+ tip "Update rate"
+     The comparison is updated/executed each time, the variable buffer receives a change.
 
 #### On Cron
 Can be used to define cron jobs. You can learn more about [Cron here](https://en.wikipedia.org/wiki/Cron).
@@ -151,12 +159,38 @@ Paste a valid cron string here.
 #### On Pointer Enter
 Triggered whenever a players pointer enters the trigger.
 
-
 #### On World Trigger
 
-
-
 #### On Custom Trigger
+
+#### On Input Down
+Allows listening to custom user inputs.
+
+**Interaction Filter**
+
++ **Global** Always trigger actions when input is received.
++ **Looking** Only trigger when looking at the object
++ **Attached** Allow only when object is attached to player
++ **Held** Only when held in hand
++ **Sitting** While sitting in a chair of the interactable
+
+**Interaction Input**
+The input required for the action to trigger.
+
+**Interaction Input Modifier**
+Additional key's required.
+
+
+#### On Input Up
+Same as [On Input Down](#on-input-down) but triggered when releasing the input.
+E.g. release a key you pressed down.
+
+
+#### On Gaze Enter
+When a player looks at the object.
+
+#### On Gaze Exit
+When a player looks away from the object, while previously have triggered [On Gaze Enter](#on-gaze-enter).
 
 
 ### Actions
@@ -317,6 +351,52 @@ The player will be teleported to this location when exiting the sitting state.
 **Overwrite Animation**  
 Select an animation you want to use instead of the default sitting animation.
 
-
 #### Method Call
 Allows calling public functions of a component.
+
+#### Set Spawnable Value
+Allows you to set the synced value of a spawnable.
+This requires the interactable component to be on the root or in a child of the spawnables hierarchy.
+
+**Parameter**
+The parameter you want to modify.
+
+**Value**
+The value used to modify it with the following method.
+
+**Update Method**
+Defines how the value will be applied.
+
++ **Override** Will just set it to the value
++ **Add** Will add the value onto of the spawnables value
++ **Subtract** Will subtract the value of the spawnables value
++ **Toggle** Used for toggles, bool's, to toggle between two states (true -> false, false -> true)
+
+#### Play Audio
+Used to play an audio source.
+
+**AudioSource**
+The audio-source to be played.
+
+#### Stop Audio
+Will stop an audio source's playback.
+
+**AudioSource**
+The audio-source to be stopped.
+
+#### Set Property By Value
+Allows to set a property of a component to a value from a [CVR Variable Buffer](variable-buffer.md)
+
+**Variable Buffer**
+[CVR Variable Buffer](variable-buffer.md) used to pull the value from.
+
+**Target**
+A game object containing your target component.
+
+**Component**
+Shows all components on the game object you selected.
+Select the component with whose value you want to modify.
+
+**Property**
+Shows all public property's of the selected component.
+Select the property you want to modify.

@@ -32,3 +32,6 @@ X, Y and Z offset rotation relative to the attached bone or tracker.
 
 ##### Max Attachment Distance
 The maximum distance from a bone or tracker, in which it still can be attached.
+
+### Examples
+You can find examples [here](../examples/attachment.md).

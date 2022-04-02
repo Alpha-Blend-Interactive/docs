@@ -7,4 +7,5 @@ nav:
     - World: world
     - Spawnable: spawnable
     - Components: components
+    - Examples: examples
     - FAQ: faq.md
