@@ -11,8 +11,7 @@ Will play the **Play On Awake Object** on start if no other video is playing. If
 first video of the first playlist will be used instead.
 
 ##### Use Interactive Library UI
-Enabling this will enable our default video player ui. In order for this to work **UI Position/Parent** needs to be set.  
-More information about the default ui and how to use it here: [VideoPlayer-UI](../../../ChilloutVR/).
+Enabling this will enable our default video player ui. In order for this to work **UI Position/Parent** needs to be set.
 
 ##### UI Position/Parent
 The parent of the video player ui. You can also move this object around in your scene, as the ui will be child object.  
@@ -82,14 +81,12 @@ A list of audio speakers used by the **Room Scale Audio Mode**.
 You can define as many speakers as you want, but must assign them to a role/type.
 
 
-
 ## Playlists
 
 ##### Play On Awake Object
 Can be set by clicking **Set as Play On Awake Object** on a specific video.  
 Used to play this video on start or awake if no other video is playing and **Play on Startup** is enabled.
 Can be removed by clicking the **Remove Play On Awake Object** button bellow.
-
 
 
 ## Events
