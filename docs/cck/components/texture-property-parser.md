@@ -19,7 +19,13 @@ You can define multiple tasks here. A Task describes how to parse a value and wh
 One Task consists of the following properties:
 
 ##### X/Y Position
-Defines the X/Y coordinates. This is measured/to be configured per pixel, **0, 0** would be the first pixel.
+Defines the X/Y coordinates.
+This is measured/to be configured per pixel, **x 0, y 0** would be the first pixel.
+
+!!! tip "Texture Coordinates in Unity"
+    Texture coordinates start from left bottom to top right.
+    This means, **x 0, y 0** would be the pixel in the very bottom left corner.
+        
 
 ##### Color Channel
 Defines the color channel, whose value will be used.
@@ -38,4 +44,4 @@ A list of all the components present on the target game object. Select your targ
 List of all the public property's available on the component. Select your target property here.
 
 !!! tip "Animator Driver"
-        You can also write values from the Texture Property Parser into an animator parameter using the [CVR Animator Driver](animator-driver.md)
+    You can also write values from the Texture Property Parser into an animator parameter using the [CVR Animator Driver](animator-driver.md)

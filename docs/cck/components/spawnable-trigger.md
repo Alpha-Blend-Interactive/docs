@@ -1,4 +1,4 @@
 # CVR Spawnable Trigger
 
 !!! warning
-Not yet documented.
+    Not yet documented.
