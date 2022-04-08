@@ -1,5 +1,5 @@
 # CVR Global Material Property Updater
-Updates a materials' property for globally. This means it will change the value for every e.g. mesh or component that
+Updates a material property globally. This means it will change the value for every e.g. mesh or component that
 uses this material.
 
 ### Properties
@@ -8,7 +8,7 @@ uses this material.
 The [Material](https://docs.unity3d.com/ScriptReference/Material.html) to be modified.
 
 ##### Property Type
-The data type of the property. Changing this, will provide different value fields or the type.
+Defines the data type. This will render in different fields being displayed in the inspector.
 
 ##### Property Name
 The variable/property name in the shader.
