@@ -9,7 +9,7 @@ The trigger area will move together with its parented armature bone or game obje
 X/Y/Z Size of your area.
 
 ##### Area Offset
-X/Y/Z Offset from the GameObject center location.
+X/Y/Z Offset from the game object center location.
 
 ##### Setting Name
 Parameter name of the setting to be modified.
