@@ -52,11 +52,23 @@ plugins:
   - awesome-pages
   - extra-sass
   - i18n:
-      default_language: en
-      default_language_only: true
+      docs_structure: suffix
+      fallback_to_default: true
       languages:
-        de: Deutsch
-        ja: 日本語
+        - build: true
+          default: true
+          locale: en
+          name: English
+        - build: false
+          default: false
+          locale: de
+          name: Deutsch
+        - build: false
+          default: false
+          locale: ja
+          name: 日本語
+      reconfigure_material: true
+      reconfigure_search: true
   - search
   - markdownextradata:
       data: ./_variables
