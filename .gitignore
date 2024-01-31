@@ -1,2 +1,4 @@
 .idea
 site/
+.pre-commit-config.yaml
+.selid-hooks/
