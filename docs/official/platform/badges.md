@@ -30,7 +30,7 @@ Participated in the beta tests of at least one of our games.
 500XP
 
 ##### CCK alpha tester
-Participated in the closed alpha testing of the content creation kit.  
+Participated in the closed alpha testing of the Content Creation Kit (CCK).
 500XP
 
 
