@@ -30,7 +30,7 @@ Participated in the beta tests of at least one of our games.
 500XP
 
 ##### CCK alpha tester
-Paricipated in the closed alpha testing of the content creation kit.  
+Participated in the closed alpha testing of the Content Creation Kit (CCK).
 500XP
 
 
@@ -70,11 +70,11 @@ Active community member who is helping new players and answering their questions
 2,000XP
 
 ##### Penetration tester
-Helped finding a serious security breach. Security is the most important right?  
+Helped to find a serious security breach. Security is the most important right?  
 1,000XP
 
 ##### Community event host
-Helps hosting community events or hosts events in accordance to community event rules.  
+Helps to host community events or hosts events in accordance to community event rules.  
 1,000XP
 
 ##### Financial supporter
@@ -82,7 +82,7 @@ Contributed by pledging to our Patreon and thus helping keeping the project up.
 1,000XP
 
 ##### Social worker
-Continiously supported and helped community members with their problems and issues.  
+Continuously supported and helped community members with their problems and issues.  
 1,000XP
 
 ##### Community caretaker
@@ -90,5 +90,5 @@ Community member who submitted feedback and bug reports multiple times.
 500XP
 
 ##### Community respondent
-Community member who actively responded to community feedback on our hellonext.  
+Community member who actively responded to community feedback on our feedback forum.  
 500XP
