@@ -3,3 +3,4 @@ site/
 .pre-commit-config.yaml
 .selid-hooks/
 .check-identity
+.obsidian
