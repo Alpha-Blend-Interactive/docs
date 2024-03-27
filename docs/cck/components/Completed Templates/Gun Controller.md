@@ -9,25 +9,35 @@ Controller for guns (Clarify, obviously -PY)
 # Functionality:
 
 __Reference ID__
+
 __Particle System__
 - Particle system selector field
+  
 __Shoot Sounds__
 - Reorderable list (Audio clip)
+  
 __Reload Sounds__
 - Reorderable list (Audio clip)
+  
 __Empty Shoot Sounds__
 - Reorderable list (Audio clip)
+  
 __Magazine Size__
+
 __Ammo Capacity__
+
 __Firing Mode (Dropdown)__
 - Single
 - Half Auto
 - Full Auto
 __Firing Rate__
+
 __Reload Time__
+
 __Hit Detection (Dropdown)__
 - Particle
 - Raycast
+  
 __Hit Mask (dropdown)__
 - Nothing
 - Everything
