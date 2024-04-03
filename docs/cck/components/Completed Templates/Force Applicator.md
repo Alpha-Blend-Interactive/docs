@@ -10,6 +10,7 @@ Applies a force to a rigidbody in a creator-defined vector when active
 
 __Target__
 - Rigidbody selector
+
 __Force Vector__
 - X (Newtons)
 - Y (Newtons)
@@ -29,9 +30,11 @@ __Force Vector__
 	- Local Y plane portion of force in Newtons
 - Z
 	- Local Z plane portion of force in Newtons
+
 __Strength__
 - Multiplies all vector values at once
 - Animatable
+
 __Only When Submerged__
 - Even while active, only applies force while affected rigidbody is within a Fluid Volume
 
