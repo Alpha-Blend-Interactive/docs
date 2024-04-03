@@ -15,13 +15,17 @@ __Force Vector__
 - X (Newtons)
 - Y (Newtons)
 - Z (Newtons)
+
 __Strength__
 - Vector multiplier
+
 __Only When Submerged__ (bool)
 
 # Behaviors:
+
 __Target__
 - The intended rigidbody to apply force to
+
 __Force Vector__
 - All fields animatable
 - X
