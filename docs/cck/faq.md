@@ -8,13 +8,8 @@ You can find the most upto-date download link of our CCK here: [Setup Unity and 
 ChilloutVR is currently running on **Unity Version {{ chilloutvr.unity.nativeVersion }}**.  
 The CCK can be used with the following Unity Versions:
 
-+ **{{ chilloutvr.unity.nativeVersion }}** (native)
-
-### Where can I find Guides?
-Our community already created some good guides for content creation.
-You can find them on our [Forum](https://forums.abinteractive.net/t/chilloutvr-tutorials).
++ **{{ cck.unity.install.version }}** (native)
 
 ### Still have more Questions?
 Couldn't find what you were looking for?  
-Check out our [Forums](https://forums.abinteractive.net/t/chilloutvr-content-creation) or join our
-[Discord]({{ abi.discord }}).
+Check out our [Discord]({{ abi.discord }})!

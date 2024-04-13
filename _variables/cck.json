@@ -1,45 +1,13 @@
 {
-  "cck23": {
-    "version": "v2.3 RELEASE",
-    "downloadUrl": "https://abi-static-web.abidata.io/ChilloutVR%20CCK%20v2.3%20RELEASE.unitypackage"
-  },
-  "cck30": {
-    "version": "v3.0 RELEASE",
-    "downloadUrl": "https://files.abidata.io/static_web/ChilloutVR%20CCK%20v3.0%20RELEASE.unitypackage"
-  },
-  "cck32": {
-    "version": "v3.2 RELEASE",
-    "downloadUrl": "https://files.abidata.io/static_web/ChilloutVR%20CCK%20v3.2%20RELEASE.unitypackage"
-  },
   "cck": {
-    "version": "v3.8 RELEASE",
-    "downloadUrl": "https://files.abidata.io/static_web/ChilloutVR%20CCK%20v3.8%20RELEASE.unitypackage"
+    "version": "v3.7 RELEASE",
+    "downloadUrl": "https://files.abidata.io/static_web/ChilloutVR%20CCK%20v3.7%20RELEASE.unitypackage"
   },
   "unity": {
-    "install29": {
-      "version": "2019.4.29f1",
-      "hub": "unityhub://2019.4.29f1/0eeae20b1d82",
-      "executable": "https://download.unity3d.com/download_unity/0eeae20b1d82/UnityDownloadAssistant-2019.4.29f1.exe"
-    },
-    "install13": {
-      "version": "2019.4.13f1",
-      "hub": "unityhub://2019.4.13f1/518737b1de84",
-      "executable": "https://download.unity3d.com/download_unity/518737b1de84/UnityDownloadAssistant-2019.4.13f1.exe"
-    },
-    "install28": {
-      "version": "2019.4.28f1",
-      "hub": "unityhub://2019.4.28f1/1381962e9d08",
-      "executable": "https://download.unity3d.com/download_unity/1381962e9d08/UnityDownloadAssistant-2019.4.28f1.exe"
-    },
-    "install31": {
-      "version": "2019.4.31f1",
-      "hub": "unityhub://2019.4.31f1/bd5abf232a62",
-      "executable": "https://download.unity3d.com/download_unity/bd5abf232a62/UnityDownloadAssistant-2019.4.31f1.exe"
-    },
     "install": {
       "version": "2021.3.23f1",
       "hub": "unityhub://2021.3.23f1/213b516bf396",
-      "executable": "https://download.unity3d.com/download_unity/213b516bf396/Windows64EditorInstaller/UnitySetup64-2021.3.23f1.exe"
+      "executable": "https://download.unity3d.com/download_unity/213b516bf396/UnityDownloadAssistant-2021.3.23f1.exe"
     }
   }
 }
