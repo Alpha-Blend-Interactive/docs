@@ -20,8 +20,11 @@ World and prop component for bone transforms for all players.
 # Behaviors:
 
 __Target material:__ 
+
 - selects material to feed data to shader for
+
 __Player *X* Positions:__
+
 - inputs to be fed to shader. provides positional data for that bone position for all players
 
 # Common Usecases
@@ -29,6 +32,7 @@ __Player *X* Positions:__
 water shaders- for getting ripple/splash effects
 snow shaders- snow displacement
 minimaps- 3D position data
+
 # Notes
 
 The W component of Root will contain the Avatar Viewpoint height.
