@@ -9,28 +9,42 @@ Object Health
 # Functionality:
 
 __Reference ID__
+
 __Health__
+
 - Health Base Amount
 - Health Max Amount
+
 __Health Regeneration__
+
 - Health Regeneration Delay
 - Health Regeneration Rate
 - Health Regeneration Cap
+
 __Armor__
+
 - Armor Base Amount
 - Armor Max Amount
+
 __Armor Regeneration__
+
 - Armor Regeneration Delay
 - Armor Regeneration Rate
 - Armor Regeneration cap
+
 __Shield__
+
 - Shield Base Amount
 - Shield Max Amount
+
 __Shield Regeneration__
+
 - Shield Regeneration Delay
 - Shield Regeneration Rate
 - Shield Regeneration Cap
+
 __Down Behavior__
+
 - Down Behavior
 	- Destroy
 	- Respawn After Time
@@ -41,9 +55,11 @@ __Down Behavior__
 - Respawn Time
 - Respawn Point
 - Connected Game Instance
+
 # Behaviors:
 
 __Regeneration Values:__
+
 - __Regeneration Delays__:
 	- Time in seconds before the value begins to regenerate. 0 makes recovery instantaneous.
 - __Regeneration Rates:__
@@ -55,6 +71,7 @@ __Core Values:__
 	- Number of points a value starts with
 - __Max Amount:__
 	- Maximum Number of points a value can have
+
 __Down Behavior:__
 - Dropdown:
 	- Destroy
@@ -70,26 +87,18 @@ __Down Behavior:__
 	- Respawn On Game End
 		- Respawns the object in the play area at the end of a match
 - __Respawn Time__
-- __Respawn Point__
-- __Connected Game Instance__
 
-((
-EXAMPLE:
-__Thing 1:__
-- adds 1+1 when activated
-- only activates when all GOs in __Reorderable list__ are active
-__Thing 2:__
-- subtracts 1-1 when activated
-- only activates when all GOs in __Reorderable list__ are inactive
-__Thing 3:__
-- intended to multiply 10^36 by 5 when activated
-- only active when user-defined GOs from __Reorderable list__ are active
-))
+	- Time (in seconds) between death and respawn
+  
+- __Respawn Point__
+  
+  	- Respawn point transform
+
+- __Connected Game Instance__
+  
+	- Game instance controller handling the Object health component
 
 # Common Usecases
 
-{Description of the intended use, and/or common supported uses}
-
 # Notes
-
-Entire component needs to be discussed -PY
+Currently missing events in template
