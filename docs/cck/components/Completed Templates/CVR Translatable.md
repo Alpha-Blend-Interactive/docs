@@ -55,17 +55,17 @@ __Translations__
 
 - Audio Clip
 	- Language
-		- available languages can be found [[Translatable Supported Languages |Here]]
+		- available languages can be found [Here](Translatable%20Supported%20Languages.md)
 	- Audio Clip
 		- Audio clip that plays a dubbing in the selected language
 - Text
 	- Language
-		- available languages can be found [[Translatable Supported Languages |Here]]
+		- available languages can be found [Here](Translatable%20Supported%20Languages.md)
 	- Text
 		- Text to be dynamically replaced in the selected Unity Text Component
 - Game Object
 	- Language
-		- available languages can be found [[Translatable Supported Languages |Here]]
+		- available languages can be found [Here](Translatable%20Supported%20Languages.md)
 	- Game Object
 		- talk to khodrin, pretty sure it's only for tooltips -PY
 
