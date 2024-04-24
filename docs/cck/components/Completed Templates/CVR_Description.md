@@ -11,14 +11,19 @@ A component to write down in-editor information. Useful for remembering how some
 
 **Description:**
 - A text field for typing up information. Note: this only appears in the unity editor, and will not be uploaded with the content it's attached to.
+
 **Documentation URL:**
 - A text field for adding links when the info is locked.
+
 **Icon Type:**
 - Selects an icon to use once the info has been locked. Selectable icons are; None, Info, Warning, Error.
+
 **Lock Info:**
 - A button that when pressed, prevents further editing of the Description, Documentation URL, and Icon Type. This also will make the Icon Type visible next to the Description text field. It will also add a button labeled "Read more about this topic"
+
 **Read More About This Topic:**
 - A button that only appears once the Lock Info button has been pressed. When pressed it will open your primary web browser to the URL in the Documentation URL text field from earlier.
+
 # Behaviors:
 
 **Lock Info:**
