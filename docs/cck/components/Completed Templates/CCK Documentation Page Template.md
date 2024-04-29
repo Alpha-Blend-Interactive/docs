@@ -2,19 +2,6 @@
 
 This is an example description of an imaginary component. Lorem Ipsum dolor sit amet, connsectetur adipisici tempor incidunt ut labore et dolore magna aliqua veniam, quis nonstrund exercitation ullamcorpor s commodo consequat.
 
-### Table of Contents
-
-- [[#This]]
-	- [[#these]]
-- [[#Is]]
-	- [[#are]]
-- [[#An]]
-	- [[#major]]
-- [[#Example]]
-	- [[#subpoints]]
-		- [[#subsection]]
-- [[#Footnotes]]
-
 ## This
 
 This is the first part of the first title. this will also include an image for reference. ![youdunit|300](https://i.etsystatic.com/38371646/r/il/9d426c/5007343515/il_570xN.5007343515_9es7.jpg)
