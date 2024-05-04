@@ -1,11 +1,18 @@
-FROM squidfunk/mkdocs-material:latest
+FROM python AS build
 
-COPY . .
+WORKDIR /docs
 
-RUN apk update
-RUN apk add gcc && apk add libc-dev && apk add g++ 
+RUN apt update && apt install -y libgl1-mesa-dev
+
+COPY poetry.lock pyproject.toml /docs/
 
 # Install the plugins
 RUN pip install -U poetry
 RUN poetry install --no-root
 
+COPY . .
+
+RUN poetry run mkdocs build
+
+FROM scratch AS export
+COPY --from=build /docs/site .
