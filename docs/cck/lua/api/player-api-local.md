@@ -1,7 +1,5 @@
 # LocalPlayerApi
 
-## **Properties**
-
 ### Status
 - IsAuthenticated
   - `Indicates if the player is authenticated.`
@@ -13,8 +11,6 @@
   - `Indicates if the player is flying with no clip mode enabled.`
 - IsFlightAllowed
   - `Indicates if flying is allowed in the current world.`
-
-## **Methods**
 
 ### Movement Control
 - Respawn()
@@ -45,8 +41,6 @@
   - `Switches the player's avatar. AvatarSwitch Cooldown applies (3s).`
 
 ## Inherited from [Player API Instance](./player-api-base.md)
-
-## **Properties**
 
 ### Identity
 - IsLocal
@@ -79,8 +73,6 @@
 - Core.Swimming
 - Core.VisemeIdx
 - Core.VisemeLoudness
-
-## **Methods**
 
 ### Position and Orientation
 - GetPosition()

@@ -1,7 +1,5 @@
 # InstancesAPI
 
-## **Properties**
-
 ### Status
 - Ping
   - `Ping to Game Server.`

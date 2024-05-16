@@ -5,8 +5,6 @@ The PlayerApiBase as the name indicates it's the base for all the player instanc
 - [LocalPlayerApi](player-api-remote.md)
 - [RemotePlayerApi](player-api-remote.md)
 
-## **Properties**
-
 ### Identity
 - IsLocal
   - `Indicates if this is the local player. Always true for LocalPlayerApi.`
@@ -38,8 +36,6 @@ The PlayerApiBase as the name indicates it's the base for all the player instanc
 - Core.Swimming
 - Core.VisemeIdx
 - Core.VisemeLoudness
-
-## **Methods**
 
 ### Position and Orientation
 - GetPosition()

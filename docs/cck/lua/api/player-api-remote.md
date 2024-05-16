@@ -1,7 +1,5 @@
 # RemotePlayerApi
 
-## **Properties**
-
 ### Nameplate
 - NameplatePosition
   - `Position of the remote player's nameplate in the world.`
@@ -10,8 +8,6 @@
 
 
 ## Inherited from [Player API Instance](./player-api-base.md)
-
-## **Properties**
 
 ### Identity
 - IsLocal
@@ -44,8 +40,6 @@
 - Core.Swimming
 - Core.VisemeIdx
 - Core.VisemeLoudness
-
-## **Methods**
 
 ### Position and Orientation
 - GetPosition()

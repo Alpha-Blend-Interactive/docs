@@ -4,8 +4,6 @@ The AvatarAPI instance can be accessed via a player
 instance ([Base](./player-api-base.md)/[Local](./player-api-local.md)/[Remote](./player-api-remote.md)). They have a
 property named `Avatar`.
 
-## **Properties**
-
 - AvatarID
   - `Unique identifier for the avatar. Retrieves the avatar's asset object ID.`
 - IsLoaded
@@ -14,8 +12,6 @@ property named `Avatar`.
   - `Returns the height of the avatar.`
 - IsHuman
   - `Checks if the animator's avatar is humanoid.`
-
-## **Methods**
 
 ## Bones
 - HasBone(HumanBodyBones humanBone)

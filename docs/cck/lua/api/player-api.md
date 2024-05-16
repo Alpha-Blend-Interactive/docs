@@ -1,7 +1,5 @@
 # PlayerAPI
 
-## **Properties**
-
 - LocalPlayer (This returns a [LocalPlayerApi](player-api-local.md) instance)
   - `Access to Teleport, AddForce, etc.`
 
