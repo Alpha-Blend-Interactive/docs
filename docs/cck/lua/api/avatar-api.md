@@ -8,14 +8,16 @@ property named `Avatar`.
 
 - AvatarID
   - `Unique identifier for the avatar. Retrieves the avatar's asset object ID.`
+- IsLoaded
+  - `Returns whether the avatar is loaded or not.`
 - Height
   - `Returns the height of the avatar.`
+- IsHuman
+  - `Checks if the animator's avatar is humanoid.`
 
 ## **Methods**
 
-## Humanoid
-- IsHuman
-  - `Checks if the animator's avatar is humanoid.`
+## Bones
 - HasBone(HumanBodyBones humanBone)
   - `Checks if the specified human body bone is present in the avatar.`
 - GetBonePosition(HumanBodyBones humanBone)
