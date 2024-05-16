@@ -8,7 +8,7 @@ provide comprehensive information on various available APIs.
 - [Globals](globals.md)
 - [InstancesAPI](instances-api.md)
 - [PlayerAPI](player-api.md)
-  - [PlayerApiBase](player-api-base.md)
+  - [PlayerAPIBase](player-api-base.md)
   - [LocalPlayerAPI](player-api-local.md)
   - [RemotePlayerAPI](player-api-remote.md)
 - [AvatarAPI](avatar-api.md)

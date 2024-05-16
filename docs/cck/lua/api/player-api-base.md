@@ -1,21 +1,21 @@
-# PlayerApiBase
+# PlayerAPIBase
 
-The PlayerApiBase as the name indicates it's the base for all the player instances:
+The PlayerAPIBase as the name indicates it's the base for all the player instances:
 
-- [LocalPlayerApi](player-api-remote.md)
-- [RemotePlayerApi](player-api-remote.md)
+- [LocalPlayerAPI](player-api-remote.md)
+- [RemotePlayerAPI](player-api-remote.md)
 
 ### Identity
 - IsLocal
-  - `Indicates if this is the local player. Always true for LocalPlayerApi.`
+  - `Indicates if this is the local player. Always true for LocalPlayerAPI.`
 - IsRemote
-  - `Indicates if this is the remote player. Always true for RemotePlayerApi.`
+  - `Indicates if this is the remote player. Always true for RemotePlayerAPI.`
 - Username
   - `Username of the remote player.`
 - UserID
   - `Unique identifier for the remote player.`
-- Avatar (Returns AvatarApi)
-  - `Get the player's Avatar Api`
+- Avatar (Returns [AvatarAPI](avatar-api.md))
+  - `Get the player's Avatar API`
 
 ### Core Parameters
 - Core.MovementX

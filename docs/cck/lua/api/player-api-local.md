@@ -1,4 +1,4 @@
-# LocalPlayerApi
+# LocalPlayerAPI
 
 ### Status
 - IsAuthenticated
@@ -44,15 +44,15 @@
 
 ### Identity
 - IsLocal
-  - `Indicates if this is the local player. Always true for LocalPlayerApi.`
+  - `Indicates if this is the local player. Always true for LocalPlayerAPI.`
 - IsRemote
-  - `Indicates if this is the remote player. Always true for RemotePlayerApi.`
+  - `Indicates if this is the remote player. Always true for RemotePlayerAPI.`
 - Username
   - `Username of the remote player.`
 - UserID
   - `Unique identifier for the remote player.`
-- Avatar (Returns AvatarApi)
-  - `Get the player's Avatar Api`
+- Avatar (Returns AvatarAPI)
+  - `Get the player's Avatar API`
 
 ### Core Parameters
 - Core.MovementX

@@ -17,3 +17,4 @@
 
 - FindPlayerByUserId(string userId) (This returns an instance of [PlayerApiBase](player-api-base.md))
   - `Returns player entity by id (can find Local Player).`
+
