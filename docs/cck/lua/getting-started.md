@@ -3,6 +3,7 @@
 The following will help you set up your project to use VSCode as a Lua development environment.
 
 ## Installing Dependencies
+
 You will need to install the following, following the vendors' instructions for your individual operating system:
 
 1. A working [CCK Project](../setup.md) in Unity
@@ -10,6 +11,7 @@ You will need to install the following, following the vendors' instructions for 
     * [sumneko.lua](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) extension
 
 ## Configure the project
+
 This only needs to be done once.
 
 1. Close all VSCode windows to avoid weird bugs from editing things VSCode has open.
@@ -17,6 +19,5 @@ This only needs to be done once.
 
 Your project is now ready for VSCode! You will now get syntax highlighting and auto-complete in Lua files.
 
-## Notes
-
-* Remember to always open the folder in VSCode rather than individual `*.lua` files, otherwise autocomplete and linting will not work properly.
+!!! Note
+    Remember to always open the project folder (above Assets) in VSCode rather than individual `*.lua` files, otherwise LuaLS autocomplete and linting will not work properly.

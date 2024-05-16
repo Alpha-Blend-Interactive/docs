@@ -1,9 +1,9 @@
 # ChilloutVR Lua Scripting
 
-ChilloutVR uses a [slightly-modified version](https://moonsharp.org) of [Lua](https://www.lua.org/) to allow you to create dynamic, scripted behaviours.
+ChilloutVR uses a [slightly-modified version](https://moonsharp.org) of [Lua](https://lua.org/about.html) to allow you to create dynamic, scripted behaviours for in-game avatars, props, and worlds.
 
 !!! Note
-Keep in mind that it is spelled *Lua*, which is the Portugese word for *Moon*.  Lua is not an acronym, but a proper noun.
+    Keep in mind that the name of the language is spelled *Lua*, which is the Portugese word for *Moon*.  Lua is not an acronym, but a proper noun.
 
 ## About Lua
 
