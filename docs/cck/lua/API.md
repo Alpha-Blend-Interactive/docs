@@ -1,396 +1,273 @@
-Currently copied Verbatim from DMs with NotAKid
-
-**Some LUA Globals & Wrapped Classes**
-
-```-- Modules:
-System = require "System"
-UnityEngine = require "UnityEngine"
-CVR = require "CVR"
-CCK = require "CVR.CCK"
-Network = require "CVR.Network"
-RCC = require "RCC"
-
--- Context: All
-runningOnServer = True when running on server. False when not runningOnClient = True when running on client. False when not runningInAvatar = True when the script is running on an avatar. False when not
-runningInProp = True when the script is running on a prop. False when not
-runningInWorld = True when the script is running in a world. False when not
-
--- CVRWorldAPI
--- Context: All
-world = {
-	GetAllPlayers = Returns list of all network players wrapped as ScriptSafeCVRPlayer
-	GetAllProps = Returns list of all network props wrapped as ScriptSafeCVRProp
-	WorldID = Returns MetaPort.Instance.CurrentWorldId
-	InstanceID = Returns MetaPort.Instance.CurrentInstanceId
-	InstanceName = Returns MetaPort.Instance.CurrentInstanceName
-	InstancePrivacy = Returns MetaPort.Instance.CurrentInstancePrivacy
-	InstanceOwner = Returns MetaPort.Instance.ownerId
-	Ping = Returns MetaPort.Instance.currentPing
-}
-
---Context: Avatar
-isLocal = True when running on the local avatar. False when running on a remote avatar. Nil when not running on an avatar
-playerController = Access to BetterBetterCharacterController when running on the local avatar. Nil when running on a remote avatar
-
--- Context: Prop
-isMine = True when running on a prop you own (you are the spawner). False when running on a prop you do not own (you did not spawn it). Nil when not running on a prop
-
--- Context: World
-syncOwner = True when on the child of a CVRObjectSync component, with you being the active syncOwner. False when on the child of a CVRObjectSync component, with you not being the active syncOwner. Nil when not running in-world or child of CVRObjectSync
-
--- Access to all bound objects
--- Context: All
-boundObjects = This can be anything from audio clips, prefabs, GameObjects, MonoBehaviours, etc., as long as they inherit from UnityEngine.Object
-
--- Context: All
-gameObject = Access to the GameObject the active CVRLuaClientBehaviour script is on
-transform = Access to the Transform the active CVRLuaClientBehaviour script is on
-name = Object.Name of the CVRLuaClientBehaviour- should return the attached GameObject name by default
-hash = SHA512 hash of all the script text as a base64 string
-cast = Allows you to cast to different types? (not sure)
-
--- Safely Wrapped Classes --
-
--- Context: All
-ScriptSafeCVRPlayer = {
-	ID = Returns the player Uuid
-	Username = Returns player Username
-	StaffTag = Returns player ApiUserStaffTag (empty on users & devs, not tested on mods)
-	Rank = Returns player ApiUserRank ("User", "Developer", "Moderator", "Legend")
-
-	-- Context: World
-	position = {
-		get = Return players PlayerObject position
-		set = Set players PlayerObject position *???!*
-	},
-
-	-- Context: World
-	rotationEuler = Returns players rotation in Euler
-	-- Context: World
-	rotation = {
-		get = Return players rotation as Quaternion
-		set = Set players rotation from Quaternion *???!*
-	},
-	-- Context: World
-	IsBlockedByClient = Returns true if player is blocked by local player
-}
-
--- Context: All
-ScriptSafeCVRProp = {
-	InstanceId = Returns the uuid of the spawnable instance (believe this is `p+guid~randomshithere`
-	ObjectId = Returns the guid of the prop ?
-	Name = Returns the GameObject name of the CVRSpawnable component
-	SpawnedBy = Returns the uuid of user who spawned the spawnable
-	SyncedBy = Returns the uuid of user who is currently syncing the prop
-	CustomFloats = Returns a read-only collection of custom float values
-	
-	-- Context: World
-	position = Returns the world position of the spawnable
-	rotationEuler = Returns the world rotation of the spawnable in Euler angles
-	rotation = Returns the world rotation of the spawnable as a Quaternion
-}
-```
-
-```   
-public static class InstancesApi
-    {
-        #region Public Static Members
-        
-        public static Action OnConnected;
-        public static Action OnDisconnected;
-        public static Action OnConnectionLost;
-        public static Action OnConnectionRecovered;
-        
-        /// <summary>
-        /// Is the local player connected to the Game Server
-        /// </summary>
-        public static bool IsConnected
-            => NetworkManager.Instance != null
-               && NetworkManager.Instance.GameNetwork != null
-               && NetworkManager.Instance.GameNetwork.ConnectionState == ConnectionState.Connected;
-        
-        /// <summary>
-        /// Ping to Game Server
-        /// </summary>
-        public static int Ping => MetaPort.Instance.currentPing;
-        
-        /// <summary>
-        /// Is the current instance the local player's home world instance
-        /// </summary>
-        public static bool IsHomeInstance => MetaPort.Instance.IsHomeInstance;
-        
-        /// <summary>
-        /// Current instance id
-        /// </summary>
-        public static string InstanceID => MetaPort.Instance.CurrentInstanceId;
-
-        /// <summary>
-        /// Current instance name 
-        ///    (Display Name + ID)
-        /// </summary>
-        public static string InstanceName => MetaPort.Instance.CurrentInstanceName;
-
-        /// <summary>
-        /// Current instance privacy
-        /// (Public, FriendsOfFriends, Friends, Group, EveryoneCanInvite, OwnerMustInvite)
-        /// </summary>
-        public static string InstancePrivacy => MetaPort.Instance.CurrentInstancePrivacy;
-
-        // TODO: we need the Game Server to provide this information to clients
-        //public static string InstanceOwner => MetaPort.Instance.CurrentInstanceOwnerId;
-
-        // public static PlayerApi GetInstanceOwner()
-        //     => PlayerApi.FindPlayerByUserId(MetaPort.Instance.CurrentInstanceOwnerId);
-        
-        #region Static Members
-
-        [HideFromScripting]
-        internal static void Initialize()
-        {
-            CVRGameEventSystem.Instance.OnConnected.AddListener((_) => OnConnected?.Invoke());
-            CVRGameEventSystem.Instance.OnDisconnected.AddListener((_) => OnDisconnected?.Invoke());
-            CVRGameEventSystem.Instance.OnConnectionLost.AddListener((_) => OnConnectionLost?.Invoke());
-            CVRGameEventSystem.Instance.OnConnectionRecovered.AddListener((_) => OnConnectionRecovered?.Invoke());
-        }
-        
-        #endregion
-
-        #endregion
-    }
-```
+## Lua Script Globals
 
 ```
-public class RemotePlayerApi : PlayerApi
-    {
-        #region Overrided Properties
+## Modules
+- require
+  - `Adding modules to be available to Lua script.`
+  - Available Modules:
+    - `System`
+    - `UnityEngine`
+    - `UnityEngine.AI`
+    - `UnityEngine.UI`
+    - `CVR`
+    - `CVR.Network`
+    - `CVR.CCK`
+    - `TextMeshPro`
+    - `RCC`
+  - **Example:** `UnityEngine = require("UnityEngine")`
 
-        public override bool IsRemote => true;
+## Monobehaviour
+- name
+  - `Access to the attached gameobject name.`
+- gameObject
+  - `Access to the attached gameobject.`
+- transform
+  - `Access to the attached transform.`
 
-        public override string Username => _playerEntity.Username;
-        public override string UserId => _playerEntity.Uuid;
+## Luabehaviour
+- Hash
+  - `SHA512 hash of script text as Base64 string.`
 
-        public override Vector3 GetPosition => _puppetMaster.transform.position;
-        public override Quaternion GetRotation => _puppetMaster.transform.rotation;
-        public override Vector3 GetForward => _puppetMaster.transform.forward;
+- RunningOnServer
+  - `True when running on server.`
+- RunningOnClient
+  - `True when running on client.`
 
-        public override Vector3 GetViewPointPosition => _puppetMaster.GetViewWorldPosition();
-        public override Quaternion GetViewPointRotation => _puppetMaster.GetViewWorldRotation();
+- RunningInAvatar
+  - `True when running on an avatar.`
+- RunningInProp
+  - `True when running on a prop.`
+- RunningInWorld
+  - `True when running in a world.`
 
-        public override Vector3 GetVoicePointPosition => _puppetMaster.GetVoiceWorldPosition();
-        public override Quaternion GetVoicePointRotation => _puppetMaster.GetVoiceWorldRotation();
-        
-        public override Vector3 GetGravity => _puppetMaster.GetPlayerGravity();
-        public override Vector3 GetGravityDirection => _puppetMaster.GetPlayerGravityDirection();
+- IsLocal
+  - `Defined when running on an Avatar. True for the wearer. False for others.`
+- IsSpawnedByMe
+  - `Defined when running on a Prop. True for the spawner. False for others.`
 
-        #endregion
+- BoundObjects
+  - `Access to the Bound Objects assigned on the CVRLuaClientBehaviour script in editor.`
+  - **Example:** `local cube = BoundObjects.Cube` with "Cube" being the name assigned to that bound object in-editor.
 
-        #region Public Properties
-
-        /// <summary>
-        /// Gets the remote player nameplate position
-        /// </summary>
-        public Vector3 GetNameplatePosition => _puppetMaster.GetNamePlateWorldPosition();
-
-        /// <summary>
-        /// Whether the nameplate is active or not
-        /// </summary>
-        public bool IsNameplateActive => PlayerNameplate.ShouldDisplayNameplate();
-
-        #endregion
-
-        #region Internal Behavior
-
-        [HideFromScripting]
-        private readonly CVRPlayerEntity _playerEntity;
-
-        [HideFromScripting]
-        private readonly PuppetMaster _puppetMaster;
-
-        [HideFromScripting]
-        public RemotePlayerApi(CVRPlayerEntity playerEntity)
-        {
-            _playerEntity = playerEntity;
-            _puppetMaster = playerEntity.PuppetMaster;
-            AvatarAnimatorManager = playerEntity.PuppetMaster.animatorManager;
-        }
-
-        #endregion
-
-    }
+## API Access
+- PlayerAPI
+  - `Access to the PlayerAPI.`
+  - **Example:** `PlayerAPI.LocalPlayer.Respawn()`
+- InstancesAPI
+  - `Access to the InstancesAPI.`
+  - **Example:** `print(InstancesAPI.Ping)`
 ```
 
+## Lua API Reference
+
+### InstancesAPI (Global)
+
 ```
-public abstract class PlayerApi
-    {
+## **Properties**
 
-        #region Public Static Members
+### Status
+- Ping
+  - `Ping to Game Server.`
+- IsConnected
+  - `Is the local player connected to the Game Server.`
+- IsHomeInstance
+  - `Is the current instance the local player's home world instance.`
 
-        /// <summary>
-        /// Called when a remote Player joins the instance
-        /// </summary>
-        public static Action<RemotePlayerApi> OnPlayerJoined;
+### Instance Info
+- InstanceID
+  - `Current instance id.`
+- InstanceName
+  - `Current instance name (Display Name + ID).`
+- InstancePrivacy
+  - `Current instance privacy (Public, FriendsOfFriends, Friends, Group, EveryoneCanInvite, OwnerMustInvite).`
+```
 
-        /// <summary>
-        /// Call when a remote Player leaves the instance
-        /// </summary>
-        public static Action<RemotePlayerApi> OnPlayerLeft;
+### PlayerAPI (Global)
 
-        public static LocalPlayerApi LocalPlayer => _localPlayer;
-        public static ReadOnlyCollection<PlayerApi> AllPlayers => AllPlayersInternal.AsReadOnly();
-        public static ReadOnlyCollection<RemotePlayerApi> RemotePlayers => RemotePlayersInternal.AsReadOnly();
-        public static int PlayerCount => AllPlayersInternal.Count;
-        
-        public static PlayerApi FindPlayerByUsername(string username)
-        {
-            foreach (PlayerApi player in AllPlayersInternal)
-                if (player.Username == username) return player;
-            return null;
-        }
-        
-        public static PlayerApi FindPlayerByUserId(string userId)
-        {
-            foreach (PlayerApi player in AllPlayersInternal)
-                if (player.UserId == userId) return player;
-            return null;
-        }
+```
+## **Properties**
 
-        #endregion
+- LocalPlayer (This returns LocalPlayerApi)
+  - `Access to Teleport, AddForce, etc.`
 
-        #region Public Members
+- AllPlayers (This returns PlayerApiBase)
+  - `List of all Player entities (includes LocalPlayerApi).`
 
-        /// <summary>
-        /// Called when the avatar for this player Loads
-        /// </summary>
-        public Action<AvatarApi> OnAvatarLoaded;
+- RemotePlayers (This returns RemotePlayerApi)
+  - `List of all *Remote* Player entities (excludes LocalPlayerApi).`
 
-        /// <summary>
-        /// Call when the avatar for this player Clears
-        /// </summary>
-        public Action<AvatarApi> OnAvatarClear;
+- PlayerCount
+  - `Returns player count (includes local player).`
 
-        #region Public Properties
+- FindPlayerByUsername(string username) (This returns PlayerApiBase)
+  - `Returns player entity by username (can find Local player).`
 
-        /// <summary>
-        /// Whether this is the local player or not
-        /// </summary>
-        public virtual bool IsLocal => false;
+- FindPlayerByUserId(string userId) (This returns PlayerApiBase)
+  - `Returns player entity by id (can find Local Player).`
+```
 
-        /// <summary>
-        /// Whether this is a remote player or not
-        /// </summary>
-        public virtual bool IsRemote => false;
+**PlayerApiBase** (Base of LocalPlayerApi & RemotePlayerApi)
 
+```
+## **Properties**
 
-        /// <summary>
-        /// The Player's Username
-        /// </summary>
-        public abstract string Username { get; }
+### Identity
+- IsLocal
+  - `Indicates if this is the local player. Always true for LocalPlayerApi.`
+- IsRemote
+  - `Indicates if this is the remote player. Always true for RemotePlayerApi.`
+- Username
+  - `Username of the remote player.`
+- UserID
+  - `Unique identifier for the remote player.`
+- Avatar (Returns AvatarApi)
+  - `Get the player's Avatar Api`
 
-        /// <summary>
-        /// The Player's Unique ID
-        /// </summary>
-        public abstract string UserId { get; }
+### Position and Orientation
+- GetPosition()
+  - `Current position of the remote player in world space.`
+- GetRotation()
+  - `Current rotation of the remote player in world space.`
+- GetForward()
+  - `The forward direction vector of the remote player.`
 
+### View and Voice Points
+- GetViewPointPosition()
+  - `Position of the viewpoint in the world.`
+- GetViewPointRotation()
+  - `Rotation of the viewpoint in the world.`
+- GetVoicePointPosition()
+  - `Position of the voice point in the world.`
+- GetVoicePointRotation()
+  - `Rotation of the voice point in the world.`
 
-        /// <summary>
-        /// Get the player's Avatar Api
-        /// </summary>
-        public AvatarApi Avatar { get; private set; }
+### Gravity
+- GetGravity()
+  - `Current gravity vector affecting the remote player.`
+- GetGravityDirection()
+  - `Direction of the gravity affecting the remote player.`
 
+### Core Parameters
+- Core.MovementX
+- Core.MovementY
+- Core.GestureLeft
+- Core.GestureLeftIdx
+- Core.GestureRight
+- Core.GestureRightIdx
+- Core.Grounded
+- Core.Crouching
+- Core.Toggle
+- Core.Prone
+- Core.Emote
+- Core.Flying
+- Core.CancelEmote
+- Core.Sitting
+- Core.DistanceTo
+- Core.Swimming
+- Core.VisemeIdx
+- Core.VisemeLoudness
+```
 
-        #region Position & Rotations
+**LocalPlayerApi** (Inherits PlayerApiBase)
 
-        /// <summary>
-        /// Player position in world space
-        /// </summary>
-        public abstract Vector3 GetPosition { get; }
+```
+## **Properties**
 
-        /// <summary>
-        /// Player rotation in world space
-        /// </summary>
-        public abstract Quaternion GetRotation { get; }
+## Status
+- IsAuthenticated
+  - `Indicates if the player is authenticated.`
+- ImmersionDepth
+  - `How deeply the player is immersed in water, from 0 (not immersed) to 1 (fully immersed).`
+- IsImmobilized
+  - `Indicates if the player is immobilized.`
+- IsFlyingWithNoClip
+  - `Indicates if the player is flying with no clip mode enabled.`
+- IsFlightAllowed
+  - `Indicates if flying is allowed in the current world.`
 
-        /// <summary>
-        /// Normalized vector representing the forward (blue axis) of the Player in world space
-        /// </summary>
-        public abstract Vector3 GetForward { get; }
+## **Methods**
 
-        /// <summary>
-        /// Player's viewpoint position in world space
-        /// </summary>
-        public abstract Vector3 GetViewPointPosition { get; }
+### Movement Control
+- Respawn()
+  - `Respawns the player.
+- SetFlight(bool flightEnable, bool noClipEnabled)
+  - `Sets flight and no clip modes for the player.`
+- SetImmobilized(bool isImmobilized)
+  - `Sets the immobilization status of the player.`
+- AddForce(Vector3 force, ForceMode forceMode)
+  - `Applies a force to the player.`
+- LaunchCharacter(Vector3 launchVelocity, bool overrideVerticalVelocity, bool overrideLateralVelocity)
+  - `Launches the player with a specific velocity.`
+- ResetAllForces()
+  - `Resets all forces currently applied to the player.`
+- PauseGroundConstraint()
+  - `Temporarily disables ground constraints, allowing the player to freely move off the ground.`
 
-        /// <summary>
-        /// Player's viewpoint rotation in world space
-        /// </summary>
-        public abstract Quaternion GetViewPointRotation { get; }
+### Teleportation
+- TeleportPlayerTo(Vector3 targetPos, bool interpolate, bool updateGround, bool preserveVelocity, Quaternion? rotationDifference)
+  - `Teleports the player to a specified position with optional rotation difference.`
+- TeleportPlayerTo(Vector3 targetPos, Vector3 targetEulerRot, bool interpolate, bool updateGround, bool preserveVelocity)
+  - `Teleports the player to a specified position and rotation.`
+- TeleportPlayerTo(Transform targetTransform, bool interpolate, bool updateGround, bool preserveVelocity)
+  - `Teleports the player to a specified transform, orienting the player with it.`
 
-        /// <summary>
-        /// Player's voice point position in world space
-        /// </summary>
-        public abstract Vector3 GetVoicePointPosition { get; }
+### Avatar Management
+- SwitchAvatar(string avatarId)
+  - `Switches the player's avatar. AvatarSwitch Cooldown applies (3s).`
+```
 
-        /// <summary>
-        /// Player's voice point rotation in world space
-        /// </summary>
-        public abstract Quaternion GetVoicePointRotation { get; }
+**RemotePlayerApi** (Inherits PlayerApiBase)
 
-        #endregion
+```
+## **Properties**
+- NameplatePosition
+  - `Position of the remote player's nameplate in the world.`
+- IsNameplateActive
+  - `Indicates whether the nameplate is active or not.`
+```
 
-        #region Gravity
+**AvatarApi** (Get from PlayerApiBase.Avatar)
 
-        /// <summary>
-        /// Player's current gravity
-        /// </summary>
-        public abstract Vector3 GetGravity { get; }
-        
-        /// <summary>
-        /// Player's current gravity direction
-        /// </summary>
-        public abstract Vector3 GetGravityDirection { get; }
-        
-        #endregion
-        
-        // Todo:
-        // GetDeviceType
+```
+## **Properties**
 
-        #region Core Parameters
+- AvatarID
+  - `Unique identifier for the avatar. Retrieves the avatar's asset object ID.`
+- Height
+  - `Returns the height of the avatar.`
 
-        public float GetMovementX => AvatarAnimatorManager.MovementX;
+## **Methods**
 
-        public float GetMovementY => AvatarAnimatorManager.MovementY;
+## Humanoid
+- IsHuman
+  - `Checks if the animator's avatar is humanoid.`
 
-        public bool IsGrounded => AvatarAnimatorManager.Grounded;
+- HasBone(HumanBodyBones humanBone)
+  - `Checks if the specified human body bone is present in the avatar.`
 
-        public bool IsCrouching => AvatarAnimatorManager.Crouching;
+- GetBonePosition(HumanBodyBones humanBone)
+  - `Gets the world position (Vector3) of a specified bone. Returns nil if missing.`
+- GetBoneRotation(HumanBodyBones humanBone)
+  - `Gets the world rotation (Quaternion) of a specified bone. Returns nil if missing.`
 
-        public bool IsProne => AvatarAnimatorManager.Prone;
+- GetBonePositionAndRotation(HumanBodyBones humanBone)
+  - `Gets the world position and rotation (Tuple(Vector3, Quaternion)) of a specified bone. Returns nil if missing.`
 
-        public bool IsFlying => AvatarAnimatorManager.Flying;
+## Parameters
+- HasParameter(string parameterName)
+  - `Checks if the specified parameter exists in the avatar's animator.`
 
-        public bool IsSitting => AvatarAnimatorManager.Sitting;
+- GetParameterAsBool(string parameterName)
+  - `Retrieves a boolean parameter from the animator. Returns nil if the parameter does not exist.`
+- GetParameterAsInt(string parameterName)
+  - `Retrieves an integer parameter from the animator. Returns nil if the parameter does not exist.`
+- GetParameterAsFloat(string parameterName)
+  - `Retrieves a float parameter from the animator. Returns nil if the parameter does not exist.`
 
-        public bool IsSwimming => AvatarAnimatorManager.Swimming;
-
-        public float GetGestureRight => AvatarAnimatorManager.GestureRight;
-
-        public float GetGestureLeft => AvatarAnimatorManager.GestureLeft;
-
-        public int GetToggleId => AvatarAnimatorManager.Toggle;
-
-        public int GetEmoteId => AvatarAnimatorManager.Emote;
-
-        public bool IsCancelingEmote => AvatarAnimatorManager.CancelEmote;
-
-        public float GetDistanceTo => AvatarAnimatorManager.DistanceTo;
-
-        public int GetVisemeIdx => AvatarAnimatorManager.VisemeIdx;
-
-        public float GetVisemeLoudness => AvatarAnimatorManager.VisemeLoudness;
-
-        #endregion
-
-        #endregion
-
-        #endregion
+- SetParameter(string parameterName, bool parameterValue)
+  - `Sets a boolean parameter in the animator.`
+- SetParameter(string parameterName, int parameterValue)
+  - `Sets an integer parameter in the animator.`
+- SetParameter(string parameterName, float parameterValue)
+  - `Sets a float parameter in the animator.`
 ```
