@@ -7,7 +7,7 @@ ChilloutVR uses a [slightly-modified version](https://moonsharp.org) of [Lua](ht
 
 ## About Lua
 
-Lua is one of the oldest, but most used purpose-made embedded scripting languages on the planet, and is used in many games and applications.  
+Lua is one of the oldest, but most-used purpose-made embedded scripting languages on the planet, and is used in many games and applications.  
 
 While the syntax appears archaic, and lacks features that newer languages have, its simplicity gift it speed and efficiency unmatched by its competitors.
 
@@ -21,8 +21,12 @@ We hope you enjoy creating with it!
 * [Your First Script](./hello-world.md)
 * [API Reference](./api/index.md)
 
-<!-- ## Recipes
+## Examples
+
+* [Funny Cube](examples/funny-cube.md)
+
+## Recipes
 
 * [Getting Users in an Instance](./recipes/getting-users.md)
-* [Getting Props in an Instance](./recipes/getting-props.md)
-* [Hooking Into CVR Events](./recipes/game-events.md) -->
+<!-- * [Getting Props in an Instance](./recipes/getting-props.md) -->
+<!-- * [Hooking Into CVR Events](./recipes/game-events.md) -->
