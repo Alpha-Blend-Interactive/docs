@@ -1,5 +1,6 @@
 ﻿title: API Reference
 nav:
+    - index.md
     - globals.md
     - instances-api.md
     - player-api.md
