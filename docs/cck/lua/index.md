@@ -19,6 +19,7 @@ We hope you enjoy creating with it!
 
 * [Getting Started](./getting-started.md)
 * [Your First Script](./hello-world.md)
+* [API Reference](./api/index.md)
 
 <!-- ## Recipes
 
