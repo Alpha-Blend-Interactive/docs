@@ -1,9 +1,7 @@
 ﻿title: API Reference
 nav:
     - globals.md
+    - callbacks.md
     - instances-api.md
     - player-api.md
-    - player-api-base.md
-    - player-api-local.md
-    - player-api-remote.md
     - avatar-api.md
