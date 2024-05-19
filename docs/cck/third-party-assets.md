@@ -69,6 +69,11 @@ crisp and vivid scenes.
 
 supported for: worlds
 
+## [Realistic Car Controller](https://assetstore.unity.com/packages/tools/physics/realistic-car-controller-16296)
+Creating your own realistic vehicle has never been so easy. Fully functional vehicle creation just takes about 5 minutes only! One click to setup, switch controllers, switch behaviors, customizations.
+
+supported for: worlds, spawnables
+
 ## [Modern Procedural UI Kit](https://assetstore.unity.com/packages/tools/gui/modern-procedural-ui-kit-163041)
 Modern Procedural UI Kit offers unlimited possibilities for building UI without any sprite assets but customizable shapes
 and gradients.
