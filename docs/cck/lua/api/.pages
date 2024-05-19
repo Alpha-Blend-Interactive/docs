@@ -1,0 +1,10 @@
+﻿title: API Reference
+nav:
+    - index.md
+    - globals.md
+    - instances-api.md
+    - player-api.md
+    - player-api-base.md
+    - player-api-local.md
+    - player-api-remote.md
+    - avatar-api.md
