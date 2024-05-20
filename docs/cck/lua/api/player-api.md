@@ -3,18 +3,19 @@
 Accessible via the `PlayerAPI` [Global](globals.md). This API provides access to all players in the world, including the local player.
 
 ## Static Functions
-| Name                                                                                  | Description                        |
-|---------------------------------------------------------------------------------------|------------------------------------|
-| `FindPlayerByUsername(string username)` <br>(Returns [PlayerAPIBase](#PlayerAPIBase)) | Returns player entity by username. |
-| `FindPlayerByUserId(string userId)` <br>(Returns [PlayerAPIBase](#PlayerAPIBase)) | Returns player entity by user id.  |
+| Name                                                                                  | Description                                                    |
+|---------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| `FindPlayerByUsername(string username)` <br>(Returns [PlayerAPIBase](#PlayerAPIBase)) | Returns player entity by username.                             |
+| `FindPlayerByUserId(string userId)` <br>(Returns [PlayerAPIBase](#PlayerAPIBase))     | Returns player entity by user id.                              |
+| `IsFriendsWith(string userId)` <br>(Returns `bool`)                                   | Returns whether we're friends with the userId provided or not. |
 
 ## Static Properties
-| Name                                                                        | Description                                                    |
-|-----------------------------------------------------------------------------|----------------------------------------------------------------|
-| `LocalPlayer` <br>(Returns [LocalPlayerAPI](#LocalPlayerAPI))               | Access to Teleport, AddForce, etc.                             |
-| `AllPlayers` <br>(Returns [PlayerAPIBase](#PlayerAPIBase))                  | List of all Player entities (includes LocalPlayerAPI).         |
+| Name                                                                        | Description                                                     |
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------|
+| `LocalPlayer` <br>(Returns [LocalPlayerAPI](#LocalPlayerAPI))               | Access to Teleport, AddForce, etc.                              |
+| `AllPlayers` <br>(Returns [PlayerAPIBase](#PlayerAPIBase))                  | List of all Player entities (includes LocalPlayerAPI).          |
 | `RemotePlayers` <br>(Returns a list of [RemotePlayerAPI](#RemotePlayerAPI)) | List of all *Remote* Player entities (excludes LocalPlayerAPI). |
-| `PlayerCount`                                                               | Total connected player count. This includes the local player.  |
+| `PlayerCount`                                                               | Total connected player count. This includes the local player.   |
 
 ## PlayerAPIBase
 
@@ -33,26 +34,26 @@ Functions and properties accessible from both local and remote player objects.
 
 These parameters are set by ChilloutVR to drive the player's avatar animations. They may not be representative of the actual player's input in some situations.
 
-| Name                   | Description                                                                                                          |
-|------------------------|----------------------------------------------------------------------------------------------------------------------|
-| `Core.MovementX`       | Horizontal movement input value.<br/>Ranges from -1.0 to 1.0.                                                        |
-| `Core.MovementY`       | Vertical movement input value.<br/>Ranges from -1.0 to 1.0.                                                          |
-| `Core.GestureLeft`*    | Current gesture state of the left hand.<br/>Ranges from -1.0 to 6.0 with 0.0 to 1.0 as fist weight.                  |
-| `Core.GestureLeftIdx`* | Current gesture without the analog fist weight.                                                                      |
-| `Core.GestureRight`*   | Current gesture state of the right hand.<br/>Ranges from -1.0 to 6.0 with 0.0 to 1.0 as fist weight.                 |
-| `Core.GestureRightIdx`* | Current gesture without the analog fist weight.                                                                      |
-| `Core.Crouching`       | Indicates if the player is crouching.                                                                                |
-| `Core.Prone`           | Indicates if the player is prone.                                                                                    |
-| `Core.Flying`          | Indicates if the player is flying.                                                                                   |
-| `Core.Sitting`         | Indicates if the player is sitting.                                                                                  |
-| `Core.Swimming`        | Indicates if the player is swimming.                                                                                 |
-| `Core.Grounded`        | Indicates if the player is on the ground.                                                                            |
-| `Core.Toggle`          | Currently selected toggle state.<br/>Ranges from 0 to 8.                                                             |
-| `Core.Emote`           | Target emote for the player to play.<br/>Ranges from 0 to 8 and returns to 0 within 0.1s of being set.               |
-| `Core.CancelEmote`     | Trigger to cancel the current emote.<br/>True when in a state where an emote should not play.                        |
-| `Core.VisemeIdx`**     | Index value representing the current viseme.<br/>Ranges from 0 to 14.                                                |
-| `Core.VisemeLoudness`  | Loudness level for the current viseme.<br/>Ranges from 0.0 to 1.0.                                                   |
-| `Core.DistanceTo`      | Distance to the local player in meters.<br/>Always 0.0 for the local player. Defaults to -1.0 until first update. |
+| Name                    | Description                                                                                                       |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------|
+| `Core.MovementX`        | Horizontal movement input value.<br/>Ranges from -1.0 to 1.0.                                                     |
+| `Core.MovementY`        | Vertical movement input value.<br/>Ranges from -1.0 to 1.0.                                                       |
+| `Core.GestureLeft`*     | Current gesture state of the left hand.<br/>Ranges from -1.0 to 6.0 with 0.0 to 1.0 as fist weight.               |
+| `Core.GestureLeftIdx`*  | Current gesture without the analog fist weight.                                                                   |
+| `Core.GestureRight`*    | Current gesture state of the right hand.<br/>Ranges from -1.0 to 6.0 with 0.0 to 1.0 as fist weight.              |
+| `Core.GestureRightIdx`* | Current gesture without the analog fist weight.                                                                   |
+| `Core.Crouching`        | Indicates if the player is crouching.                                                                             |
+| `Core.Prone`            | Indicates if the player is prone.                                                                                 |
+| `Core.Flying`           | Indicates if the player is flying.                                                                                |
+| `Core.Sitting`          | Indicates if the player is sitting.                                                                               |
+| `Core.Swimming`         | Indicates if the player is swimming.                                                                              |
+| `Core.Grounded`         | Indicates if the player is on the ground.                                                                         |
+| `Core.Toggle`           | Currently selected toggle state.<br/>Ranges from 0 to 8.                                                          |
+| `Core.Emote`            | Target emote for the player to play.<br/>Ranges from 0 to 8 and returns to 0 within 0.1s of being set.            |
+| `Core.CancelEmote`      | Trigger to cancel the current emote.<br/>True when in a state where an emote should not play.                     |
+| `Core.VisemeIdx`**      | Index value representing the current viseme.<br/>Ranges from 0 to 14.                                             |
+| `Core.VisemeLoudness`   | Loudness level for the current viseme.<br/>Ranges from 0.0 to 1.0.                                                |
+| `Core.DistanceTo`       | Distance to the local player in meters.<br/>Always 0.0 for the local player. Defaults to -1.0 until first update. |
 
 #### Gesture Values *
 
@@ -89,27 +90,27 @@ The viseme index values are mapped as follows:
 
 ### Position and Orientation
 
-| Name             | Description                                        |
-|------------------|----------------------------------------------------|
+| Name             | Description                                    |
+|------------------|------------------------------------------------|
 | `GetPosition()`  | Current position of the player in world space. |
 | `GetRotation()`  | Current rotation of the player in world space. |
-| `GetForward()`   | The forward direction vector of the player.  |
+| `GetForward()`   | The forward direction vector of the player.    |
 
 ### View and Voice Points
 
-| Name                     | Description                                   |
-|--------------------------|-----------------------------------------------|
-| `GetViewPointPosition()` | Position of the viewpoint in the world.       |
-| `GetViewPointRotation()` | Rotation of the viewpoint in the world.       |
-| `GetVoicePointPosition()`| Position of the voice point in the world.     |
-| `GetVoicePointRotation()`| Rotation of the voice point in the world.     |
+| Name                      | Description                               |
+|---------------------------|-------------------------------------------|
+| `GetViewPointPosition()`  | Position of the viewpoint in the world.   |
+| `GetViewPointRotation()`  | Rotation of the viewpoint in the world.   |
+| `GetVoicePointPosition()` | Position of the voice point in the world. |
+| `GetVoicePointRotation()` | Rotation of the voice point in the world. |
 
 ### Gravity
 
-| Name                     | Description                                     |
-|--------------------------|-------------------------------------------------|
-| `GetGravity()`           | Current gravity vector affecting the player.|
-| `GetGravityDirection()`  | Direction of the gravity affecting the player. |
+| Name                    | Description                                    |
+|-------------------------|------------------------------------------------|
+| `GetGravity()`          | Current gravity vector affecting the player.   |
+| `GetGravityDirection()` | Direction of the gravity affecting the player. |
 
 ## RemotePlayerAPI
 
@@ -128,39 +129,48 @@ Functions and properties specific to the local player.
 
 ### Properties
 
-| Name                   | Description                                                                                          |
-|------------------------|------------------------------------------------------------------------------------------------------|
-| `IsAuthenticated`      | Indicates if the player is authenticated.                                                            |
-| `ImmersionDepth`       | How deeply the player is immersed in water. <br> Ranges from 0 (not immersed) to 1 (fully immersed). |
-| `IsImmobilized`        | Indicates if the player is immobilized.                                                              |
-| `IsFlyingWithNoClip`   | Indicates if the player is flying with no clip mode enabled.                                         |
-| `IsFlightAllowed`      | Indicates if flying is allowed in the current world.                                                 |
+| Name                 | Description                                                                                          |
+|----------------------|------------------------------------------------------------------------------------------------------|
+| `IsAuthenticated`    | Indicates if the player is authenticated.                                                            |
+| `ImmersionDepth`     | How deeply the player is immersed in water. <br> Ranges from 0 (not immersed) to 1 (fully immersed). |
+| `IsImmobilized`      | Indicates if the player is immobilized.                                                              |
+| `IsFlying`           | Indicates if the player is flying or not.                                                            |
+| `IsFlyingWithNoClip` | Indicates if the player is flying with no clip mode enabled.                                         |
+| `IsFlightAllowed`    | Indicates if flying is allowed in the current world.                                                 |
 
 ### Movement
 
-| Name                                                  | Description                                                |
-|-------------------------------------------------------|------------------------------------------------------------|
-| `Respawn()`                                           | Respawns the player.                                       |
-| `SetFlight(bool flightEnable, bool noClipEnabled)`    | Sets flight and no clip modes for the player.              |
-| `SetImmobilized(bool isImmobilized)`                  | Sets the immobilization status of the player.              |
-| `AddForce(Vector3 force, ForceMode forceMode)`        | Applies a force to the player.                             |
-| `LaunchCharacter(Vector3 launchVelocity, bool overrideVerticalVelocity, bool overrideLateralVelocity)` | Launches the player with a specific velocity.  |
-| `ResetAllForces()`                                    | Resets all forces currently applied to the player.         |
-| `PauseGroundConstraint()`                             | Temporarily disables ground constraints, allowing the player to freely move off the ground. |
+| Name                                                                                                   | Description                                                                                 |
+|--------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| `Respawn()`                                                                                            | Respawns the player.                                                                        |
+| `SetFlight(bool flightEnable, bool noClipEnabled)`                                                     | Sets flight and no clip modes for the player.                                               |
+| `SetImmobilized(bool isImmobilized)`                                                                   | Sets the immobilization status of the player.                                               |
+| `AddForce(Vector3 force, ForceMode forceMode)`                                                         | Applies a force to the player.                                                              |
+| `LaunchCharacter(Vector3 launchVelocity, bool overrideVerticalVelocity, bool overrideLateralVelocity)` | Launches the player with a specific velocity.                                               |
+| `ResetAllForces()`                                                                                     | Resets all forces currently applied to the player.                                          |
+| `PauseGroundConstraint()`                                                                              | Temporarily disables ground constraints, allowing the player to freely move off the ground. |
+
+### Position and Orientation
+
+| Name                                | Description                                                                                                                                                                                      |
+|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `SetPosition(Vector3 targetPos)`    | Set current position of the player in world space without interpolation, nor grounding the player, nor preserving velocity. For more versatility use the [Teleportation methods](#teleportation) |
+| `SetRotation(Quaternion targetRot)` | Set current rotation of the player in world space without interpolation, nor grounding the player, nor preserving velocity. For more versatility use the [Teleportation methods](#teleportation) |
 
 ### Teleportation
 
-| Name                                                                                         | Description                                                |
-|----------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| Name                                                                                                                              | Description                                                                     |
+|-----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | `TeleportPlayerTo(Vector3 targetPos, bool interpolate, bool updateGround, bool preserveVelocity, Quaternion? rotationDifference)` | Teleports the player to a specified position with optional rotation difference. |
-| `TeleportPlayerTo(Vector3 targetPos, Vector3 targetEulerRot, bool interpolate, bool updateGround, bool preserveVelocity)`         | Teleports the player to a specified position and rotation. |
-| `TeleportPlayerTo(Transform targetTransform, bool interpolate, bool updateGround, bool preserveVelocity)`                        | Teleports the player to a specified transform, orienting the player with it. |
+| `TeleportPlayerTo(Vector3 targetPos, Vector3 targetEulerRot, bool interpolate, bool updateGround, bool preserveVelocity)`         | Teleports the player to a specified position and rotation.                      |
+| `TeleportPlayerTo(Vector3 targetPos, Quaternion targetRot, bool interpolate, bool updateGround, bool preserveVelocity)`           | Teleports the player to a specified position and rotation.                      |
+| `TeleportPlayerTo(Transform targetTransform, bool interpolate, bool updateGround, bool preserveVelocity)`                         | Teleports the player to a specified transform, orienting the player with it.    |
 
 ### Avatar Management
 
-| Name                           | Description                                                                         |
-|--------------------------------|-------------------------------------------------------------------------------------|
-| `SwitchAvatar(string avatarId)`| Switches the player's avatar. <br>Limited to once every 3 seconds (global timeout). |
+| Name                            | Description                                                                         |
+|---------------------------------|-------------------------------------------------------------------------------------|
+| `SwitchAvatar(string avatarId)` | Switches the player's avatar. <br>Limited to once every 3 seconds (global timeout). |
 
 ## Examples
 

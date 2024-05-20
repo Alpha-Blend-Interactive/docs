@@ -2,22 +2,29 @@
 
 The `AvatarAPI` instance can be accessed via a player instance ([PlayerAPIBase](player-api.md)). They have a property named `Avatar`.
 
+## Static Functions
+
+| Name                                                | Description                                    |
+|-----------------------------------------------------|------------------------------------------------|
+| `LocalAvatar` <br>(Returns [AvatarAPI](#AvatarAPI)) | Access the Local Player's avatar API reference |
+
 ## Avatar Properties
 
-| Property | Description                                                                    |
-| --- |--------------------------------------------------------------------------------|
-| `AvatarID` | Unique identifier for the avatar. Retrieves the avatar's asset object ID.      |
-| `IsLoaded` | Returns whether an avatar is loaded or not.                                    |
-| `Height` | Returns the height of the avatar.<br/>Defaults to 1.6m if no avatar is loaded. |
-| `IsHuman` | Checks if the animator's avatar is humanoid.                                   |
+| Property                                       | Description                                                                    |
+|------------------------------------------------|--------------------------------------------------------------------------------|
+| `AvatarID`                                     | Unique identifier for the avatar. Retrieves the avatar's asset object ID.      |
+| `Wearer` <br>(Returns [AvatarAPI](#AvatarAPI)) | Reference to the avatar's wearer Player's [PlayerAPIBase](player-api.md)       |
+| `IsLoaded`                                     | Returns whether an avatar is loaded or not.                                    |
+| `Height`                                       | Returns the height of the avatar.<br/>Defaults to 1.6m if no avatar is loaded. |
+| `IsHuman`                                      | Checks if the animator's avatar is humanoid.                                   |
 
 ## Avatar Bones
 
-| Method | Description |
-| --- | --- |
-| `HasBone(HumanBodyBones humanBone)` | Checks if the specified human body bone is present in the avatar. |
-| `GetBonePosition(HumanBodyBones humanBone)` | Gets the world position (Vector3) of a specified bone. Returns nil if missing. |
-| `GetBoneRotation(HumanBodyBones humanBone)` | Gets the world rotation (Quaternion) of a specified bone. Returns nil if missing. |
+| Method                                                 | Description                                                                                                    |
+|--------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| `HasBone(HumanBodyBones humanBone)`                    | Checks if the specified human body bone is present in the avatar.                                              |
+| `GetBonePosition(HumanBodyBones humanBone)`            | Gets the world position (Vector3) of a specified bone. Returns nil if missing.                                 |
+| `GetBoneRotation(HumanBodyBones humanBone)`            | Gets the world rotation (Quaternion) of a specified bone. Returns nil if missing.                              |
 | `GetBonePositionAndRotation(HumanBodyBones humanBone)` | Gets the world position and rotation (Tuple(Vector3, Quaternion)) of a specified bone. Returns nil if missing. |
 
 ## Animator Parameters
