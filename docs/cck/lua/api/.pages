@@ -1,0 +1,8 @@
+﻿title: API Reference
+nav:
+    - index.md
+    - globals.md
+    - callbacks.md
+    - instances-api.md
+    - player-api.md
+    - avatar-api.md

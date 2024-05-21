@@ -1,13 +1,13 @@
 # ChilloutVR Lua Scripting
 
-ChilloutVR uses a [slightly-modified version](https://moonsharp.org) of [Lua](https://www.lua.org/) to allow you to create dynamic, scripted behaviours.
+ChilloutVR uses a [slightly-modified version](https://moonsharp.org) of [Lua](https://lua.org/about.html) to allow you to create dynamic, scripted behaviours for in-game avatars, props, and worlds.
 
 !!! Note
-Keep in mind that it is spelled *Lua*, which is the Portugese word for *Moon*.  Lua is not an acronym, but a proper noun.
+    Keep in mind that the name of the language is spelled *Lua*, which is the Portugese word for *Moon*.  Lua is not an acronym, but a proper noun.
 
 ## About Lua
 
-Lua is one of the oldest, but most used purpose-made embedded scripting languages on the planet, and is used in many games and applications.  
+Lua is one of the oldest, but most-used purpose-made embedded scripting languages on the planet, and is used in many games and applications.  
 
 While the syntax appears archaic, and lacks features that newer languages have, its simplicity gift it speed and efficiency unmatched by its competitors.
 
@@ -19,9 +19,14 @@ We hope you enjoy creating with it!
 
 * [Getting Started](./getting-started.md)
 * [Your First Script](./hello-world.md)
+* [API Reference](./api/index.md)
 
-<!-- ## Recipes
+## Examples
+
+* [Funny Cube](examples/funny-cube.md)
+
+## Recipes
 
 * [Getting Users in an Instance](./recipes/getting-users.md)
-* [Getting Props in an Instance](./recipes/getting-props.md)
-* [Hooking Into CVR Events](./recipes/game-events.md) -->
+<!-- * [Getting Props in an Instance](./recipes/getting-props.md) -->
+<!-- * [Hooking Into CVR Events](./recipes/game-events.md) -->

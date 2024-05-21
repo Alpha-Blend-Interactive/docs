@@ -16,3 +16,7 @@ RUN poetry run mkdocs build
 
 FROM scratch AS export
 COPY --from=build /docs/site .
+
+FROM nginx:1-alpine AS nginx-webserver
+
+COPY --from=build /docs/site /usr/share/nginx/html
