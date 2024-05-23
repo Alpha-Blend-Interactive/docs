@@ -4,8 +4,8 @@ Here you have properties and functions available to every script.
 ## Modules
 Some bindings are provided by dedicated modules. You can access these modules by requiring them in your script.
 
-| Function              | Description |
-|-----------------------| --- |
+| Function              | Description                                   |
+|-----------------------|-----------------------------------------------|
 | `require(moduleName)` | Adding modules to be available to Lua script. |
 
 ### Available Modules
@@ -31,30 +31,30 @@ local coolVector = UnityEngine.NewVector3(1, 2, 3)
 ```
 
 ## MonoBehaviour
-| Property | Description |
-| --- | --- |
-| `name` | Access to the attached gameobject name. |
-| `gameObject` | Access to the attached gameobject. |
-| `transform` | Access to the attached transform. |
+| Property     | Description                             |
+|--------------|-----------------------------------------|
+| `name`       | Access to the attached gameobject name. |
+| `gameObject` | Access to the attached gameobject.      |
+| `transform`  | Access to the attached transform.       |
 
 Most MonoBehaviour [Callbacks](callbacks.md) are also available.
 
 ## LuaBehaviour
-| Property | Description |
-| --- | --- |
-| `Hash` | SHA512 hash of script text as Base64 string. |
-| `RunningOnServer` | True when running on server. |
-| `RunningOnClient` | True when running on client. |
-| `RunningInAvatar` | True when running on an avatar. |
-| `RunningInProp` | True when running on a prop. |
-| `RunningInWorld` | True when running in a world. |
-| `IsLocal` | Defined when running on an Avatar. True for the wearer. False for others. |
-| `IsSpawnedByMe` | Defined when running on a Prop. True for the spawner. False for others. |
-| `BoundObjects` | Access to the Bound Objects assigned on the CVRLuaClientBehaviour script in editor. |
+| Property          | Description                                                                         |
+|-------------------|-------------------------------------------------------------------------------------|
+| `Hash`            | SHA512 hash of script text as Base64 string.                                        |
+| `RunningOnServer` | True when running on server.                                                        |
+| `RunningOnClient` | True when running on client.                                                        |
+| `RunningInAvatar` | True when running on an avatar.                                                     |
+| `RunningInProp`   | True when running on a prop.                                                        |
+| `RunningInWorld`  | True when running in a world.                                                       |
+| `IsWornByMe`      | Defined when running on an Avatar. True for the avatar wearer. False for others.    |
+| `IsSpawnedByMe`   | Defined when running on a Prop. True for the spawner. False for others.             |
+| `BoundObjects`    | Access to the Bound Objects assigned on the CVRLuaClientBehaviour script in editor. |
 
 ## API Access
 
-| API | Description | Example |
-| --- | --- | --- |
-| [PlayerAPI](./player-api.md) | Access to the PlayerAPI. | **Example:** `PlayerAPI.LocalPlayer.Respawn()` |
-| [InstancesAPI](instances-api.md) | Access to the InstancesAPI. | **Example:** `print(InstancesAPI.Ping)` |
+| API                              | Description                 | Example                                        |
+|----------------------------------|-----------------------------|------------------------------------------------|
+| [PlayerAPI](./player-api.md)     | Access to the PlayerAPI.    | **Example:** `PlayerAPI.LocalPlayer.Respawn()` |
+| [InstancesAPI](instances-api.md) | Access to the InstancesAPI. | **Example:** `print(InstancesAPI.Ping)`        |
