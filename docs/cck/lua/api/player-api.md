@@ -22,13 +22,13 @@ Accessible via the `PlayerAPI` [Global](globals.md). This API provides access to
 Functions and properties accessible from both local and remote player objects.
 
 ### Properties
-| Name                                              | Description                                                            |
-|---------------------------------------------------|------------------------------------------------------------------------|
-| `IsLocal`                                         | Indicates if this is the local player. Always true for LocalPlayerAPI. |
-| `IsRemote`                                        | Indicates if this is a remote player. Always true for RemotePlayerAPI. |
-| `Username`                                        | Username of the player.                                                |
-| `UserID`                                          | Unique identifier for the player.                                      |
-| `Avatar` <br>(Returns [AvatarAPI](avatar-api.md)) | Get the player's Avatar API.                                           |
+| Name                                                  | Description                                                            |
+|-------------------------------------------------------|------------------------------------------------------------------------|
+| `IsLocal`                                             | Indicates if this is the local player. Always true for LocalPlayerAPI. |
+| `IsRemote`                                            | Indicates if this is a remote player. Always true for RemotePlayerAPI. |
+| `Username`                                            | Username of the player.                                                |
+| `UserID`                                              | Unique identifier for the player.                                      |
+| `Avatar` <br>(Returns [Avatar](avatar-api.md#avatar)) | Get the player's Avatar Instance.                                      |
 
 ### Core Parameters
 

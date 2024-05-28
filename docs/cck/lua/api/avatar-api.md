@@ -1,6 +1,6 @@
 # AvatarAPI
 
-The `AvatarAPI` instance can be accessed via a player instance ([PlayerAPIBase](player-api.md)). They have a property named `Avatar`.
+Accessible via the `AvatarAPI` [Global](globals.md). This API provides access to the Local [Avatar](#avatar)
 
 ## Static Functions
 
@@ -8,17 +8,23 @@ The `AvatarAPI` instance can be accessed via a player instance ([PlayerAPIBase](
 |-----------------------------------------------------|------------------------------------------------|
 | `LocalAvatar` <br>(Returns [AvatarAPI](#AvatarAPI)) | Access the Local Player's avatar API reference |
 
-## Avatar Properties
+## Avatar
 
-| Property                                       | Description                                                                    |
-|------------------------------------------------|--------------------------------------------------------------------------------|
-| `AvatarID`                                     | Unique identifier for the avatar. Retrieves the avatar's asset object ID.      |
-| `Wearer` <br>(Returns [AvatarAPI](#AvatarAPI)) | Reference to the avatar's wearer Player's [PlayerAPIBase](player-api.md)       |
-| `IsLoaded`                                     | Returns whether an avatar is loaded or not.                                    |
-| `Height`                                       | Returns the height of the avatar.<br/>Defaults to 1.6m if no avatar is loaded. |
-| `IsHuman`                                      | Checks if the animator's avatar is humanoid.                                   |
+The `Avatar` instances can be accessed via:
+- The `AvatarAPI` [Global](globals.md)
+- The player instance ([PlayerAPIBase](player-api.md)). They have a property named `Avatar`
 
-## Avatar Bones
+### Properties
+
+| Property                                  | Description                                                                    |
+|-------------------------------------------|--------------------------------------------------------------------------------|
+| `AvatarID`                                | Unique identifier for the avatar. Retrieves the avatar's asset object ID.      |
+| `Wearer` <br>(Returns [Avatar](#Avatar))  | Reference to the avatar's wearer Player's [PlayerAPIBase](player-api.md)       |
+| `IsLoaded`                                | Returns whether an avatar is loaded or not.                                    |
+| `Height`                                  | Returns the height of the avatar.<br/>Defaults to 1.6m if no avatar is loaded. |
+| `IsHuman`                                 | Checks if the animator's avatar is humanoid.                                   |
+
+### Avatar Bones
 
 | Method                                                 | Description                                                                                                    |
 |--------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
@@ -27,7 +33,7 @@ The `AvatarAPI` instance can be accessed via a player instance ([PlayerAPIBase](
 | `GetBoneRotation(HumanBodyBones humanBone)`            | Gets the world rotation (Quaternion) of a specified bone. Returns nil if missing.                              |
 | `GetBonePositionAndRotation(HumanBodyBones humanBone)` | Gets the world position and rotation (Tuple(Vector3, Quaternion)) of a specified bone. Returns nil if missing. |
 
-## Animator Parameters
+### Animator Parameters
 
 | Method                                                              | Description                                                                                                    |
 |---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
