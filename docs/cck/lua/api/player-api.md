@@ -90,27 +90,27 @@ The viseme index values are mapped as follows:
 
 ### Position and Orientation
 
-| Name             | Description                                    |
-|------------------|------------------------------------------------|
-| `GetPosition()`  | Current position of the player in world space. |
-| `GetRotation()`  | Current rotation of the player in world space. |
-| `GetForward()`   | The forward direction vector of the player.    |
+| Name                         | Description                                    |
+|------------------------------|------------------------------------------------|
+| `GetPosition() : Vector3`    | Current position of the player in world space. |
+| `GetRotation() : Quaternion` | Current rotation of the player in world space. |
+| `GetForward(): Vector3`      | The forward direction vector of the player.    |
 
 ### View and Voice Points
 
-| Name                      | Description                               |
-|---------------------------|-------------------------------------------|
-| `GetViewPointPosition()`  | Position of the viewpoint in the world.   |
-| `GetViewPointRotation()`  | Rotation of the viewpoint in the world.   |
-| `GetVoicePointPosition()` | Position of the voice point in the world. |
-| `GetVoicePointRotation()` | Rotation of the voice point in the world. |
+| Name                                   | Description                               |
+|----------------------------------------|-------------------------------------------|
+| `GetViewPointPosition() : Vector3`     | Position of the viewpoint in the world.   |
+| `GetViewPointRotation() : Quaternion`  | Rotation of the viewpoint in the world.   |
+| `GetVoicePointPosition() : Vector3`    | Position of the voice point in the world. |
+| `GetVoicePointRotation() : Quaternion` | Rotation of the voice point in the world. |
 
 ### Gravity
 
-| Name                    | Description                                    |
-|-------------------------|------------------------------------------------|
-| `GetGravity()`          | Current gravity vector affecting the player.   |
-| `GetGravityDirection()` | Direction of the gravity affecting the player. |
+| Name                              | Description                                    |
+|-----------------------------------|------------------------------------------------|
+| `GetGravity() : Vector3`          | Current gravity vector affecting the player.   |
+| `GetGravityDirection() : Vector3` | Direction of the gravity affecting the player. |
 
 ## RemotePlayerAPI
 
@@ -118,10 +118,10 @@ Functions and properties specific to remote players.
 
 ### Properties
 
-| Name                | Description                                                |
-|---------------------|------------------------------------------------------------|
-| `NameplatePosition` | Position of the remote player's nameplate in the world.    |
-| `IsNameplateActive` | Indicates whether the nameplate is active or not.          |
+| Name                          | Description                                                |
+|-------------------------------|------------------------------------------------------------|
+| `NameplatePosition : Vector3` | Position of the remote player's nameplate in the world.    |
+| `IsNameplateActive : bool`    | Indicates whether the nameplate is active or not.          |
 
 ## LocalPlayerAPI
 
@@ -129,14 +129,14 @@ Functions and properties specific to the local player.
 
 ### Properties
 
-| Name                 | Description                                                                                          |
-|----------------------|------------------------------------------------------------------------------------------------------|
-| `IsAuthenticated`    | Indicates if the player is authenticated.                                                            |
-| `ImmersionDepth`     | How deeply the player is immersed in water. <br> Ranges from 0 (not immersed) to 1 (fully immersed). |
-| `IsImmobilized`      | Indicates if the player is immobilized.                                                              |
-| `IsFlying`           | Indicates if the player is flying or not.                                                            |
-| `IsFlyingWithNoClip` | Indicates if the player is flying with no clip mode enabled.                                         |
-| `IsFlightAllowed`    | Indicates if flying is allowed in the current world.                                                 |
+| Name                        | Description                                                                                          |
+|-----------------------------|------------------------------------------------------------------------------------------------------|
+| `IsAuthenticated : bool`    | Indicates if the player is authenticated.                                                            |
+| `ImmersionDepth : bool`     | How deeply the player is immersed in water. <br> Ranges from 0 (not immersed) to 1 (fully immersed). |
+| `IsImmobilized : bool`      | Indicates if the player is immobilized.                                                              |
+| `IsFlying : bool`           | Indicates if the player is flying or not.                                                            |
+| `IsFlyingWithNoClip : bool` | Indicates if the player is flying with no clip mode enabled.                                         |
+| `IsFlightAllowed : bool`    | Indicates if flying is allowed in the current world.                                                 |
 
 ### Movement
 
@@ -149,6 +149,8 @@ Functions and properties specific to the local player.
 | `LaunchCharacter(Vector3 launchVelocity, bool overrideVerticalVelocity, bool overrideLateralVelocity)` | Launches the player with a specific velocity.                                               |
 | `ResetAllForces()`                                                                                     | Resets all forces currently applied to the player.                                          |
 | `PauseGroundConstraint()`                                                                              | Temporarily disables ground constraints, allowing the player to freely move off the ground. |
+| `GetControllerVelocity() : Vector3`                                                                    | Gets the current Player Controller velocity.                                                |
+| `SetControllerVelocity(Vector3)`                                                                       | Sets the current Player Controller velocity.                                                |
 
 ### Position and Orientation
 
