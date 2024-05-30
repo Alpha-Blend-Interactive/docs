@@ -56,5 +56,6 @@ Most MonoBehaviour [Callbacks](callbacks.md) are also available.
 
 | API                              | Description                 | Example                                        |
 |----------------------------------|-----------------------------|------------------------------------------------|
-| [PlayerAPI](./player-api.md)     | Access to the PlayerAPI.    | **Example:** `PlayerAPI.LocalPlayer.Respawn()` |
+| [PlayerAPI](player-api.md)       | Access to the PlayerAPI.    | **Example:** `PlayerAPI.LocalPlayer.Respawn()` |
 | [InstancesAPI](instances-api.md) | Access to the InstancesAPI. | **Example:** `print(InstancesAPI.Ping)`        |
+| [AvatarAPI](avatar-api.md)       | Access to the AvatarAPI.    | **Example:** `print(AvatarAPI.LocalAvatar)`    |
