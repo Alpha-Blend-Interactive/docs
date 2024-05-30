@@ -2,6 +2,7 @@
 
 Here are some example scripts that can be used as an example to learn about Lua.
 
-## Props
-
 * [Funny Cube](funny-cube.md) - An internal test script that spins the object it's in
+* [Disable GameObject at Home](instances-disable-go-in-home.md) - Disable a GameObject at home.
+* [Teleport from Water](player-teleport-away-from-water.md) - Teleport when fully immersed in water.
+* [Thumbs Up Player Launcher](player-thumbs-up-launch.md) - Launch upward when doing 2x thumbs up gesture.
