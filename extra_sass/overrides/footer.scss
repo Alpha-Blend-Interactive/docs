@@ -1,74 +1,226 @@
-.md-footer {
-  .bend-svg {
-    svg {
-      height: 39px;
-      width: 100%;
-      background-color: var(--md-default-bg-color);
-      color: var(--abi-footer-bg);
-      margin-bottom: -3px;
+#footer {
+    background-color: rgb(31, 31, 31);
+    display: grid;
+    width: 100%;
+    color: #ffffff;
+    line-height: 1.4;
+    font-feature-settings: "salt";
+    font-family: Inter var,Roboto,Helvetica Neue,Arial,sans-serif;
+    -webkit-clip-path: polygon(0 0, 20px 30px, calc(100% - 20px) 30px, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 100%);
+    clip-path: polygon(0 0, 20px 30px, calc(100% - 20px) 30px, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 100%);
+
+    a {
+        &:hover, &:link, &:visited {
+            color: #fff !important;
+            cursor: pointer;
+            text-decoration: none !important;
+        }
+
+        margin-bottom: 5px;
+        padding-bottom: 5px;
     }
-  }
 
-  .md-footer-meta.md-typeset {
-    background-color: var(--abi-footer-bg);
-    padding: 3rem 0 1rem;
-
-    hr {
-      width: 100%;
-      max-width: 59rem;
-      margin: 1.5rem auto;
-      border-bottom-color: rgba(210, 215, 249, 0.12);
+    .f-container {
+        max-width: 1236px;
+        width: 100%;
+        margin: 0px auto;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 40px;
+        text-rendering: optimizeLegibility;
     }
 
-    .md-footer-meta__inner.md-grid {
+    .f-bg {
+        background-color: rgb(34, 34, 34);
+    }
 
-      .md-footer-copyright {
-        color: #687281;
-      }
+    .f-grid {
+        display: grid;
+    }
 
-      .legal-info {
+    .f-mb-8 {
+        margin-bottom: 8px;
+    }
 
-        color: #687281;
-        font-size: .64rem;
+    .f-pb-16 {
+        padding-bottom: 16px;
+    }
+
+    .f-grid-cols-4 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .f-grid-cols-2 {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .f-social-btn {
+        float: left;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        margin: 0px;
+        margin-right: 6px;
+        cursor: pointer;
+        border: 0px;
+        text-decoration: none;
+        transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        background-image: none;
+        -webkit-clip-path: polygon(0 28px, 14px 3px, calc(100% - 14px) 3px, 100% 28px, 100% calc(100% - 28px), calc(100% - 14px) calc(100% - 3px), 14px calc(100% - 3px), 0 calc(100% - 28px));
+        clip-path: polygon(0 28px, 14px 3px, calc(100% - 14px) 3px, 100% 28px, 100% calc(100% - 28px), calc(100% - 14px) calc(100% - 3px), 14px calc(100% - 3px), 0 calc(100% - 28px));
+
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.08);
+        }
+    }
+
+    .f-social-svg {
+        display: block;
+        fill: currentColor;
+        color: inherit;
+        width: 36px;
+        height: 36px;
+        min-width: 36px;
+        min-height: 36px;
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .f-social-text {
+        line-height: 20px;
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+    .f-copyright {
+        order: 2;
+        opacity: .2;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .f-madeby {
+        order: 1;
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 20px;
+
+        svg {
+            fill: currentColor;
+            display: inline;
+            filter: drop-shadow(0 0 8px rgba(255, 255, 255, 1));
+            color: inherit;
+            width: 14px;
+            height: 14px;
+            min-width: 14px;
+            min-height: 14px;
+            font-size: 14px;
+            line-height: 14;
+            vertical-align: middle;
+        }
+
+        span {
+            opacity: .2;
+        }
+    }
+
+    .f-logo-col {
+        order: 4;
+
+        div {
+            max-width: 180px;
+        }
+    }
+
+    .f-cvr-col {
+        order: 1;
+    }
+
+    .f-sup-col {
+        order: 2;
+    }
+
+    .f-inf-col {
+        order: 3;
+    }
+
+    .f-cols {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 32px;
+        font-size: 14px;
+
+        span {
+            text-underline-offset: 8px;
+            text-decoration-line: underline;
+            font-weight: 700;
+            margin-bottom: 24px;
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+    #footer .f-logo-col div {
+        max-width: 210px;
+    }
+}
+
+@media (min-width: 960px) {
+    #footer {
+        .f-grid-cols-4 {
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+        }
+
+        .f-grid-cols-2 {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .f-copyright {
+            order: 1;
+            text-align: left;
+        }
+
+        .f-madeby {
+            order: 2;
+            text-align: right;
+            margin-bottom: 0px;
+        }
+
+        .f-logo-col {
+            order: 1;
+
+            div {
+                max-width: 200px;
+            }
+        }
+
+        .f-cvr-col {
+            order: 2;
+        }
+
+        .f-sup-col {
+            order: 3;
+        }
+
+        .f-inf-col {
+            order: 4;
+        }
+    }
+}
+
+@media (min-width: 600px) {
+    #footer {
+        .f-container {
+            padding-left: 32px;
+            padding-right: 32px;
+        }
+
         a {
-          color: #687281;
+            padding-bottom: 0px;
         }
-      }
-
-      &.upper {
-        padding: 0 0.8rem 0;
-      }
-
-      .footer-item {
-        color: #687281;
-        font-size: 15px;
-        width: 180px;
-
-        p {
-          margin: 0;
-        }
-
-        a {
-          color: #687281;
-        }
-
-        .headline {
-          text-transform: uppercase;
-
-          margin-bottom: 1.5rem;
-        }
-
-        .icon-list-social {
-          margin-top: 15px;
-          font-size: 20px;
-
-          svg, img {
-            width: 20px;
-            height: 20px;
-            fill: #687281;
-          }
-        }
-      }
     }
-  }
 }
