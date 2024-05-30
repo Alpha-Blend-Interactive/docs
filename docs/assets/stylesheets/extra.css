@@ -8,6 +8,7 @@
     --abi-text-white: #fff;
     --abi-footer-bg: rgb(34, 34, 34);
     --md-accent-fg-color: #E43600;
+    --md-default-bg-color: rgb(26, 26, 26);
 }
 
 [data-md-color-scheme="slate"] {
@@ -20,6 +21,7 @@
     --abi-text-white: #111;
     --abi-footer-bg: rgb(34, 34, 34);
     --md-accent-fg-color: #E43600;
+    --md-default-bg-color: rgb(26, 26, 26);
 }
 
 /*======
