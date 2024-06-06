@@ -32,6 +32,7 @@ We hope you enjoy creating with it!
 ## Recipes
 
 * [Getting Users in an Instance](./recipes/getting-users.md)
+* [Listening to Game Events](./recipes/listen-game-events.md)
 
 <!-- * [Getting Props in an Instance](./recipes/getting-props.md) -->
 <!-- * [Hooking Into CVR Events](./recipes/game-events.md) -->
