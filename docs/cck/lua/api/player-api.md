@@ -143,6 +143,19 @@ Functions and properties specific to the local player.
 | `IsFlyingWithNoClip : bool` | Indicates if the player is flying with no clip mode enabled.                                         |
 | `IsFlightAllowed : bool`    | Indicates if flying is allowed in the current world.                                                 |
 
+### Methods
+
+| Name                         | Description                                                                                |
+|------------------------------|--------------------------------------------------------------------------------------------|
+| `GetHeadingOffset() : float` | Get the The angle between the player's playspace forward and the player's current forward. |
+
+### PlaySpace
+
+| Name                             | Description                                                                    |
+|----------------------------------|--------------------------------------------------------------------------------|
+| `GetPlaySpaceScale() : float`    | The ratio of the player's avatar height to the player's irl height.            |
+| `GetPlaySpaceOffset() : Vector3` | The local offset from the player's PlaySpace center to their current position. |
+
 ### Movement
 
 | Name                                                                                                          | Description                                                                                 |
