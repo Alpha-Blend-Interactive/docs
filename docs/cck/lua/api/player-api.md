@@ -1,38 +1,43 @@
 # PlayerAPI
 
-Accessible via the `PlayerAPI` [Global](globals.md). This API provides access to all players in the world, including the local player.
+Accessible via the `PlayerAPI` [Global](globals.md). This API provides access to all players in the world, including the
+local player.
 
 ## Static Functions
-| Name                                                                                  | Description                                                    |
-|---------------------------------------------------------------------------------------|----------------------------------------------------------------|
-| `FindPlayerByUsername(string username)` <br>(Returns [PlayerAPIBase](#PlayerAPIBase)) | Returns player entity by username.                             |
-| `FindPlayerByUserId(string userId)` <br>(Returns [PlayerAPIBase](#PlayerAPIBase))     | Returns player entity by user id.                              |
-| `IsFriendsWith(string userId)` <br>(Returns `bool`)                                   | Returns whether we're friends with the userId provided or not. |
+
+| Name                                                                    | Description                                                    |
+|-------------------------------------------------------------------------|----------------------------------------------------------------|
+| `FindPlayerByUsername(string username)` <br>(Returns [Player](#player)) | Returns player entity by username.                             |
+| `FindPlayerByUserId(string userId)` <br>(Returns [Player](#player))     | Returns player entity by user id.                              |
+| `IsFriendsWith(string userId)` <br>(Returns `bool`)                     | Returns whether we're friends with the userId provided or not. |
 
 ## Static Properties
-| Name                                                                        | Description                                                     |
-|-----------------------------------------------------------------------------|-----------------------------------------------------------------|
-| `LocalPlayer` <br>(Returns [LocalPlayerAPI](#LocalPlayerAPI))               | Access to Teleport, AddForce, etc.                              |
-| `AllPlayers` <br>(Returns [PlayerAPIBase](#PlayerAPIBase))                  | List of all Player entities (includes LocalPlayerAPI).          |
-| `RemotePlayers` <br>(Returns a list of [RemotePlayerAPI](#RemotePlayerAPI)) | List of all *Remote* Player entities (excludes LocalPlayerAPI). |
-| `PlayerCount`                                                               | Total connected player count. This includes the local player.   |
 
-## PlayerAPIBase
+| Name                                                                     | Description                                                       |
+|--------------------------------------------------------------------------|-------------------------------------------------------------------|
+| `LocalPlayer : Player` <br>(Returns [Player](#player))                   | Access to Teleport, AddForce, etc.                                |
+| `AllPlayers : List<Player>` <br>(Returns [Player](#player))              | List of all Player entities (includes the local player).          |
+| `RemotePlayers : List<Player>` <br>(Returns a list of [Player](#player)) | List of all *Remote* Player entities (excludes the local player). |
+| `PlayerCount : int`                                                      | Total connected player count. This includes the local player.     |
 
-Functions and properties accessible from both local and remote player objects.
+## Player
+
+Entity that represents a Player, these Functions and Properties accessible from both local and remote player.
 
 ### Properties
-| Name                                                  | Description                                                            |
-|-------------------------------------------------------|------------------------------------------------------------------------|
-| `IsLocal`                                             | Indicates if this is the local player. Always true for LocalPlayerAPI. |
-| `IsRemote`                                            | Indicates if this is a remote player. Always true for RemotePlayerAPI. |
-| `Username`                                            | Username of the player.                                                |
-| `UserID`                                              | Unique identifier for the player.                                      |
-| `Avatar` <br>(Returns [Avatar](avatar-api.md#avatar)) | Get the player's Avatar Instance.                                      |
+
+| Name                                                           | Description                            |
+|----------------------------------------------------------------|----------------------------------------|
+| `IsLocal : bool`                                               | Indicates if this is the local player. |
+| `IsRemote : bool`                                              | Indicates if this is a remote player.  |
+| `Username : string`                                            | Username of the player.                |
+| `UserID : string`                                              | Unique identifier for the player.      |
+| `Avatar : Avatar` <br>(Returns [Avatar](avatar-api.md#avatar)) | Get the player's Avatar Instance.      |
 
 ### Core Parameters
 
-These parameters are set by ChilloutVR to drive the player's avatar animations. They may not be representative of the actual player's input in some situations.
+These parameters are set by ChilloutVR to drive the player's avatar animations. They may not be representative of the
+actual player's input in some situations.
 
 | Name                    | Description                                                                                                       |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------|
@@ -112,18 +117,18 @@ The viseme index values are mapped as follows:
 | `GetGravity() : Vector3`          | Current gravity vector affecting the player.   |
 | `GetGravityDirection() : Vector3` | Direction of the gravity affecting the player. |
 
-## RemotePlayerAPI
+## Remote Player
 
 Functions and properties specific to remote players.
 
 ### Properties
 
-| Name                          | Description                                                |
-|-------------------------------|------------------------------------------------------------|
-| `NameplatePosition : Vector3` | Position of the remote player's nameplate in the world.    |
-| `IsNameplateActive : bool`    | Indicates whether the nameplate is active or not.          |
+| Name                          | Description                                             |
+|-------------------------------|---------------------------------------------------------|
+| `NameplatePosition : Vector3` | Position of the remote player's nameplate in the world. |
+| `IsNameplateActive : bool`    | Indicates whether the nameplate is active or not.       |
 
-## LocalPlayerAPI
+## Local Player
 
 Functions and properties specific to the local player.
 
@@ -140,17 +145,19 @@ Functions and properties specific to the local player.
 
 ### Movement
 
-| Name                                                                                                   | Description                                                                                 |
-|--------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| `Respawn()`                                                                                            | Respawns the player.                                                                        |
-| `SetFlight(bool flightEnable, bool noClipEnabled)`                                                     | Sets flight and no clip modes for the player.                                               |
-| `SetImmobilized(bool isImmobilized)`                                                                   | Sets the immobilization status of the player.                                               |
-| `AddForce(Vector3 force, ForceMode forceMode)`                                                         | Applies a force to the player.                                                              |
-| `LaunchCharacter(Vector3 launchVelocity, bool overrideVerticalVelocity, bool overrideLateralVelocity)` | Launches the player with a specific velocity.                                               |
-| `ResetAllForces()`                                                                                     | Resets all forces currently applied to the player.                                          |
-| `PauseGroundConstraint()`                                                                              | Temporarily disables ground constraints, allowing the player to freely move off the ground. |
-| `GetControllerVelocity() : Vector3`                                                                    | Gets the current Player Controller velocity.                                                |
-| `SetControllerVelocity(Vector3)`                                                                       | Sets the current Player Controller velocity.                                                |
+| Name                                                                                                          | Description                                                                                 |
+|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| `Respawn() : void`                                                                                            | Respawns the player.                                                                        |
+| `SetFlight(bool flightEnable, bool noClipEnabled) : void`                                                     | Sets flight and no clip modes for the player.                                               |
+| `SetImmobilized(bool isImmobilized) : void`                                                                   | Sets the immobilization status of the player.                                               |
+| `AddForce(Vector3 force, ForceMode forceMode) : void`                                                         | Applies a force to the player.                                                              |
+| `LaunchCharacter(Vector3 launchVelocity, bool overrideVerticalVelocity, bool overrideLateralVelocity) : void` | Launches the player with a specific velocity.                                               |
+| `ResetAllForces() : void`                                                                                     | Resets all forces currently applied to the player.                                          |
+| `PauseGroundConstraint() : void`                                                                              | Temporarily disables ground constraints, allowing the player to freely move off the ground. |
+| `GetControllerVelocity() : Vector3 : void`                                                                    | Gets the current Player Controller velocity.                                                |
+| `SetControllerVelocity(Vector3) : void`                                                                       | Sets the current Player Controller velocity.                                                |
+
+**Note:** These functions can only be called by worlds, avatars when `WornByMe` is true, and props when `SpawnedByMe` is true.
 
 ### Position and Orientation
 
@@ -158,6 +165,9 @@ Functions and properties specific to the local player.
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `SetPosition(Vector3 targetPos)`    | Set current position of the player in world space without interpolation, nor grounding the player, nor preserving velocity. For more versatility use the [Teleportation methods](#teleportation) |
 | `SetRotation(Quaternion targetRot)` | Set current rotation of the player in world space without interpolation, nor grounding the player, nor preserving velocity. For more versatility use the [Teleportation methods](#teleportation) |
+
+
+**Note:** These functions can only be called by worlds, avatars when `WornByMe` is true, and props when `SpawnedByMe` is true.
 
 ### Teleportation
 
@@ -168,8 +178,37 @@ Functions and properties specific to the local player.
 | `TeleportPlayerTo(Vector3 targetPos, Quaternion targetRot, bool interpolate, bool updateGround, bool preserveVelocity)`           | Teleports the player to a specified position and rotation.                      |
 | `TeleportPlayerTo(Transform targetTransform, bool interpolate, bool updateGround, bool preserveVelocity)`                         | Teleports the player to a specified transform, orienting the player with it.    |
 
+**Note:** These functions can only be called by worlds, avatars when `WornByMe` is true, and props when `SpawnedByMe` is true.
+
 ### Avatar Management
 
 | Name                            | Description                                                                         |
 |---------------------------------|-------------------------------------------------------------------------------------|
 | `SwitchAvatar(string avatarId)` | Switches the player's avatar. <br>Limited to once every 3 seconds (global timeout). |
+
+**Note:** These functions can only be called by worlds, avatars when `WornByMe` is true, and props when `SpawnedByMe` is true.
+
+### IK Control
+
+#### Properties
+
+| Name                               | Description                                                                    |
+|------------------------------------|--------------------------------------------------------------------------------|
+| `IKLeftWristToPalmAxis : Vector3`  | Local axis of the left hand bone that points from the wrist towards the palm.  |
+| `IKLeftPalmToThumbAxis : Vector3`  | Local axis of the left hand bone that points from the palm towards the thumb.  |
+| `IKRightWristToPalmAxis : Vector3` | Local axis of the right hand bone that points from the wrist towards the palm. |
+| `IKRightPalmToThumbAxis : Vector3` | Local axis of the right hand bone that points from the palm towards the thumb. |
+
+#### Methods
+
+| Name                                                 | Description                                                  |
+|------------------------------------------------------|--------------------------------------------------------------|
+| `SetBodyControlHeadWeight(weightValue) : void`       | [ 0.0 ; 1.0 ] Sets the Player's BodySystem Head weight       |
+| `SetBodyControlPelvisWeight(weightValue) : void`     | [ 0.0 ; 1.0 ] Sets the Player's BodySystem Pelvis weight     |
+| `SetBodyControlLeftArmWeight(weightValue) : void`    | [ 0.0 ; 1.0 ] Sets the Player's BodySystem LeftArm weight    |
+| `SetBodyControlRightArmWeight(weightValue) : void`   | [ 0.0 ; 1.0 ] Sets the Player's BodySystem RightArm weight   |
+| `SetBodyControlLeftLegWeight(weightValue) : void`    | [ 0.0 ; 1.0 ] Sets the Player's BodySystem LeftLeg weight    |
+| `SetBodyControlRightLegWeight(weightValue) : void`   | [ 0.0 ; 1.0 ] Sets the Player's BodySystem RightLeg weight   |
+| `SetBodyControlLocomotionWeight(weightValue) : void` | [ 0.0 ; 1.0 ] Sets the Player's BodySystem Locomotion weight |
+
+**Note:** These functions can only be called by worlds, avatars when `WornByMe` is true, and props when `SpawnedByMe` is true.
