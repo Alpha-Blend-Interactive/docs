@@ -5,3 +5,4 @@ nav:
     - instances-disable-go-in-home.md
     - player-thumbs-up-launch.md
     - player-teleport-away-from-water.md
+    - viewpoint-raycast.md

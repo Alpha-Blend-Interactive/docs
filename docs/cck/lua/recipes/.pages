@@ -2,3 +2,4 @@ title: Recipes
 nav:
     - index.md
     - getting-users.md
+    - listen-game-events.md

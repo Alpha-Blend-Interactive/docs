@@ -6,6 +6,8 @@ provide comprehensive information on various available APIs.
 ## API Reference
 
 - [Globals](globals.md)
+- [Events](events.md)
 - [InstancesAPI](instances-api.md)
 - [PlayerAPI](player-api.md)
 - [AvatarAPI](avatar-api.md)
+- [Lua Behaviour](lua-behaviour.md)

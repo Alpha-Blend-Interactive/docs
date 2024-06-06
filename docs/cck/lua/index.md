@@ -23,10 +23,16 @@ We hope you enjoy creating with it!
 
 ## Examples
 
-* [Funny Cube](examples/funny-cube.md)
+* [Funny Cube](examples/funny-cube.md) - An internal test script that spins the object it's in
+* [Disable GameObject at Home](examples/instances-disable-go-in-home.md) - Disable a GameObject at home.
+* [Teleport from Water](examples/player-teleport-away-from-water.md) - Teleport when fully immersed in water.
+* [Thumbs Up Player Launcher](examples/player-thumbs-up-launch.md) - Launch upward when doing 2x thumbs up gesture.
+* [Viewpoint Raycast](examples/viewpoint-raycast.md) - Perform a raycast from the player's viewpoint.
 
 ## Recipes
 
 * [Getting Users in an Instance](./recipes/getting-users.md)
+* [Listening to Game Events](./recipes/listen-game-events.md)
+
 <!-- * [Getting Props in an Instance](./recipes/getting-props.md) -->
 <!-- * [Hooking Into CVR Events](./recipes/game-events.md) -->
