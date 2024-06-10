@@ -45,10 +45,9 @@ handle these events.
 | `OnDisable()`   | Called when the script becomes disabled.                                                            |
 | `OnDestroy()`   | Called when the script is destroyed.                                                                |
 
-#### Note: In ChilloutVR, `UnityEngine.Time.fixedDeltaTime` is set based on the **target
-
-** refresh rate, clamped between 30hz and 144hz. This means that FixedUpdate will be called at a variable rate, but the
-time between calls will be consistent.
+::: note
+In ChilloutVR, `UnityEngine.Time.fixedDeltaTime` is set based on the **target** refresh rate, clamped between 30hz and 144hz. This means that FixedUpdate will be called at a variable rate, but the time between calls will be consistent.
+:::
 
 ### Special Execution Order Events
 
