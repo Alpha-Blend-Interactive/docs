@@ -30,11 +30,16 @@ CCK = require("CVR.CCK") -- Access to CCK component bindings
 local coolVector = UnityEngine.NewVector3(1, 2, 3)
 ```
 
+## Special Functions
+| Function                 | Description                                                                                                                                                                                                                                                  |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `IsValid(object) : bool` | Determines whether a given System object, Unity Object, or API Object (Like [Player](./player-api.md#player) or [Avatar](./avatar-api.md#avatar)) is `null` or not. <br>It uses Unity's specific null check for Unity Objects to ensure accurate validation. |
+
 ## MonoBehaviour
 | Property     | Description                             |
 |--------------|-----------------------------------------|
-| `name`       | Access to the attached gameobject name. |
-| `gameObject` | Access to the attached gameobject.      |
+| `name`       | Access to the attached gameObject name. |
+| `gameObject` | Access to the attached gameObject.      |
 | `transform`  | Access to the attached transform.       |
 
 Most MonoBehaviour [Events](events.md) are also available.
