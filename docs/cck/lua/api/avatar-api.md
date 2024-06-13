@@ -38,7 +38,6 @@ The `Avatar` instances can be accessed via:
 | `GetBonePosition(HumanBodyBones humanBone) : Vector3`                        | Gets the world position (Vector3) of a specified bone. Returns nil if missing.                                 |
 | `GetBoneRotation(HumanBodyBones humanBone) : Quaternion`                     | Gets the world rotation (Quaternion) of a specified bone. Returns nil if missing.                              |
 | `GetBonePositionAndRotation(HumanBodyBones humanBone) : Vector3, Quaternion` | Gets the world position and rotation (Tuple(Vector3, Quaternion)) of a specified bone. Returns nil if missing. |
-| `GetBoneTransform(HumanBodyBones humanBone) : Transform`                     | Gets the transform of a specified bone. Returns nil if missing.                                                |
 
 ### Animator Parameters
 
