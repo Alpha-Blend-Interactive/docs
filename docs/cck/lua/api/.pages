@@ -2,7 +2,8 @@
 nav:
     - index.md
     - globals.md
-    - callbacks.md
+    - events.md
     - instances-api.md
     - player-api.md
     - avatar-api.md
+    - lua-behaviour.md
