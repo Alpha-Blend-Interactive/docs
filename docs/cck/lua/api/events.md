@@ -27,6 +27,14 @@
 | `OnInstanceConnectionLost()`      | Called you lost connection to an online instance.     |
 | `OnInstanceConnectionRecovered()` | Called you recover connection to the online instance. |
 
+### VR Mode Switch Events
+
+| Event                                       | Description                                                                           |
+|---------------------------------------------|---------------------------------------------------------------------------------------|
+| `OnPreVRModeSwitch(switchingToXR : bool)`   | Called the frame before initializing XR loaders. The switch can still fail.           |
+| `OnPostVRModeSwitch(switchingToXR: bool)`   | Called the frame after initializing XR loaders. This means the switch was successful. |
+| `OnFailedVRModeSwitch(switchingToXR: bool)` | Called the frame after the switch failed. This means the switch has failed.           |
+
 ## Unity
 
 Most of Unity's MonoBehaviour events are forwarded to your Lua script. You can define these functions in your script to

@@ -136,12 +136,13 @@ Functions and properties specific to the local player.
 
 | Name                        | Description                                                                                          |
 |-----------------------------|------------------------------------------------------------------------------------------------------|
-| `IsAuthenticated : bool`    | Indicates if the player is authenticated.                                                            |
-| `ImmersionDepth : bool`     | How deeply the player is immersed in water. <br> Ranges from 0 (not immersed) to 1 (fully immersed). |
-| `IsImmobilized : bool`      | Indicates if the player is immobilized.                                                              |
-| `IsFlying : bool`           | Indicates if the player is flying or not.                                                            |
-| `IsFlyingWithNoClip : bool` | Indicates if the player is flying with no clip mode enabled.                                         |
-| `IsFlightAllowed : bool`    | Indicates if flying is allowed in the current world.                                                 |
+| `IsAuthenticated : bool`    | Indicates whether the Player is authenticated or not.                                                |
+| `IsUsingVR : bool`          | Indicates whether the Player is using VR or not.                                                     |
+| `ImmersionDepth : bool`     | How deeply the Player is immersed in water. <br> Ranges from 0 (not immersed) to 1 (fully immersed). |
+| `IsImmobilized : bool`      | Indicates whether the Player is immobilized or not.                                                  |
+| `IsFlying : bool`           | Indicates whether the Player is flying or not or not.                                                |
+| `IsFlyingWithNoClip : bool` | Indicates whether the Player is flying with no clip mode enabled or not.                             |
+| `IsFlightAllowed : bool`    | Indicates whether flying is allowed in the current world or not.                                     |
 
 ### Methods
 
