@@ -6,15 +6,13 @@ The CVR Pointer component is used to mark a gameobject so that other components 
 
 ![](../../assets/images/compdoc/CVRPointerMenu.png)
 
-**Type**
-
-- The name of your pointer. This can be used by other components to filter out interactions.
+#### Type
+The name of your pointer. This can be used by other components to filter out interactions.
 
 ## Examples
 
 Needs an example of setting up a pointer to pair with various types of triggers. - Lily
-### Adding Pointers to Particles
-
+#### Adding Pointers to Particles
 You can even add pointers to particle systems.
 
 ![](../../assets/images/compdoc/CVRPointerParticle.png)

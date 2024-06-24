@@ -116,7 +116,7 @@ and gradients.
 ## CVR Components
 A list of all whitelisted components for worlds.
 
-+ [CVR Haptic Chest Area](../components/distance-lod.md)
++ [CVR Haptic Chest Area](../components/haptic-chest-area.md)
 + [CVR Toggle State Trigger](../components/global-shader-updater.md)
 + [CVR Advanced Avatar Trigger](../components/haptic-zone.md)
 + [CVR Mirror](../components/mirror.md)
@@ -129,6 +129,7 @@ A list of all whitelisted components for worlds.
 + [CVR Attachment](../components/attachment.md)
 + [CVR Audio Driver](../components/audio-driver.md)
 + [CVR Blitter](../components/blitter.md)
++ [CVR Distance Lod](../components/CVRDistanceLod.md)
 + [CVR Interactable](../components/interactable.md)
 + [CVR Material Driver](../components/material-driver.md)
 + [CVR Material Updater](../components/material-updater.md)
