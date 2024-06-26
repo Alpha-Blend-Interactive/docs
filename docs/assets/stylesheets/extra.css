@@ -75,3 +75,39 @@ ARTICLES
     color: var(--md-primary-fg-color);
     border-bottom: 1px solid var(--md-primary-fg-color);
 }
+
+.whitelisted {
+    display: inline-block;
+}
+
+.whitelisted .props, .whitelisted .avatars, .whitelisted .worlds {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 0.25em 0 0;
+    position: relative;
+    top: 0.15em;
+}
+
+.whitelisted .props.yes {
+    background-image: url(/assets/images/prop_yes.png);
+}
+.whitelisted .props.no {
+    background-image: url(/assets/images/prop_no.png);
+}
+
+.whitelisted .avatars.yes {
+    background-image: url(/assets/images/avatar_yes.png);
+}
+.whitelisted .avatars.no {
+    background-image: url(/assets/images/avatar_no.png);
+}
+
+.whitelisted .worlds.yes {
+    background-image: url(/assets/images/world_yes.png);
+}
+.whitelisted .worlds.no {
+    background-image: url(/assets/images/world_no.png);
+}
