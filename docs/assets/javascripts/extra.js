@@ -31,7 +31,7 @@ function updateTitle(relativePath) {
         if (checkForWord(splitted, key)) title = value;
     }
 
-    console.log(title)
+    window.setTimeout(PopulateWhitelisted, 100);
 
     document.getElementById("dev-header-title").innerHTML = title;
 }
@@ -62,6 +62,45 @@ function getUrlParts(url) {
         hash: a.hash,
         search: a.search
     };
+}
+
+function PopulateWhitelisted(){
+    var elements = document.querySelectorAll("h1 div.whitelisted");
+    
+    for (var i=0; elements[i]; i++){
+        
+        if (!elements[i]) continue;
+        if (elements[i].classList.contains("fin")) continue;
+        
+        var hasAvatar = false;
+        var hasWorld = false;
+        var hasProp = false;
+        var list = elements[i].getAttribute("data-list");
+        
+        if (list.indexOf("A") !== -1) hasAvatar = true;
+        if (list.indexOf("W") !== -1) hasWorld  = true;
+        if (list.indexOf("P") !== -1) hasProp   = true;
+        
+        var avatar = document.createElement("div");
+        avatar.classList.add("avatars");
+        if (hasAvatar) avatar.classList.add("yes");
+        else avatar.classList.add("no");
+        elements[i].appendChild(avatar);
+
+        var world = document.createElement("div");
+        world.classList.add("worlds");
+        if (hasWorld) world.classList.add("yes");
+        else world.classList.add("no");
+        elements[i].appendChild(world);
+
+        var prop = document.createElement("div");
+        prop.classList.add("props");
+        if (hasProp) prop.classList.add("yes");
+        else prop.classList.add("no");
+        elements[i].appendChild(prop);
+
+        elements[i].classList.add("fin");
+    }
 }
 
 document.addEventListener("DOMContentLoaded", function(){
