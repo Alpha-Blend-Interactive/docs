@@ -1,4 +1,4 @@
-# CVR Avatar
+# CVR Avatar <div class="whitelisted" data-list="A"></div>
 
 The CVR Avatar Component is necessary for making an avatar upload. To use this component, the GameObject must have a [Unity Animator component](https://docs.unity3d.com/2021.3/Documentation/Manual/class-Animator.html) and the [CVR Asset Info](CVR Asset Info.md) component. If these two components aren't present when the CVR Avatar component is added, they will be generated automatically.
 
