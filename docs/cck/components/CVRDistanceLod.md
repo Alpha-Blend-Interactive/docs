@@ -1,4 +1,4 @@
-# CVR Distance Lod
+# CVR Distance Lod <div class="whitelisted" data-list="W"></div>
 The CVR Distance Lod component can be used to hide or show GameObjects based on the components distance to the local player. This component is intended to help world creators manage performance.
 
 ## UI
@@ -11,7 +11,7 @@ If enabled, the distance will be calculated in 3D space. If disabled, it will on
 #### Groups
 You can have multiple Groups where you can define the following:
 
-**Game Object**: Select the game object you want to toggle based on distance.
+**Game Object**: Select the game object you want to toggle.
 
 **Min Distance**: The minimum distance required to set the GameObject active.
 
@@ -20,8 +20,7 @@ You can have multiple Groups where you can define the following:
 
 ## Examples
 
-### Setting Up Basic Level of Detail
-Setting up basic Lod is easy.
+#### Setting Up Basic Level of Detail
 
 ![](../../assets/images/compdoc/CVRDistanceLODMenuExample.png)
 
@@ -32,7 +31,7 @@ To start: import your high detail model and your low detail model into the unity
 
 Once that is done, add a new GameObject with the CVR Distance Lod component and position it to where you want the center of the distance detection to be.
 
-Afterward, create the necessary amount groups (in this example we have 2 groups) and add each of your models to a group.
+Afterward, create the necessary amount of groups (in this example we have 2 groups) and add each of your models to a group.
 
 !!! tip
 	 When setting up a CVR Distance Lod the max distance of your high detail model should be the minimum distance of your low detail model.
@@ -40,6 +39,8 @@ Afterward, create the necessary amount groups (in this example we have 2 groups)
 Now just set up the distances you wish to hide one model and reveal the other.
 ## Notes
 
-- The distance measured in the CVR Distance Lod component is in meters.
+!!! note
+	The distance measured in the CVR Distance Lod component is in meters.
 
-- The component can also be used to hide objects without swapping to a low detail model.
+!!! note
+	The component can also be used to hide objects without swapping to a low detail model.

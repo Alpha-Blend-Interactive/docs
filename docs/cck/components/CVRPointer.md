@@ -1,4 +1,4 @@
-# CVR Pointer
+# CVR Pointer <div class="whitelisted" data-list="AWP"></div>
 
 The CVR Pointer component is used to mark a gameobject so that other components can utilize it, such as the [CVR Interactable](), [CVR Spawnable Trigger](), [CVR Toggle State Trigger]() and [CVR Advanced Avatar Trigger]() components.
 
@@ -13,7 +13,6 @@ The name of your pointer. This can be used by other components to filter out int
 
 Needs an example of setting up a pointer to pair with various types of triggers. - Lily
 #### Adding Pointers to Particles
-You can even add pointers to particle systems.
 
 ![](../../assets/images/compdoc/CVRPointerParticle.png)
 
