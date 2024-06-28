@@ -1,4 +1,4 @@
-# CVR Avatar
+# CVR Avatar <div class="whitelisted" data-list="A"></div>
 
 The CVR Avatar Component is necessary for making an avatar upload. To use this component, the GameObject must have a [Unity Animator component](https://docs.unity3d.com/2021.3/Documentation/Manual/class-Animator.html) and the [CVR Asset Info](CVR Asset Info.md) component. If these two components aren't present when the CVR Avatar component is added, they will be generated automatically.
 
@@ -10,11 +10,19 @@ While the process for uploading avatars is made as accessible as possible, there
 
 ### Preparing a New Project
 
+Fuck
+
 ### Importing the CCK
+
+Shit
 
 ### Importing and Configuring Your Avatar
 
+Piss
+
 ### General Information for Beginners
+
+Ass
 
 ## UI
 
@@ -43,11 +51,17 @@ Settings found in this menu are necessary for additional customization and setup
 !!! hint "Select the Correct Animator"
 	When using an animation override controller please make sure that the one you have selected has the correct animator controller applied. If not, you will either not see any animation slots at all, or incorrect ones for the avatar you're editing.
 
-The Animation Overrides field must be occupied by a Animator Animator Controller that has the avatar's currently used Animator Controller applied to it if you would like to make use of custom animations, rename toggles or states in the Quick Menu, or use Advanced Avatar Settings.
+**Animation Overrides**
 
-Face Mesh (skinned mesh renderer)
+The Animation Overrides field must be occupied by an Animator Override Controller that has the avatar's currently used Animator Controller applied to it if you would like to make use of custom animations, rename toggles or states in the Quick Menu, or use Advanced Avatar Settings.
+
+**Face Mesh**
+
+The Face Mesh field selects the [Skinned Mesh Renderer](https://docs.unity3d.com/2021.3/Documentation/Manual/class-SkinnedMeshRenderer.html) that you wish to use for any facial movement or tracking, such as lip sync or eye motion. This is **Required** for the [Eye Look Settings](CVRAvatar.md#eye-look-settings), [Eye Blink Settings](CVRAvatar.md#eye-blink-settings), and [Lip Sync Settings](CVRAvatar.md#lip-sync-settings) to populate correctly.
 
 ### Eye Look Settings
+
+![](../../assets/images/compdoc/CVRAvatarEyeLookGeneric.png)
 
 waiting for video demo
 ### Eye Blink Settings
