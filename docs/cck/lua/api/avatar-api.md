@@ -4,9 +4,10 @@ Accessible via the `AvatarAPI` [Global](globals.md). This API provides access to
 
 ## Static Functions
 
-| Name                                                   | Description                                         |
-|--------------------------------------------------------|-----------------------------------------------------|
-| `LocalAvatar : Avatar` <br>(Returns [Avatar](#avatar)) | Access the Local Player's Avatar instance reference |
+| Name                                                     | Description                                                                                                                     |
+|----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| `LocalAvatar : Avatar` <br>(Returns [Avatar](#avatar))   | Access the Local Player's Avatar instance reference                                                                             |
+| `CurrentAvatar : Avatar` <br>(Returns [Avatar](#avatar)) | Access the Script's Avatar instance reference (the avatar the script is running on). *This is only available on avatar scripts* |
 
 ## Avatar
 
