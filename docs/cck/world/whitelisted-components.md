@@ -126,7 +126,7 @@ A list of all whitelisted components for worlds.
 + [CVR Variable Buffer](../components/variable-buffer.md)
 + [CVR Video Player](../components/video-player.md)
 + [CVR Animator Driver](../components/animator-driver.md)
-+ [CVR Attachment](../components/attachment.md)
++ [CVR Attachment](../components/CVRAttachment.md)
 + [CVR Audio Driver](../components/audio-driver.md)
 + [CVR Blitter](../components/blitter.md)
 + [CVR Distance Lod](../components/CVRDistanceLod.md)

@@ -1,5 +1,5 @@
 # CVR Attachment
-Documentation can be found [here](../components/attachment.md).
+Documentation can be found [here](old/attachment.md).
 
 ## Attach to Bone
 You can attach a game object to a bone using the following setup.
@@ -13,3 +13,4 @@ You could use this for example for tracking real items in your playspace, and sh
 Attaching to the Main Camera/HMD of a player is also possible like this.
 This can be useful in many use-cases. For example, as a map creator, having particles spawn around the player.
 
+This should probably not exist because we make the funny in the component page itself - Lily
