@@ -7,3 +7,4 @@ Here are some example scripts that can be used as an example to learn about Lua.
 * [Teleport from Water](player-teleport-away-from-water.md) - Teleport when fully immersed in water.
 * [Thumbs Up Player Launcher](player-thumbs-up-launch.md) - Launch upward when doing 2x thumbs up gesture.
 * [Viewpoint Raycast](viewpoint-raycast.md) - Perform a raycast from the player's viewpoint.
+* [Player Profile / Avatar Picture](player-profile-picture.md) - Get Player Profile and Avatar pictures.
