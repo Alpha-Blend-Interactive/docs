@@ -1,5 +1,5 @@
 # CVR Portal Marker <div class="whitelisted" data-list="W"></div>
-
+The CVR Portal Marker is a component that world creators can use to create persistent portals to other worlds.
 ## UI
 ![](../../assets/images/compdoc/CVRPortalMarkerMenu.png)
 

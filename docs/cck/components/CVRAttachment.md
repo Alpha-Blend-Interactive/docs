@@ -9,10 +9,15 @@ The CVR Attachment can be used to attach objects to a bone or a tracker. This ca
 The type will define how and where your object will be attached.
 
 - **Bone**
+
 Attaches the object to a bone of an avatar.
+
 - **Tracker**
+
 Attaches the object to a tracker.
+
 -  **Snapping Point**
+
 Attaches the object to a snapping point reference.
 
 #### Bone Type
