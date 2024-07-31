@@ -118,7 +118,7 @@ A list of all whitelisted components for worlds.
 
 + [CVR Haptic Chest Area](../components/haptic-chest-area.md)
 + [CVR Toggle State Trigger](../components/global-shader-updater.md)
-+ [CVR Advanced Avatar Trigger](../components/haptic-zone.md)
++ [CVR Advanced Avatar Trigger](haptic-zone.md)
 + [CVR Mirror](../components/mirror.md)
 + [CVR Nav Controller](../components/nav-controller.md)
 + [CVR Object Sync](../components/CVRObjectSync.md)
