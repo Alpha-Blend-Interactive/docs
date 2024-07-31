@@ -49,7 +49,7 @@ The name of the snapping point the object should snap to.
 !!! tip "Dropping Automatically Held objects"
 	The default binding to release an automatically held object is G (on desktop) or by squeezing your right grip and pulling the right stick down (in VR).
 
-Makes the object automatically held in the players hand one picked up, preventing them from dropping the object accidentally.
+Makes the object automatically held in the players hand once picked up, preventing them from dropping the object accidentally.
 
 #### Update With Physics
 
