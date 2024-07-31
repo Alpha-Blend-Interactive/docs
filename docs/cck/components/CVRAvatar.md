@@ -10,19 +10,19 @@ While the process for uploading avatars is made as accessible as possible, there
 
 ### Preparing a New Project
 
-Fuck
-
+To begin any project, you will need the appropriate Unity version and current CCK version. Because this is a living game that has changes this documentation may not be able to keep up with, it is always suggested to follow the instructions on the [Setup Page](https://docs.abinteractive.net/cck/setup/) for getting the correct unity version and installing the CCK. You can get the Unity Hub management software [here](https://unity.com/download) or find individual Unity Editor versions [here](https://unity.com/releases/editor/archive).
+Once you have the correct unity version installed, create a new project, import the CCK, and then import any assets you'll be using.
 ### Importing the CCK
 
-Shit
+point to current CCK
 
 ### Importing and Configuring Your Avatar
 
-Piss
+have a general guide for a basic humanoid setups, explain concept of generics
 
 ### General Information for Beginners
 
-Ass
+short list of explanations of quirks and important tidbits for/of unity and 3D modelling that would be relevant to avatars
 
 ## UI
 
@@ -62,7 +62,30 @@ The Face Mesh field selects the [Skinned Mesh Renderer](https://docs.unity3d.com
 ### Eye Look Settings
 
 ![](../../assets/images/compdoc/CVRAvatarEyeLookGeneric.png)
+![](../../assets/images/compdoc/CVRAvatarEyeLookHumanoid.png)
 
+The Eye Look Settings menu holds settings for the specific way that automated eye movement functions as well as if it is even active at all. On top of the toggle for using eye look, there is a gaze duration slider as well as 4 different modes for changing the direction the avatar is looking (including none).
+
+**Eye Look Mode**
+
+The look direction of an avatar's eyes when not controlled by eye tracking can be defined in 3 ways, as well as being disabled (which overrides the "Use Eye Movement" Checkbox):
+
+!!! hint "Is Left"
+	Because the CCK allows you to create avatars with an arbitrary number of eyes, the "transform" and "blendshape" Eye Look Modes assume that you're defining a right eye unless "Is Left" is checked.
+
+- Muscle:
+
+![](../../assets/images/compdoc/EyeLookModeMuscle.png)
+
+Uses the [Unity Humanoid Rig's](https://docs.unity3d.com/2021.3/Documentation/Manual/UsingHumanoidChars.html) muscle settings and limits to define the range of motion.
+
+- Transform
+
+![](../../assets/images/compdoc/EyeLookModeTransform.png)
+
+Uses the GameObject Rotation, position, and scale to define the eyes' rotation behavior.
+- Blendshape
+- None
 waiting for video demo
 ### Eye Blink Settings
 ### Lip Sync Settings
@@ -80,3 +103,5 @@ Videos needed:
 - (optionally) setup for eye/face tracking
 - basic avatar setup guide
 ## Notes
+
+animator component populates on upload with animator targeted by animator override controller in avatar customization section
