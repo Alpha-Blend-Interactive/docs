@@ -122,7 +122,7 @@ A list of all whitelisted components for worlds.
 + [CVR Mirror](../components/mirror.md)
 + [CVR Nav Controller](../components/nav-controller.md)
 + [CVR Object Sync](../components/CVRObjectSync.md)
-+ [CVR Portal Marker](../components/portal-marker.md)
++ [CVR Portal Marker](../components/CVRPortalMarker.md)
 + [CVR Variable Buffer](../components/variable-buffer.md)
 + [CVR Video Player](../components/video-player.md)
 + [CVR Animator Driver](../components/animator-driver.md)
