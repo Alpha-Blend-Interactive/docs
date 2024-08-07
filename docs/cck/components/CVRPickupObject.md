@@ -36,13 +36,9 @@ The maximum distance a player can grab the object from.
 
 Snapping References are a list of [CVR Snapping Point](CVRSnappingPoint.md) types that the object can attach to.
 
- - **Reference Point**
+ **Reference Point**: The GameObject that the pickup will use as its center point when snapping to the snapping point.
 
-The GameObject that the pickup will use as its center point when snapping to the snapping point.
-
-- **Allowed Type**
-
-The name of the snapping point the object should snap to.
+**Allowed Type**: The name of the snapping point the object should snap to.
 
 #### Auto Hold
 
