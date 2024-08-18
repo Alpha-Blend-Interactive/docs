@@ -143,10 +143,15 @@ Functions and properties specific to remote players.
 
 ### Properties
 
-| Name                          | Description                                             |
-|-------------------------------|---------------------------------------------------------|
-| `NameplatePosition : Vector3` | Position of the remote player's nameplate in the world. |
-| `IsNameplateActive : bool`    | Indicates whether the nameplate is active or not.       |
+| Name                               | Description                                             |
+|------------------------------------|---------------------------------------------------------|
+| `IsNameplateActive : bool`         | Indicates whether the nameplate is active or not.       |
+
+### Methods
+
+| Name                               | Description                                                     |
+|------------------------------------|-----------------------------------------------------------------|
+| `GetNameplatePosition() : Vector3` | Get the Position of the remote player's nameplate in the world. |
 
 ## Local Player
 
