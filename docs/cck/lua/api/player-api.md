@@ -117,16 +117,41 @@ The viseme index values are mapped as follows:
 | `GetGravity() : Vector3`          | Current gravity vector affecting the player.   |
 | `GetGravityDirection() : Vector3` | Direction of the gravity affecting the player. |
 
+### Profile Picture
+
+Requesting the picture is a bit more complicated as it needs to be acquired in the first place. So it's not a function
+that will give the results right away. Instead, it uses a callback lua function, which is basically a normal lua 
+function that gets called whenever the request is finished.
+
+For a complete example, check: [Player Profile and Avatar Picture Example](../examples/player-profile-picture.md)
+
+#### Methods
+
+| Name                                                                                                                                                                                                                                  | Description                                                                           |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| `RequestProfileImage(callback OnProfileImage, bool castToTexture) : void`<br>&nbsp;&nbsp;- `#arg1` lua function for the [callback](#callbacks)<br>&nbsp;&nbsp;- `#arg2` *[Optional]* Whether to cast the Texture2D to Texture or not. | Sends a request to fetch the Player's profile picture as a Texture2D or as a Texture. |
+
+#### Callbacks
+
+| Name                                                                                                                                                                                                                           | Description                                                                |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| `OnProfileImage(Texture2D/Texture texture, string userID) : void`<br>&nbsp;&nbsp;- `#arg1` The Texture/Texture2D reference for the player image<br>&nbsp;&nbsp;- `#arg2` *[Optional]* The Player's UserID the image belongs to | Gets called when `RequestProfileImage` finished and is sending the results |
+
 ## Remote Player
 
 Functions and properties specific to remote players.
 
 ### Properties
 
-| Name                          | Description                                             |
-|-------------------------------|---------------------------------------------------------|
-| `NameplatePosition : Vector3` | Position of the remote player's nameplate in the world. |
-| `IsNameplateActive : bool`    | Indicates whether the nameplate is active or not.       |
+| Name                               | Description                                             |
+|------------------------------------|---------------------------------------------------------|
+| `IsNameplateActive : bool`         | Indicates whether the nameplate is active or not.       |
+
+### Methods
+
+| Name                               | Description                                                     |
+|------------------------------------|-----------------------------------------------------------------|
+| `GetNameplatePosition() : Vector3` | Get the Position of the remote player's nameplate in the world. |
 
 ## Local Player
 
