@@ -87,6 +87,30 @@ if blake2b.hash({string.byte(boundObject["Text"].text,1,-1)}, 64) == KEYCODE_BLA
 end
 ```
 
+## Rule 1. Scope
+
+Other scripts can call/access your script's global functions/variables. If you have some code that you want to keep to
+your own script, you should use the `local` keyword. For example:
+
+```lua
+-- This function can be run by external scripts, which can cause a player to cheat and give himself money 
+-- if they are able to get a reference to your script
+function IncrementMoneys(amount)
+    print("Incrementing money to this player!")
+    ...
+end
+```
+
+```lua
+-- This function can NOT be run by external scripts, because external scripts can only run Global functions.
+local function SaferIncrementMoneys(amount)
+    print("Incrementing money to this player (a bit more safely)!")
+    ...
+end
+```
+
+So the rule of the thumb is give your code the least scope possible they need to work.
+
 ## More to come
 
 Other rules of thumb coming soon!
