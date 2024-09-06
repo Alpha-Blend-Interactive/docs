@@ -1,25 +1,34 @@
 # ABI Documentation
 
-Internal copy of our public docs.
+This repository contains the source files for the Alpha Blend Interactive Documentation available under [docs.abinteractive.net](https://docs.abinteractive.net/)
 
-## How to test
+## How to Contribute
+
+### Install python, dependencies and mkdocs
 
 1. Install [CPython](https://python.org)
 1. `pip install -U poetry`
 1. `cd path/to/docs`
 1. `poetry install --no-root`
-1. `poetry shell`
 1. `mkdocs serve`
 
-## Contributing
-- master is our production branch, means anything in master goes into the production site
-- develop is our main development branch, merge your changes to here
+### Branches
+
+- master is our production branch, means anything in master goes/is in the production site at [docs.abinteractive.net](https://docs.abinteractive.net/)
+- develop is our main development branch, merge and base your changes to/from here
+
+### External Contributors
+
+Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a fork, add commits, and [open a pull request](https://github.com/Alpha-Blend-Interactive/docs/compare).
+
+### ABI employee's / ABI internal contributors
 
 For any changes, make a feature branch.
 This means a branch named like `feature/add-cvravatar-feature-docs` with a reaonable short name of the changes you are doing there.
 When you are done with your changes, merge them into develop.
 
 ### Releases
-Making a release should be done by either a Development Head or DevOps Engineer.
+Release are made by ABI staff.
 
+Additional notes:
 For deploying to production merge develop into master, and grab the latest build artifact from teamcity after it has been built.
