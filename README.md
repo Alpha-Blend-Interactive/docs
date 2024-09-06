@@ -1,4 +1,6 @@
-# ABI Documentation
+!["ABI Logo Short"](https://docs.abinteractive.net/assets/images/abi-small-white.png)
+
+# Documentation
 
 This repository contains the source files for the Alpha Blend Interactive Documentation available under [docs.abinteractive.net](https://docs.abinteractive.net/)
 
