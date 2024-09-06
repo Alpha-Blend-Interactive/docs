@@ -1,0 +1,51 @@
+name: 'Missing Documentation'
+description: "There is a piece of documentation missing or incomplete."
+title: '[Missing] '
+labels: ['type: missing', 'status: triage']
+
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        # Checklist
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission checklist
+      description: |
+        To prevent wasting your or our time, please fill out the below checklist before continuing.
+        Thanks for understanding!
+      options:
+        - label: 'I checked that no other Issues describing this missing piece of documentation.'
+          required: true
+        - label: 'I accept that this issue may be closed if any of the above are found to be untrue.'
+          required: true
+
+  - type: input
+    id: what-is-missing
+    attributes:
+      label: 'What is missing'
+      placeholder: 'CCK component xyz'
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestions
+    attributes:
+      label: 'What do you suggest or expect to be added?'
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        # Anything else?
+
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: 'Other remarks'
+    validations:
+      required: false
