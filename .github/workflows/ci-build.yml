@@ -33,6 +33,9 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Install packages
+        run: apt update && apt install -y libgl1-mesa-dev
+
       - name: Install poetry
         run: pip install -U poetry
       
@@ -40,7 +43,7 @@ jobs:
         run: poetry install --no-root
       
       - name: Build site
-        run: mkdocs build
+        run: poetry run mkdocs build
       
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
