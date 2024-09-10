@@ -1,4 +1,4 @@
-# Game Instance Controller
+# Game Instance Controller <div class="whitelisted" data-list="W"></div>
 Adding this component enables team based gamemodes in your world.
 
 ### Teams
@@ -19,7 +19,7 @@ Teams can have their own properties and events per Team.
     * **Team Member Un Ready Event:** This is triggered when the player marks themselves as not ready, after marking themselves as ready.
    
 ### Properties
-These are properties that controll all teams and game conditions.
+These are properties that control all teams and game conditions.
 
 + **Balance Team Join** With this enabled, players joining will be assigned to the team of the least amount of players.
 + **Auto Balance Teams** With this enabled, players my get reassigned to a different team when new players join; regardless of their initial selection.
@@ -27,7 +27,7 @@ These are properties that controll all teams and game conditions.
 + **Ready Timer** After the ready percentage has been met, this is the time in seconds before the game starts.
 + **Game Controller Type**
   - **Default** Score based gamemode
-  - **Combat System** Elemination based gamemode
+  - **Combat System** Elimination based gamemode
 + **Game Type**
   - **Single** Each game is one round, as of game version 2024r176, Round Start and Round End Events will trigger alongside Game Start and Game End Events.
   - **Rounds** Each game will consist of the amount of rounds specified in the Rounds To Win property.
