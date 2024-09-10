@@ -11,7 +11,7 @@ Adding this component enables PvP and PVE style gamemodes in your world. Best us
 
 ##### Health Regeneration
 + **Health Regeneration Delay:** The time in seconds before the player starts regenerating Health.
-+ **Health Regeneration Rate:** How much Health the player receives per second.
++ **Health Regeneration Rate:** The amount of Health the player recovers per second.
 + **Health Regeneration Cap:** The amount of Health that regeneration will stop.
 
 ##### Armor
@@ -20,7 +20,7 @@ Adding this component enables PvP and PVE style gamemodes in your world. Best us
 
 ##### Armor Regeneration
 + **Armor Regeneration Delay:** The time in seconds before the player starts regenerating Armor.
-+ **Armor Regeneration Rate:** How much Armor the player receives per second.
++ **Armor Regeneration Rate:** The amount of Armor the player recovers per second.
 + **Armor Regeneration Cap:** The amount of Armor that regeneration will stop.
 
 ##### Shield
@@ -29,11 +29,11 @@ Adding this component enables PvP and PVE style gamemodes in your world. Best us
 
 ##### Shield Regeneration
 + **Shield Regeneration Delay:** The time in seconds before the player starts regenerating Shield.
-+ **Shield Regeneration Rate:** How much Shield the player receives per second.
++ **Shield Regeneration Rate:** The amount of Shield the player recovers per second.
 + **Shield Regeneration Cap:** The amount of Shield that regeneration will stop.
 
 ##### General Settings
-+ **Friendly Fire:** Enable or Disable the ability for players to attack their own teamates.
++ **Friendly Fire:** Enable or Disable the ability for players to attack their own teammates.
 
 ##### Respawn Behavior
 Choose how the player will respawn upon being downed.
