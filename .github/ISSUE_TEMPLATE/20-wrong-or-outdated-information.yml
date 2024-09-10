@@ -1,0 +1,67 @@
+name: 'Wrong or Outdated Information'
+description: "There is something wrong or outdated."
+title: '[OUTDATED-WRONG] '
+labels: ['type: outdated-wrong', 'status: triage']
+
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        # Checklist
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission checklist
+      description: |
+        To prevent wasting your or our time, please fill out the below checklist before continuing.
+        Thanks for understanding!
+      options:
+        - label: 'I checked that no other Issues describing this issue'
+          required: true
+        - label: 'I accept that this issue may be closed if any of the above are found to be untrue.'
+          required: true
+
+  - type: input
+    id: where
+    attributes:
+      label: 'Where is the wrong or outdated information?'
+      placeholder: 'CCK component xyz'
+    validations:
+      required: true
+
+  - type: input
+    id: where-link
+    attributes:
+      label: 'Please provide a link to the page'
+      placeholder: 'https://docs.abinteractive.net/cck/avatar/face-tracking/#separate-frown-blendshape'
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-is-wrong
+    attributes:
+      label: 'What exactly is wrong here?'
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested-fix
+    attributes:
+      label: 'What information should displayed here? (Optional)'
+    validations:
+      required: false
+
+
+  - type: markdown
+    attributes:
+      value: |
+        # Anything else?
+
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: 'Other remarks'
+    validations:
+      required: false
