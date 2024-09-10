@@ -1,4 +1,4 @@
-# Damage
+# Damage <div class="whitelisted" data-list="W"></div>
 Adding this component will allow the GameObject's collider or Particle system to inflict damage to the player; if the Combat System is present in your scene.
 
 ### Properties
@@ -17,7 +17,7 @@ This is the amount of damage that is applied to the Damage Type.
 + **Damage Over Time Duration:** How many seconds that Damage Over Time is applied to the Damage Type.
 + **Damage Over Time Contact:** Applies the Damage Over Time to the Damage Type if the player is in or not in contact with the GameObject.
 
-##### Damage Multipier
+##### Damage Multiplier
 Multiplies the Damage Amount to the Damage Type.
 + **Health**
 + **Armor**

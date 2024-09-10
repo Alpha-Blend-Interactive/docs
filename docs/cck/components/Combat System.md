@@ -1,4 +1,4 @@
-# Combat System
+# Combat System <div class="whitelisted" data-list="W"></div>
 Adding this component enables PvP and PVE style gamemodes in your world. Best used alongside the **Damage** Component and the **Game Instance Controller** Component
 
 ### Properties
@@ -6,7 +6,7 @@ Adding this component enables PvP and PVE style gamemodes in your world. Best us
 ##### Reference ID
 
 ##### Health
-+ **Health Base Amount:** This is the default Health each player starts with at the begining of a Game or Round.
++ **Health Base Amount:** This is the default Health each player starts with at the beginning of a Game or Round.
 + **Health Max Amount:** This is the Maximum amount of Health a player can have at any given time.
 
 ##### Health Regeneration
@@ -15,7 +15,7 @@ Adding this component enables PvP and PVE style gamemodes in your world. Best us
 + **Health Regeneration Cap:** The amount of Health that regeneration will stop.
 
 ##### Armor
-+ **Armor Base Amount:** This is the default Armor each player starts with at the begining of a Game or Round.
++ **Armor Base Amount:** This is the default Armor each player starts with at the beginning of a Game or Round.
 + **Armor Max Amount:** This is the Maximum amount of Armor a player can have at any given time.
 
 ##### Armor Regeneration
@@ -24,7 +24,7 @@ Adding this component enables PvP and PVE style gamemodes in your world. Best us
 + **Armor Regeneration Cap:** The amount of Armor that regeneration will stop.
 
 ##### Shield
-+ **Shield Base Amount:** This is the default Armor each player starts with at the begining of a Game or Round.
++ **Shield Base Amount:** This is the default Armor each player starts with at the beginning of a Game or Round.
 + **Shield Max Amount:** This is the Maximum amount of Armor a player can have at any given time.
 
 ##### Shield Regeneration
@@ -52,7 +52,7 @@ These are hooks that can be triggered by the Combat System.
 + **Player Revitalize Event:** This is triggered if the player is given Health outside of Health Regeneration.
 
 ### PVP Events
-These are hooks that can be triggerd by the Combat System from other players.
+These are hooks that can be triggered by the Combat System from other players.
 + **Player Downed Event:** This is triggered when a remote player brings the local player's health to 0.
 + **Downed Another Player Event:** This is triggered when the local player brings a remote player's health to 0.
 + **Player Got Hit Event:** This is triggered when the local player is hit by a remote player's Damage component.

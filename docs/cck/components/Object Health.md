@@ -1,4 +1,4 @@
-# Object Health
+# Object Health <div class="whitelisted" data-list="W"></div>
 Adding this component gives the GameObject properites for the Combat System. Best used alongside the **Damage** and **Game Instance Controller** components.
 
 ### Properties
@@ -15,7 +15,7 @@ Adding this component gives the GameObject properites for the Combat System. Bes
 + **Health Regeneration Cap:** The amount of Health that regeneration will stop.
 
 ##### Armor
-+ **Armor Base Amount:** This is the default Armor the GameObject starts with at the begining of a Game or Round.
++ **Armor Base Amount:** This is the default Armor the GameObject starts with at the beginning of a Game or Round.
 + **Armor Max Amount:** This is the Maximum amount of Armor the GameObject can have at any given time.
 
 ##### Armor Regeneration
@@ -24,7 +24,7 @@ Adding this component gives the GameObject properites for the Combat System. Bes
 + **Armor Regeneration Cap:** The amount of Armor that regeneration will stop.
 
 ##### Shield
-+ **Shield Base Amount:** This is the default Armor the GameObject starts with at the begining of a Game or Round.
++ **Shield Base Amount:** This is the default Armor the GameObject starts with at the beginning of a Game or Round.
 + **Shield Max Amount:** This is the Maximum amount of Armor the GameObject can have at any given time.
 
 ##### Shield Regeneration
@@ -42,8 +42,8 @@ This will determine how to handle the GameObject when it's health reaches 0.
   - **Respawn After Game Start:** Only Applicable when the Game Instance Controller is present in the scene; will respawn the GameObject when the game starts.
   - **Respawn After Game End:** Only Applicable when the Game Instance Controller is present in the scene; will respawn the GameObject when the game ends.
 + **Respawn Time:** Only Applicable if the Respawn After Time behavior is used; the amount in seconds before the GameObject Respawns.
-+ **Repsawn Point:** The GameObject Transform property that the Object Health GameObject will respawn at.
-+ **Connected Game Instance** Only Applicable when the Game Instance Controller is present in the scene; The Game Instcance Controller component that the GameObject is effected by.
++ **Respawn Point:** The GameObject Transform property that the Object Health GameObject will respawn at.
++ **Connected Game Instance** Only Applicable when the Game Instance Controller is present in the scene; The Game Instance Controller component that the GameObject is effected by.
 
 ### Events
 These are hooks that can be triggered by the Combat System.
