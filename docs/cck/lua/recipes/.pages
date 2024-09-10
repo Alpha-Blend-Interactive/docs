@@ -4,3 +4,4 @@ nav:
     - getting-users.md
     - listen-game-events.md
     - getting-components.md
+    - outputting-text.md
