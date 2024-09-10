@@ -1,4 +1,4 @@
-# CVR Animator Driver
+# CVR Animator Driver <div class="whitelisted" data-list="AP"></div>
 This component can be used to control [Animator](https://docs.unity3d.com/ScriptReference/Animator.html) parameters from
 another animation. Useful for e.g., creating sub animators, and controlling their parameters with the main animator.
 

@@ -26,7 +26,7 @@ Please contribute using [GitHub Flow](https://guides.github.com/introduction/flo
 ### ABI employee's / ABI internal contributors
 
 For any changes, make a feature branch.
-This means a branch named like `feature/add-cvravatar-feature-docs` with a reaonable short name of the changes you are doing there.
+This means a branch named like `feature/add-cvravatar-feature-docs` with a reasonable short name of the changes you are doing there.
 When you are done with your changes, merge them into develop.
 
 ### Releases

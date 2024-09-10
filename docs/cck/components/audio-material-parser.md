@@ -1,4 +1,4 @@
-# CVR Audio Material Parser
+# CVR Audio Material Parser<div class="whitelisted" data-list="W"></div>
 The purpose of this component is, to make use of spectrum or output data of an audio source.
 This could be used to visualize/create reactive objects to e.g. music of the video player.
 

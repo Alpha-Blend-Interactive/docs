@@ -1,4 +1,4 @@
-# CVR Avatar
+# CVR Avatar <div class="whitelisted" data-list="A"></div>
 This component is the main component for your avatar, it features various settings and vaiables relevant for your 
 avatar, you attach this component to the root gameobject of your avatar.
 
@@ -56,8 +56,7 @@ autofilled if they have a naming scheme that fits or is near equal name of each 
     Blinking can be toggled of during runtime via e.g. an animation
 
 !!! warning
-    If you have an animation using the selected blendshapes, your visemes will not work, keep them seperate from 
-blendshapes used in animations.
+    If you have an animation using the selected blendshapes, your visemes will not work, keep them separate from blendshapes used in animations.
 
 
 ## Advanced Tagging

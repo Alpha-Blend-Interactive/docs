@@ -1,4 +1,4 @@
-# CVR Portal Marker
+# CVR Portal Marker <div class="whitelisted" data-list="W"></div>
 
 ### Properties
 

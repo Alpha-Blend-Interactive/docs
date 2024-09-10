@@ -1,4 +1,4 @@
-# CVR Attachment
+# CVR Attachment <div class="whitelisted" data-list="P"></div>
 This component can be used to attach objects to a bone or a tracker. This can be used for props like e.g, hats or glasses.
 
 ### Properties
