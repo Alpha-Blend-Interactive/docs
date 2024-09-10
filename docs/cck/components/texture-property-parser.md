@@ -1,4 +1,4 @@
-# CVR Texture Property Parser <div class="whitelisted" data-list="W"></div>
+# CVR Texture Property Parser <div class="whitelisted" data-list="AWP"></div>
 Used to parse a pixels color channel value from a texture.
 
 ##### Texture Type

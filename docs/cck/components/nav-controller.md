@@ -1,4 +1,4 @@
-# CVR Nav Controller <div class="whitelisted" data-list="P"></div>
+# CVR Nav Controller <div class="whitelisted" data-list="WP"></div>
 This component allows to control a [Nav Mesh Agent](https://docs.unity3d.com/ScriptReference/AI.NavMeshAgent.html)
 path. You can select a target or enable patrol mode.
 

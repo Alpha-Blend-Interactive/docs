@@ -1,4 +1,4 @@
-# CVR Pickup Object <div class="whitelisted" data-list="P"></div>
+# CVR Pickup Object <div class="whitelisted" data-list="WP"></div>
 Add this component to configure a game object as a pickup object. Players will be able to grab pickup objects.
 
 ### Properties

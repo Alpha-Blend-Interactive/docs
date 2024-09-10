@@ -1,4 +1,4 @@
-# CVR Advanced Avatar Trigger <div class="whitelisted" data-list="AP"></div>
+# CVR Advanced Avatar Trigger <div class="whitelisted" data-list="A"></div>
 With this component you can modify your advanced avatar settings parameter values when a **[CVR Pointer](pointer.md)** 
 enters the indicated trigger area. Size and placement can be adjusted with the settings bellow.  
 The trigger area will move together with its parented armature bone or game object.

@@ -1,4 +1,4 @@
-# CVR Video Player <div class="whitelisted" data-list="W"></div>
+# CVR Video Player <div class="whitelisted" data-list="WP"></div>
 
 ## General
 
