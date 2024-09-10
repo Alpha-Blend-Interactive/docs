@@ -1,4 +1,4 @@
-# CVR Spawnable Trigger
+# CVR Spawnable Trigger <div class="whitelisted" data-list="P"></div>
 Spawnable Triggers are basically [CVR Advanced Avatar Trigger](aas-trigger.md) for [Spawnables](spawnable.md).
 But they have a slightly different setup.
 

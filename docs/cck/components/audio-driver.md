@@ -1,4 +1,4 @@
-# CVR Audio Driver
+# CVR Audio Driver <div class="whitelisted" data-list="AP"></div>
 This component allows you, to switch between multiple audio clips for one audio source.  
 This is recommended and useful when using many audio clips for the same audio source location and settings.
 

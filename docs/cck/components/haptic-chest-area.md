@@ -1,4 +1,4 @@
-# CVR Haptic Chest Area
+# CVR Haptic Chest Area <div class="whitelisted" data-list="AP"></div>
 This component allows you to configure your chest haptics area for your avatar.
 
 The chest haptic area has 20 trigger points on both front and back side. This translates to the 40 trigger points on 

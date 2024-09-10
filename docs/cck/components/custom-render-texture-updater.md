@@ -1,2 +1,2 @@
-# CVR Custom Render Texture Updater
+# CVR Custom Render Texture Updater <div class="whitelisted" data-list="W"></div>
 Calls the update method once a frame for the selected [Custom Render Texture](https://docs.unity3d.com/Manual/class-CustomRenderTexture.html).

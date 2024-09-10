@@ -1,4 +1,4 @@
-# CVR Advanced Avatar Trigger Helper
+# CVR Advanced Avatar Trigger Helper <div class="whitelisted" data-list="AP"></div>
 This component allows triggering of an aas trigger form an animation of your main animator (e.g., gestures or emotes)
 
 ### Properties

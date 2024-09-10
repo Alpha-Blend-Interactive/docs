@@ -1,4 +1,4 @@
-# CVR World
+# CVR World <div class="whitelisted" data-list="W"></div>
 This is the main component for a world and needed for uploading your world. 
 
 ### World Settings

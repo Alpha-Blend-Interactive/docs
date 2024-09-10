@@ -1,4 +1,4 @@
-# CVR Mirror
+# CVR Mirror <div class="whitelisted" data-list="W"></div>
 The mirror component, we suggest you to use the corresponding prefab to place a mirror in the world, the white surface is the mirror reflection side.
 
 ### Properties

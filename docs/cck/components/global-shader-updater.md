@@ -1,4 +1,4 @@
-# CVR Global Shader Updater
+# CVR Global Shader Updater <div class="whitelisted" data-list="W"></div>
 This component can be used to define global [Shader](https://docs.unity3d.com/Manual/Shaders.html) properties.
 This means shaders can access those global variables, and you can also update those variables on runtime by e.g, an animation.
 

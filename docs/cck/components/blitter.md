@@ -1,4 +1,4 @@
-# CVR Blitter
+# CVR Blitter <div class="whitelisted" data-list="W"></div>
 Allows the use of Unity's [Graphics.Blit](https://docs.unity3d.com/ScriptReference/Graphics.Blit.html). This component 
 recommended for advanced users only.
 

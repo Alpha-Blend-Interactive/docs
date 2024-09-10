@@ -1,4 +1,4 @@
-# CVR Face Tracking
+# CVR Face Tracking <div class="whitelisted" data-list="AP"></div>
 The face tracking component allows the use of facial tracking hardware like e.g., 
 [VIVE Facial Tracker](https://www.vive.com/eu/accessory/facial-tracker/).
 

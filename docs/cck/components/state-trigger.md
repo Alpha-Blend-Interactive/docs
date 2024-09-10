@@ -1,4 +1,4 @@
-# CVR Toggle State Trigger
+# CVR Toggle State Trigger <div class="whitelisted" data-list="AP"></div>
 With this component you can modify the toggle state of your avatar when a **[CVR Pointer](pointer.md)** 
 enters the indicated trigger area. Size and placement can be adjusted with the settings bellow.
 The trigger area will move together with its parented armature bone or game object.

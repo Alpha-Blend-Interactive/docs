@@ -1,4 +1,4 @@
-# CVR Particle Sound
+# CVR Particle Sound <div class="whitelisted" data-list="W"></div>
 This component allows you to play an [Audio Clip](https://docs.unity3d.com/ScriptReference/AudioClip.html) on particle
 birth/spawn and or death at the particle's location.
 
