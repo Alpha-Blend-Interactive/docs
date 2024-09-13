@@ -1,4 +1,4 @@
-# Gun Controller
+# Gun Controller <div class="whitelisted" data-list="W"></div>
 This component is used as a quick way to make a ranged weapon for the Combat System.
 
 ### Properties
@@ -11,7 +11,7 @@ This component is used as a quick way to make a ranged weapon for the Combat Sys
 + **Ammo Capacity:** The amount of ammo available to be reloaded into a magazine.
 + **Firing Mode**
   - **Single:** This Firing Mode requires the the GameObject to stop shooting before being able to shoot again.
-  - **Half Auto:** This Firing Mode will fire the ammount of ammo equal to the Firing Rate property; after, the GameObject will need to stop shooting before being able to shoot again.
+  - **Half Auto:** This Firing Mode will fire the amount of ammo equal to the Firing Rate property; after, the GameObject will need to stop shooting before being able to shoot again.
   - **Full Auto:** This Firing Mode will fire a continuous stream of ammo equal to the Firing Rate property per second; until the GameObject stops shooting, or runs out of ammo in the magazine.
 + **Firing Rate:** The amount of ammo per second that can be shot.
 + **Reload Time:** The amount of time in seconds that reloading the magazine takes.

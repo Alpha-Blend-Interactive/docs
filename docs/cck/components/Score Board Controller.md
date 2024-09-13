@@ -1,13 +1,13 @@
-#  Score Board Controller
+#  Score Board Controller <div class="whitelisted" data-list="W"></div>
 Adding this component will allow you to display information about the Game Instance Controller in a Unity UI Canvas.
 > As of 2024r176 Text UI is limited to Unity's legacy Text UI components. This may change in the future.
 
 ### Properties
 These are properties that are controlled by the Game Instance Controller.
 
-+ **Game Instance Controller:** The Game Insatance Controller component the Score Board Controller is controlled by.
++ **Game Instance Controller:** The Game Instance Controller component the Score Board Controller is controlled by.
 + **Round Timers:** This is a List of text components that can display the time of the current round.
-+ **Round Status:** This is a List of text components that can display the round satus of the game.
++ **Round Status:** This is a List of text components that can display the round status of the game.
   - **Waiting For Players**
   - **Players Ready**
   - **Game Starting**

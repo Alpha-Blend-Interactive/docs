@@ -1,4 +1,4 @@
-# Control Point
+# Control Point <div class="whitelisted" data-list="W"></div>
 Adding this component to a GameObject with an IsTrigger collider will allow the player to obtain a score with the Game Instance Controller by being in the volume.
 > As of 2024r176 this component is not functional.
 
