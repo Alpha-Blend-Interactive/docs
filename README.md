@@ -29,7 +29,7 @@ For deploying to production merge develop into master, and grab the latest build
 
 ## Checking Your Work
 
-This is completely optional and provided to check work as it will appear on the live site before making PRs.
+We recommend previewing the site before submitting your PR.  To preview the site, follow the instructions below:
 
 ### Install python, dependencies and mkdocs
 
