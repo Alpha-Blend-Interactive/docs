@@ -1,5 +1,5 @@
 # CVR Advanced Avatar Trigger <div class="whitelisted" data-list="A"></div>
-With this component you can modify your advanced avatar settings parameter values when a **[CVR Pointer](pointer.md)** 
+With this component you can modify your advanced avatar settings parameter values when a **[CVR Pointer](CVRPointer.md)** 
 enters the indicated trigger area. Size and placement can be adjusted with the settings bellow.  
 The trigger area will move together with its parented armature bone or game object.
 
@@ -34,11 +34,11 @@ Allow only pointers having this type set.
 Parameter name of the setting to be modified.
 
 ##### Enabled Particle Interaction
-Enabling this option will allow particle systems to activate this trigger. You need a [CVR Pointer](pointer.md) on the same game object 
+Enabling this option will allow particle systems to activate this trigger. You need a [CVR Pointer](CVRPointer.md) on the same game object 
 as the trigger for it to work. Particle can only trigger **On Enter Trigger**.
 
 #### On Enter Trigger
-Actions when [CVR Pointer](pointer.md) enters the trigger area.
+Actions when [CVR Pointer](CVRPointer.md) enters the trigger area.
 
 ##### Setting Value
 Set value that will override, added to or subtracted from the current parameter value.
@@ -55,7 +55,7 @@ The time the pointer needs to stay in the trigger area, until the trigger gets e
 + **Subtract** (Subtracts the settings value from the parameters value)  
 
 #### On Exit Trigger
-Actions when [CVR Pointer](pointer.md) exits the trigger area.
+Actions when [CVR Pointer](CVRPointer.md) exits the trigger area.
 
 ##### Setting Value
 Set value that will override, added to or subtracted from the current parameter value.
@@ -69,7 +69,7 @@ Delay before the execution of the trigger
 + **Subtract** (Subtracts the settings value from the parameters value) 
 
 #### On Stay Trigger
-Actions when [CVR Pointer](pointer.md) stays in the trigger area.
+Actions when [CVR Pointer](CVRPointer.md) stays in the trigger area.
 
 ##### Update Method
 + **Set From Position** ()
