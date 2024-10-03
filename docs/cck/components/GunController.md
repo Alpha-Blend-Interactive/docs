@@ -1,5 +1,5 @@
 # Gun Controller <div class="whitelisted" data-list="W"></div>
-This component is used as a quick way to make a ranged weapon for the Combat System.
+This component is used as a quick way to make a ranged weapon for the [Combat System](CombatSystem.md).
 
 ### Properties
 
