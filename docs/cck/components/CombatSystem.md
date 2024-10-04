@@ -1,5 +1,5 @@
 # Combat System <div class="whitelisted" data-list="W"></div>
-Adding this component enables PvP and PVE style gamemodes in your world. Best used alongside the **Damage** Component and the **Game Instance Controller** Component
+Adding this component enables PvP and PVE style gamemodes in your world. Best used alongside the [Damage](Damage.md) Component and the [GameInstanceController](GameInstanceController.md) Component
 
 ### Properties
 

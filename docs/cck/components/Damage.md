@@ -1,5 +1,5 @@
 # Damage <div class="whitelisted" data-list="W"></div>
-Adding this component will allow the GameObject's collider or Particle system to inflict damage to the player; if the Combat System is present in your scene.
+Adding this component will allow the GameObject's collider or Particle system to inflict damage to the player; if the [CombatSystem](CombatSystem.md) is present in your scene.
 
 ### Properties
 

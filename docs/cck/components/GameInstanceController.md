@@ -28,7 +28,7 @@ These are properties that control all teams and game conditions.
 + **Ready Timer** After the ready percentage has been met, this is the time in seconds before the game starts.
 + **Game Controller Type**
     - **Default** Score based gamemode
-    - **Combat System** Elimination based gamemode
+    - **[Combat System](CombatSystem.md)** Elimination based gamemode
 + **Game Type**
     - **Single** Each game is one round, as of game version 2024r176, Round Start and Round End Events will trigger alongside Game Start and Game End Events.
     - **Rounds** Each game will consist of the amount of rounds specified in the Rounds To Win property.
@@ -37,8 +37,8 @@ These are properties that control all teams and game conditions.
     - **Score** When a Team accumulates a score defined by the End Score property, the game or round will end.
     - **Time** When the time in seconds defined in the End Time property is reached, the game or round will end.
     - **Time or Score** When the Time or Score end condition is met, the game or round will end.
-    - **Elimination** A combat system only Game Type end condition. When only 1 team is remaining, the game or round will end.
-    - **Time or Elimination** A combat system only Game Type end condition. When the Time or Elimination end condition is met, the game or round will end.
+    - **Elimination** A [Combat System](CombatSystem.md) only Game Type end condition. When only 1 team is remaining, the game or round will end.
+    - **Time or Elimination** A [Combat System](CombatSystem.md) only Game Type end condition. When the Time or Elimination end condition is met, the game or round will end.
 + **End Score** The score required to win a round or game.
 + **End Time** The amount of time in seconds before a round or game ends.
 
