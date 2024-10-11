@@ -4,7 +4,4 @@ site/
 .selid-hooks/
 .check-identity
 .obsidian
-pyvenv.cfg
-scripts/
-Lib/
-Include/
+venv/
