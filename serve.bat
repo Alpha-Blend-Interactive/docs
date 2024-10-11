@@ -1,2 +1,2 @@
-call scripts/activate
+call venv/scripts/activate
 mkdocs serve
