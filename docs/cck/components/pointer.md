@@ -1,4 +1,4 @@
-# CVR Pointer
+# CVR Pointer <div class="whitelisted" data-list="AWP"></div>
 CVR Pointer can interact with various different type of triggers & systems.  
 It can be used to activate area triggers on enter or on exit through many CVR components.
 

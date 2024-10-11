@@ -1,4 +1,4 @@
-# CVR Interactable
+# CVR Interactable <div class="whitelisted" data-list="W"></div>
 
 ##### Tooltip  
 A tooltip text which will be displayed when hovering over the trigger.

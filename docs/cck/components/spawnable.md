@@ -1,4 +1,4 @@
-# CVR Spawnable
+# CVR Spawnable <div class="whitelisted" data-list="P"></div>
 This is the main component for a **Spawnable** or **Prop**. This is required for setup and uploading the Prop.
 
 ## Properties

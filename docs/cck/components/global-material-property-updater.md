@@ -1,4 +1,4 @@
-# CVR Global Material Property Updater
+# CVR Global Material Property Updater <div class="whitelisted" data-list="WP"></div>
 Updates a material property globally. This means it will change the value for every e.g. mesh or component that
 uses this material.
 

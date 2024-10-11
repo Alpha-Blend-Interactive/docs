@@ -6,14 +6,6 @@ This repository contains the source files for the Alpha Blend Interactive Docume
 
 ## How to Contribute
 
-### Install python, dependencies and mkdocs
-
-1. Install [CPython](https://python.org)
-1. `pip install -U poetry`
-1. `cd path/to/docs`
-1. `poetry install --no-root`
-1. `mkdocs serve`
-
 ### Branches
 
 - master is our production branch, means anything in master goes/is in the production site at [docs.abinteractive.net](https://docs.abinteractive.net/)
@@ -26,7 +18,7 @@ Please contribute using [GitHub Flow](https://guides.github.com/introduction/flo
 ### ABI employee's / ABI internal contributors
 
 For any changes, make a feature branch.
-This means a branch named like `feature/add-cvravatar-feature-docs` with a reaonable short name of the changes you are doing there.
+This means a branch named like `feature/add-cvravatar-feature-docs` with a reasonable short name of the changes you are doing there.
 When you are done with your changes, merge them into develop.
 
 ### Releases
@@ -34,3 +26,15 @@ Release are made by ABI staff.
 
 Additional notes:
 For deploying to production merge develop into master, and grab the latest build artifact from teamcity after it has been built.
+
+## Checking Your Work
+
+We recommend previewing the site before submitting your PR.  To preview the site, follow the instructions below:
+
+### Install python, dependencies and mkdocs
+
+1. Install [CPython](https://python.org)
+1. `pip install -U poetry`
+1. `cd path/to/docs`
+1. `poetry install --no-root`
+1. `mkdocs serve`

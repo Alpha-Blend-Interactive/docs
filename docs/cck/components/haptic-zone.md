@@ -1,4 +1,4 @@
-# CVR Haptic Zone
+# CVR Haptic Zone <div class="whitelisted" data-list="W"></div>
 Allows you to define a haptic zone. You can define different actions that will trigger the
 **[CVR Haptic Chest Area](haptic-chest-area.md)** when interacting with it.
 

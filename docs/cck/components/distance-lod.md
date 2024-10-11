@@ -1,4 +1,4 @@
-# CVR Distance Lod
+# CVR Distance Lod <div class="whitelisted" data-list="W"></div>
 Distance lod or distance **level of detail** can be used to toggle on game object's based on their distance to the local
 player.
 
