@@ -34,7 +34,8 @@ We recommend previewing the site before submitting your PR.  To preview the site
 ### Install python, dependencies and mkdocs
 
 1. Install [CPython](https://python.org)
-1. `pip install -U poetry`
+1. Install [pipx](https://github.com/pypa/pipx?tab=readme-ov-file#install-pipx)
+1. `pipx install poetry`
 1. `cd path/to/docs`
 1. `poetry install --no-root`
 1. `mkdocs serve`
