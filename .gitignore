@@ -4,3 +4,4 @@ site/
 .selid-hooks/
 .check-identity
 .obsidian
+venv/
