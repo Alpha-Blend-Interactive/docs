@@ -712,6 +712,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1220155003}
+  - component: {fileID: 1220155006}
   - component: {fileID: 1220155005}
   - component: {fileID: 1220155004}
   m_Layer: 0
@@ -786,6 +787,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1220155002}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1220155006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220155002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edc847c3525e44118a56bf95486e228c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: This is a visual indicator of the Trigger Volume. It is tagged as
+    EditorOnly, it will not appear in game.
+  url: 
+  locked: 1
+  type: 0
 --- !u!1 &1278112413
 GameObject:
   m_ObjectHideFlags: 0
