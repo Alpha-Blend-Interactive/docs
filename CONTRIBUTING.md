@@ -1,4 +1,4 @@
-# Contributing
+# Contributing to CCK Docs
 
 ## Notification Boxes
 For inserting notification fields, always keep in mind that they stand out from the body of text and will typically be read first. as a result, they should be **before** a section unless they refer to something between two paragraphs.
@@ -137,5 +137,7 @@ When addressing Alpha Blend Interactive, please use first-person plural pronouns
 ## Embed Rules
 
 This section is incomplete and will be added to over time.
-	*You may not:*
-		- Add files or assets for use directly within Unity
+
+*You may not:*
+ 
+	- Add files or assets for use directly within Unity
