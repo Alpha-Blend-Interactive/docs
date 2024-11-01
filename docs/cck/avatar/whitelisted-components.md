@@ -72,6 +72,6 @@ A list of all whitelisted components for avatars.
 + [CVR Haptic Chest Area](../components/haptic-chest-area.md)
 + [CVR Toggle State Trigger](../components/state-trigger.md)
 + [CVR Advanced Avatar Trigger](../components/aas-trigger.md)
-+ [CVR Pointer](../components/pointer.md)
++ [CVR Pointer](../components/CVRPointer.md)
 + [CVR Avatar](../components/avatar.md)
 + [CVR Asset Info](../components/asset-info.md)

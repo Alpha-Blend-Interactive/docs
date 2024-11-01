@@ -1,5 +1,5 @@
 #  Score Board Controller <div class="whitelisted" data-list="W"></div>
-Adding this component will allow you to display information about the Game Instance Controller in a Unity UI Canvas.
+Adding this component will allow you to display information about the [GameInstanceController](GameInstanceController.md) in a Unity UI Canvas.
 > As of 2024r176 Text UI is limited to Unity's legacy Text UI components. This may change in the future.
 
 ### Properties

@@ -1,5 +1,5 @@
 # Object Health <div class="whitelisted" data-list="W"></div>
-Adding this component gives the GameObject properites for the Combat System. Best used alongside the **Damage** and **Game Instance Controller** components.
+Adding this component gives the GameObject properites for the Combat System. Best used alongside the [Damage](Damage.md) and [GameInstanceController](GameInstanceController.md) components.
 
 ### Properties
 

@@ -1,6 +1,6 @@
 # CVR Asset Info <div class="whitelisted" data-list="AWP"></div>
 
-The CVR Asset Info component is the component that defines the ownership and ID of an uploaded asset such as Avatars, Worlds, or Spawnables (also known as props) in our backend infrastructure. It is automatically generated as a subcomponent to the [CVR Avatar](Avatar.md), [CVR World](World.md), and [CVR Spawnable](Spawnable.md) components. 
+The CVR Asset Info component is the component that defines the ownership and ID of an uploaded asset such as Avatars, Worlds, or Spawnables (also known as props) in our backend infrastructure. It is automatically generated as a subcomponent to the [CVR Avatar](CVRAvatar.md), [CVR World](CVRWorld.md), and [CVR Spawnable](CVRSpawnable.md) components. 
 
 ## UI
 

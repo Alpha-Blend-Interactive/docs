@@ -1,5 +1,5 @@
 # Combat System <div class="whitelisted" data-list="W"></div>
-Adding this component enables PvP and PVE style gamemodes in your world. Best used alongside the **Damage** Component and the **Game Instance Controller** Component
+Adding this component enables PvP and PVE style gamemodes in your world. Best used alongside the [Damage](Damage.md) Component and the [GameInstanceController](GameInstanceController.md) Component
 
 ### Properties
 
@@ -38,9 +38,9 @@ Adding this component enables PvP and PVE style gamemodes in your world. Best us
 ##### Respawn Behavior
 Choose how the player will respawn upon being downed.
 + **Respawn Behavior**
-  * **Respawn On World:** Uses the CVRWorld Spawn Point.
-  * **Respawn On Point:** Uses the transform of the Respawn Point Property.
-  * **Respawn In Place:** Will respawn the player at the point they were downed.
+  - **Respawn On World:** Uses the CVRWorld Spawn Point.
+  - **Respawn On Point:** Uses the transform of the Respawn Point Property.
+  - **Respawn In Place:** Will respawn the player at the point they were downed.
 + **Respawn Point:** The GameObject Transform property the player will respawn at when using the **Respawn On Point** Respawn Behavior.
 + **Respawn Time:** The time after being down the player will respawn.
 
