@@ -15,6 +15,8 @@ This repository contains the source files for the Alpha Blend Interactive Docume
 
 Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a fork, add commits, and [open a pull request](https://github.com/Alpha-Blend-Interactive/docs/compare).
 
+For guidance writing new documents for CCK components, please follow our [style guide](https://github.com/Alpha-Blend-Interactive/docs/blob/master/CONTRIBUTING.md).
+
 ### ABI employee's / ABI internal contributors
 
 For any changes, make a feature branch.
