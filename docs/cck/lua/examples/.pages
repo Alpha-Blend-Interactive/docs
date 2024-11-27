@@ -7,3 +7,4 @@ nav:
     - player-thumbs-up-launch.md
     - player-teleport-away-from-water.md
     - viewpoint-raycast.md
+    - persistence.md
