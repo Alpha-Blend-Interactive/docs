@@ -91,3 +91,13 @@ This is triggered when the local player brings a remote player's health to 0.
 This is triggered when the local player is hit by a remote player's Damage component.
 ##### Hit Another Player Event
 This is triggered when the local player hits a remote player with a damage component.
+
+### Shader Globals
+These are globals from ChilloutVR exposed to shaders that are synced to the CombatSystem.
+
+##### _CVRCombatSystemHealth
+An interger value of your current Health.
+##### _CVRCombatSystemArmor
+An interger value of your current Armor.
+##### _CVRCombatSystemSheild
+An interger value of your current Sheild.
