@@ -1,17 +1,19 @@
 # Runtime Mesh Generation (Wobbly Cube)
 
-This shows how to create a Cube mesh, assigning it to a mesh renderer and a collider, just from code. It also moves
+This shows how to create a Cube mesh, and assign it to a mesh renderer and a collider, just from code. It also moves
 the vertices around every frame in a wobbly movement.
 
 Mesh generation can only run on world scripts.
 
 This example is a bit silly because we're updating a mesh in the update loop (which is performance heavy). You should
-not update meshes every frame.
+not update meshes every frame, instead you should focus on generating things and then keeping them static.
 
-We're also doing a bit of a hack enabling and disabling the mesh collider component, so it forces an update.
+We're also doing a bit of a hack enabling and disabling the mesh collider component, so it forces an update. Otherwise
+the new collision shape won't register.
 
-For this example we require to assign a MeshFilter as `meshFilter` and a MeshCollider component as `meshCollider`. Note
-those are components, not gameObjects. If you want to use gameObjects, edit the code to perform a GetComponent.
+For this example we require to assign a MeshFilter as `meshFilter` and a MeshCollider component as `meshCollider` to the
+Bound Objects. Note these are components, not gameObjects. If you want to use gameObjects, edit the code to perform a 
+GetComponent.
 
 
 ```lua
