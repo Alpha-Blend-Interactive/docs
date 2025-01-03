@@ -9,3 +9,4 @@ Here are some example scripts that can be used as an example to learn about Lua.
 * [Viewpoint Raycast](viewpoint-raycast.md) - Perform a raycast from the player's viewpoint.
 * [Player Profile / Avatar Picture](player-profile-picture.md) - Get Player Profile and Avatar pictures.
 * [Persistence](persistence.md) - Store all kinds of data on the user's PC.
+* [Runtime Mesh Generation (Wobbly Cube)](runtime-mesh-gen.md) - Generate a wobbly cube in runtime.

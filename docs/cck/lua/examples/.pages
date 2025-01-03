@@ -6,5 +6,6 @@ nav:
     - player-profile-picture.md
     - player-thumbs-up-launch.md
     - player-teleport-away-from-water.md
+    - runtime-mesh-gen.md
     - viewpoint-raycast.md
     - persistence.md
