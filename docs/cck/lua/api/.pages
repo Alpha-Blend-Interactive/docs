@@ -7,3 +7,4 @@ nav:
     - player-api.md
     - avatar-api.md
     - lua-behaviour.md
+    - storage.md

@@ -8,3 +8,5 @@ Here are some example scripts that can be used as an example to learn about Lua.
 * [Thumbs Up Player Launcher](player-thumbs-up-launch.md) - Launch upward when doing 2x thumbs up gesture.
 * [Viewpoint Raycast](viewpoint-raycast.md) - Perform a raycast from the player's viewpoint.
 * [Player Profile / Avatar Picture](player-profile-picture.md) - Get Player Profile and Avatar pictures.
+* [Persistence](persistence.md) - Store all kinds of data on the user's PC.
+* [Runtime Mesh Generation (Wobbly Cube)](runtime-mesh-gen.md) - Generate a wobbly cube in runtime.

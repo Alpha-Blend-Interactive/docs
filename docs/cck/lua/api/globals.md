@@ -56,7 +56,8 @@ Most MonoBehaviour [Events](events.md) are also available.
 | `IsWornByMe`               | Defined when running on an Avatar. True for the avatar wearer. False for others.    |
 | `IsSpawnedByMe`            | Defined when running on a Prop. True for the spawner. False for others.             |
 | `BoundObjects`             | Access to the Bound Objects assigned on the CVRLuaClientBehaviour script in editor. |
-| [Script](lua-behaviour.md) | Reference to the currently running script. **Example:** Script.Destroy("boom")      |
+| [`Script`](lua-behaviour.md) | Reference to the currently running script. **Example:** Script.Destroy("boom")      |
+| [`Storage`](storage.md) | Access to the data persistence system. |
 
 ## API Access
 
