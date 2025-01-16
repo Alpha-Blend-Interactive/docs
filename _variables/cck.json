@@ -1,13 +1,13 @@
 {
   "cck": {
-    "version": "v3.11 RELEASE",
-    "downloadUrl": "https://files.abidata.io/static_web/ChilloutVR%20CCK%20v3.11%20RELEASE.unitypackage"
+    "version": "v3.13 Release",
+    "downloadUrl": "https://files.abidata.io/static_web/ChilloutVR_CCK_3.13.3_Release.unitypackage"
   },
   "unity": {
     "install": {
-      "version": "2021.3.23f1",
-      "hub": "unityhub://2021.3.23f1/213b516bf396",
-      "executable": "https://download.unity3d.com/download_unity/213b516bf396/UnityDownloadAssistant-2021.3.23f1.exe"
+      "version": "2021.3.45f1",
+      "hub": "unityhub://2021.3.45f1/0da89fac8e79",
+      "executable": "https://unity.com/releases/editor/whats-new/2021.3.45#installs"
     }
   }
 }
