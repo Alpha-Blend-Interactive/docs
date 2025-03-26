@@ -45,19 +45,19 @@ local coolVector = UnityEngine.NewVector3(1, 2, 3)
 Most MonoBehaviour [Events](events.md) are also available.
 
 ## LuaBehaviour
-| Property                   | Description                                                                         |
-|----------------------------|-------------------------------------------------------------------------------------|
-| `Hash`                     | SHA512 hash of script text as Base64 string.                                        |
-| `RunningOnServer`          | True when running on server.                                                        |
-| `RunningOnClient`          | True when running on client.                                                        |
-| `RunningInAvatar`          | True when running on an avatar.                                                     |
-| `RunningInProp`            | True when running on a prop.                                                        |
-| `RunningInWorld`           | True when running in a world.                                                       |
-| `IsWornByMe`               | Defined when running on an Avatar. True for the avatar wearer. False for others.    |
-| `IsSpawnedByMe`            | Defined when running on a Prop. True for the spawner. False for others.             |
-| `BoundObjects`             | Access to the Bound Objects assigned on the CVRLuaClientBehaviour script in editor. |
+| Property                     | Description                                                                         |
+|------------------------------|-------------------------------------------------------------------------------------|
+| `Hash`                       | SHA512 hash of script text as Base64 string.                                        |
+| `RunningOnServer`            | True when running on server.                                                        |
+| `RunningOnClient`            | True when running on client.                                                        |
+| `RunningInAvatar`            | True when running on an avatar.                                                     |
+| `RunningInProp`              | True when running on a prop.                                                        |
+| `RunningInWorld`             | True when running in a world.                                                       |
+| `IsWornByMe`                 | Defined when running on an Avatar. True for the avatar wearer. False for others.    |
+| `IsSpawnedByMe`              | Defined when running on a Prop. True for the spawner. False for others.             |
+| `BoundObjects`               | Access to the Bound Objects assigned on the CVRLuaClientBehaviour script in editor. |
 | [`Script`](lua-behaviour.md) | Reference to the currently running script. **Example:** Script.Destroy("boom")      |
-| [`Storage`](storage.md) | Access to the data persistence system. |
+| [`Storage`](storage.md)      | Access to the local data persistence system.                                        |
 
 ## API Access
 

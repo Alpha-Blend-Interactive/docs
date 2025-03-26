@@ -2,7 +2,7 @@
 
 Accessible via the `AvatarAPI` [Global](globals.md). This API provides access to the Local [Avatar](#avatar)
 
-## Static Functions
+## Static Properties
 
 | Name                                                     | Description                                                                                                                     |
 |----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
