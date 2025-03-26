@@ -14,3 +14,7 @@ updates:
       interval: 'weekly'
       day: 'monday'
       time: '06:00'
+    groups:
+      pip-dependencies:
+        patterns:
+          - '*' # Group all updates together
