@@ -1,6 +1,8 @@
 site_name: ABI Documentation
 copyright: Copyright &copy; 2021 Alpha Blend Interactive
-site_url: https://developers.abinteractive.net
+site_url: https://docs.abinteractive.net
+repo_name: Alpha-Blend-Interactive/docs
+repo_url: https://github.com/Alpha-Blend-Interactive/docs
 
 theme:
   name: material
