@@ -60,11 +60,12 @@
       </div>
     </div>
     {% endif %}
-    {% if "search" in config["plugins"] %}
-    <label class="md-header__button md-icon" for="__search">
-      {% include ".icons/material/magnify.svg" %}
-    </label>
-    {% include "partials/search.html" %}
+    {% if "material/search" in config.plugins %}
+      <label class="md-header__button md-icon" for="__search">
+        {% set icon = config.theme.icon.search or "material/magnify" %}
+        {% include ".icons/" ~ icon ~ ".svg" %}
+      </label>
+      {% include "partials/search.html" %}
     {% endif %}
     {% if config.repo_url %}
     <div class="md-header__source">
