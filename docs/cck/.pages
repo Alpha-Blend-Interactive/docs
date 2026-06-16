@@ -2,6 +2,7 @@ title: CCK
 nav:
     - CCK: index.md
     - setup.md
+    - Examples: examples.md
     - Content Tags: content-tags.md
     - Avatars: avatar
     - Worlds: world
