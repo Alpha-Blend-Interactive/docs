@@ -1,11 +1,11 @@
 # Examples
 
-This page contains example packages that show what is possible with the systems inside ChilloutVR
+This page contains example packages that show what is possible with the systems inside ChilloutVR.
 
 ## Official Props
 
-The following list contains Unity packages for our official props. All props are set up with descriptions to explain the different components and setups.
-We will expand this list with time, so make sure to check back here from time to time
+The following list contains Unity packages for some of our official props. All props are set up with descriptions to explain the different components and setups.
+We will expand this list with time, so make sure to check back here from time to time.
 
 CCK version 4.0.1 or higher is required for these packages.
 
