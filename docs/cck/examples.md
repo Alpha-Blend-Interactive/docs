@@ -16,3 +16,10 @@ The flashlight is a simple held prop with a trigger-based interaction. It also c
 
 [ :fontawesome-solid-download: Download Package](https://files.chilloutvr.net/official_content/CVR_Official_Content_Flashlight.unitypackage){ .md-button .md-button--primary }
 
+### Pencil
+
+![](https://files.chilloutvr.net/user_content/spawnables/da4a31a9-12a0-402d-9f55-8ca4e3c44416/da4a31a9-12a0-402d-9f55-8ca4e3c44416.png){width=150 style="float:left;margin-right: 2em;"}
+The Pencil is similar to the flashlight, but contains a non-granular color randomization. It also features a separate action via pressing the eraser. Lastly, it shows the usage of TrailRenderers.
+
+[ :fontawesome-solid-download: Download Package](https://files.chilloutvr.net/official_content/CVR_Official_Content_Pencil.unitypackage){ .md-button .md-button--primary }
+
