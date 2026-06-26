@@ -9,7 +9,7 @@ ChilloutVR is currently running on **Unity Version {{ chilloutvr.unity.nativeVer
 The CCK can be used with the following Unity Versions:
 
 + **{{ cck.cck3.unity.install.version }}** ({{ cck.cck3.version }})
-+ **{{ cck.cck4.unity.install.version }}** ({{ cck.cck4.version }})
++ **<span data-cck="cck4.unity.version">…</span>** (v<span data-cck="cck4.version">…</span>)
 
 ### Still have more Questions?
 Couldn't find what you were looking for?  
