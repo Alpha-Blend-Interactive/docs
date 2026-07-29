@@ -21,8 +21,6 @@ your content public will essentially give you free unlimited uploads.
 If you happen to hit the limit, the CCK will prevent you from creating more content ids. Note you're still able to
 re-upload your already existing content.
 
-Currently having an unlocked account gives you unlimited content.
-
 ## Groups
 
 Joining groups has no requirements at all. But Group creation is limited to players that own an unlocked account.
@@ -32,7 +30,7 @@ account.
 
 There is a limit of 3 owned groups that apply to everyone.
 
-## Discord role
+## Discord Role
 
 Some patreon tiers also include a discord role. Unlike the unlocked account, this role will be enabled/disabled while
 the patreon subscription is active/inactive automatically.
@@ -47,26 +45,18 @@ fetch the latest info from patreon.
 ## Explicit/Mature Content
 
 Explicit/Mature content is not gated by payment. It is a free DLC you can acquire on steam, that is only available if
-you're old enough to get it. You can find more information about it
-here: [mature-content-access-dlc.md](../../chilloutvr/faq/mature-content-access-dlc.md)
+you're old enough to get it. You can find more information about
+it [here](../../chilloutvr/faq/mature-content-access-dlc.md).
 
 # How to get the Unlocked Account
-
-## Steam
-
-The unlocked account purchase via Steam DLC has been deprecated, and can no longer be purchased.
-
-If you have bought it while it was available, you still have it. Nothing has been taken away.
-
-## Patreon
 
 Currently, the only way to obtain the unlocked account is by subscribing to our Patreon, once unlocked you will keep it
 forever.
 
-You can check our patreon at: [ChilloutVR Patreon](https://www.patreon.com/ChilloutVR){:target="_blank"}
+You can do so by visiting the [ChilloutVR Patreon](https://www.patreon.com/ChilloutVR){:target="_blank"}.
 
-Note that not every tier gives you the unlocked account, you need to be lookin the tiers that mention the perk *
-*Account-Unlock Upgrade**.
+Note that not every tier gives you the unlocked account, you need to look at the tiers that mention the perk
+**Account-Unlock Upgrade**.
 
 ### Claiming Your Patreon Unlock
 
@@ -82,7 +72,13 @@ would require move resources away from other areas.
      - you have linked your Patreon to your ChilloutVR account
      - you would like to claim the unlock account
 
-We apologise from the inconvenience of this process
+We apologise from the inconvenience of this process.
+
+### Steam
+
+The unlocked account purchase via Steam DLC has been deprecated, and can no longer be purchased.
+
+If you have bought it while it was available, you still have it. Nothing has been taken away.
 
 # Frequently Asked Questions
 
@@ -97,4 +93,4 @@ We apologise from the inconvenience of this process
 ### **Q:** Is the mature content unlock the same thing?
 
 **A:** No. They are two different unlocks and neither grants the other. The mature content unlock is __free__, you can
-find more info here: [mature-content-access-dlc.md](../../chilloutvr/faq/mature-content-access-dlc.md)
+find more info [here](../../chilloutvr/faq/mature-content-access-dlc.md).
