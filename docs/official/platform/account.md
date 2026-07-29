@@ -11,6 +11,7 @@ the game.
 ## Content Uploads
 
 For free accounts there are currently 2 limits in place:
+
 - 20 unpublished Avatars and Worlds
 - 20 unpublished Props
 
@@ -51,7 +52,7 @@ here: [mature-content-access-dlc.md](../../chilloutvr/faq/mature-content-access-
 
 # How to get the Unlocked Account
 
-## ~~Steam~~
+## Steam
 
 The unlocked account purchase via Steam DLC has been deprecated, and can no longer be purchased.
 
@@ -77,9 +78,9 @@ would require move resources away from other areas.
    ChilloutVR account.
 2. **Open a ticket** - Email `team@chilloutvr.net` from the email address associated with your ChilloutVR account. You
    should mention that:
-   - you're currently a Patreon subscriber to an eligible tier
-   - you have linked your Patreon to your ChilloutVR account
-   - you would like to claim the unlock account
+     - you're currently a Patreon subscriber to an eligible tier
+     - you have linked your Patreon to your ChilloutVR account
+     - you would like to claim the unlock account
 
 We apologise from the inconvenience of this process
 
