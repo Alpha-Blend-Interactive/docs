@@ -14,7 +14,7 @@ comparison below.
 
     A rewrite with a modern build panel, content browser, account
     switcher, and reworked build pipeline. No more play mode
-    to upload. Uses **Unity {{ cck.cck4.unity.install.version }}**.
+    to upload. Uses **Unity <span data-cck="cck4.unity.version">…</span>**.
 
     Missing some translations, but all future
     development is happening here.
@@ -48,17 +48,17 @@ comparison below.
 
     ##### Download CCK 4
 
-    [ :fontawesome-solid-download: Download Content Creation Kit {{ cck.cck4.version }}]({{ cck.cck4.downloadUrl }}){ .md-button .md-button--primary }
+    [ :fontawesome-solid-download: Download Content Creation Kit v<span data-cck="cck4.version">…</span>](#){ .md-button .md-button--primary data-cck-href="cck4.downloadUrl" }
 
     ##### Download Unity for CCK 4
 
-    CCK 4 requires a newer version of Unity. We recommend **Unity {{ cck.cck4.unity.install.version }}**
+    CCK 4 requires a newer version of Unity. We recommend **Unity <span data-cck="cck4.unity.version">…</span>**
 
-    [ :fontawesome-solid-download: Unity {{ cck.cck4.unity.install.version }} (Unity Hub)]({{ cck.cck4.unity.install.hub }}){ .md-button .md-button--primary }
-    [ :fontawesome-solid-download: Unity {{ cck.cck4.unity.install.version }} (Win-Executable)]({{ cck.cck4.unity.install.executable }}){ .md-button }
+    [ :fontawesome-solid-download: Unity <span data-cck="cck4.unity.version">…</span> (Unity Hub)](#){ .md-button .md-button--primary data-cck-href="cck4.unity.hub" }
+    [ :fontawesome-solid-download: Unity <span data-cck="cck4.unity.version">…</span> (Win-Executable)](#){ .md-button data-cck-href="cck4.unity.executable" }
 
     !!! info "Reguarding the Unity Security Update Advisory"
-        **Unity {{ cck.cck4.unity.install.version }}** will be flagged by Unity Hub as vulnerable due to a recent Unity Security Update Advisory.
+        **Unity <span data-cck="cck4.unity.version">…</span>** will be flagged by Unity Hub as vulnerable due to a recent Unity Security Update Advisory.
         This issue does not affect the Unity Editor and is specific to player builds only, so __it is safe to use this version__ for creating content in ChilloutVR.
 
 === "CCK 3 (Legacy)"

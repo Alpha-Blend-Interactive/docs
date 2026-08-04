@@ -9,16 +9,5 @@
         "executable": "https://unity.com/releases/editor/whats-new/2021.3.45f2#installs"
       }
     }
-  },
-  "cck4": {
-    "version": "v4.0.1",
-    "downloadUrl": "https://files.chilloutvr.net/cck/CCK_4.0.1_Release.unitypackage",
-    "unity": {
-      "install": {
-        "version": "2022.3.58f1",
-        "hub": "unityhub://2022.3.58f1/ed7f6eacb62e",
-        "executable": "https://unity.com/releases/editor/whats-new/2022.3.58f1#installs"
-      }
-    }
   }
 }
